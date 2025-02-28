@@ -49,6 +49,18 @@ publishing {
             //artifact("$buildDir/outputs/aar/mylibrary-release.aar") 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
         }
     }
+
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/theitlion5891/mylibrary")
+            credentials {
+                username = System.getenv("GITHUB_USERNAME") ?: "theitlion5891"
+                password = System.getenv("GITHUB_TOKEN") ?: "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"
+            }
+        }
+    }
+
 }
 
 dependencies {
