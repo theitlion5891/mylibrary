@@ -41,10 +41,10 @@ android {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            from(components.findByName("release") ?: return@create)
+            from(components.findByName("release"))//findByName("release") ?: return@create
             groupId = "com.fantafeat"
             artifactId = "mylibrary"
-            version = "1.0.0"
+            version = "1.0.1"
 
             //artifact("$buildDir/outputs/aar/mylibrary-release.aar") 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
         }
