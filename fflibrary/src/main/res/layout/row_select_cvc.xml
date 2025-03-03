@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_cvc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        app:cardCornerRadius="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/selected_cvc_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray_gradiant"
+                android:paddingHorizontal="@dimen/_8sdp"
+                android:paddingVertical="@dimen/_5sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:gravity="bottom"
+                    android:layout_gravity="bottom"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/player_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginBottom="0dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/user_image" />
+
+                    <ImageView
+                        android:id="@+id/team_xi_sign"
+                        android:layout_width="@dimen/_6sdp"
+                        android:layout_height="@dimen/_6sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/play" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/team_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_2sdp"
+                            android:text="CSK"
+                            android:textAllCaps="true"
+                            android:textColor="@color/font_color"
+                            android:textSize="@dimen/_7sdp" />
+
+                        <TextView
+                            android:id="@+id/playerType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bat"
+                            android:background="@color/light_yellow"
+                            android:padding="@dimen/_2sdp"
+                            android:textColor="@color/font_color"
+                            android:textSize="@dimen/_7sdp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/_8sdp"
+                    android:paddingVertical="@dimen/_10sdp">
+
+                    <TextView
+                        android:id="@+id/pleayer_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="L Chih-Sheng"
+                        android:textColor="@color/font_color"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <TextView
+                        android:id="@+id/playerCredit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Credit: 00.0"
+                        android:textColor="@color/font_color"
+                        android:textSize="@dimen/_9sdp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/player_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="133"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/font_color"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/captain_select"
+                        android:layout_width="@dimen/_23sdp"
+                        android:layout_height="@dimen/_23sdp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:background="@drawable/unselected_cvc"
+                        android:gravity="center"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="C"
+                        android:textColor="@color/font_color"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/cSelected_by"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:text="00.00%"
+                        android:visibility="gone"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:textSize="@dimen/_8ssp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/vise_captain_select"
+                        android:layout_width="@dimen/_23sdp"
+                        android:layout_height="@dimen/_23sdp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_bold"
+                        android:background="@drawable/unselected_cvc"
+                        android:gravity="center"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="VC"
+                        android:textColor="@color/font_color"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/vcSelected_by"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center"
+
+                        android:maxLines="1"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:text="00.00%"
+                        android:visibility="gone"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:textSize="@dimen/_8ssp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGrey" />
+</LinearLayout>

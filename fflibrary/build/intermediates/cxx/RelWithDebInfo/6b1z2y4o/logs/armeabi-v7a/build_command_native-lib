@@ -1,0 +1,4 @@
+/Users/apple/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/.cxx/RelWithDebInfo/6b1z2y4o/armeabi-v7a \
+  native-lib

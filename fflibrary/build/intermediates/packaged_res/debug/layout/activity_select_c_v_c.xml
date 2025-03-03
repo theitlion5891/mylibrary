@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SelectCVCActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/contest_list_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blackSecondary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/toolbar_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_10sdp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:src="@drawable/ic_arrow_back" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/match_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SYM vs PG"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/white_font"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white_font"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="01m 30s left"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textSize="@dimen/_11ssp"
+                android:layout_gravity="center"/>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linear_cvc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contest_list_toolbar"
+        android:background="@color/blackSecondary"
+        android:paddingBottom="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_3sdp"
+            android:textSize="@dimen/_10ssp"
+            android:text="Captain (C) gets 2x points"
+            android:textColor="@color/pureWhite" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:textSize="@dimen/_10ssp"
+            android:text="Vice-Captain (VC) gets 1.5x points"
+            android:textColor="@color/pureWhite" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_below="@+id/linear_cvc"
+        android:background="@color/tab_unselected" />
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_1"
+        android:paddingVertical="@dimen/_2sdp">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Type"
+            android:textColor="@color/font_color" />
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/_8sdp"
+            android:text="Points"
+            android:textColor="@color/font_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:paddingVertical="@dimen/_2sdp"
+            android:paddingLeft="@dimen/_8sdp"
+            android:text="C"
+            android:gravity="center"
+            android:textColor="@color/font_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:paddingVertical="@dimen/_2sdp"
+            android:paddingLeft="@dimen/_8sdp"
+            android:text="VC"
+            android:gravity="center"
+            android:textColor="@color/font_color" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_below="@+id/linear2"
+        android:background="@color/tab_unselected" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/select_cvc_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_2"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/_70sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_15sdp">
+
+        <Button
+            android:id="@+id/team_preview"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/border_match_green"
+            android:paddingHorizontal="@dimen/_6sdp"
+            android:text="Team Preview"
+            android:textAllCaps="false"
+            android:textColor="@color/green_pure"
+            android:textSize="@dimen/_9sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/save_team"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/btn_green"
+            android:paddingHorizontal="@dimen/_6sdp"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="@color/white_font"
+            android:textSize="@dimen/_9sdp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

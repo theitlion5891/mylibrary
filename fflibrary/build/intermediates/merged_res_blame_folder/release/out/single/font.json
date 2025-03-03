@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/font/roboto_bold.ttf",
+        "source": "com.fantafeat.fflibrary-main-58:/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/font/roboto_semi_bold.ttf",
+        "source": "com.fantafeat.fflibrary-main-58:/font/roboto_semi_bold.ttf"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/font/roboto_extra_bold.ttf",
+        "source": "com.fantafeat.fflibrary-main-58:/font/roboto_extra_bold.ttf"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/font/roboto_light.ttf",
+        "source": "com.fantafeat.fflibrary-main-58:/font/roboto_light.ttf"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/font/roboto_regular.ttf",
+        "source": "com.fantafeat.fflibrary-main-58:/font/roboto_regular.ttf"
+    }
+]

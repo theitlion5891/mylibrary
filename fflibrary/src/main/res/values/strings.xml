@@ -1,0 +1,143 @@
+<resources>
+  <!--  <string name="app_name">Fantafeat</string>-->
+
+    //Exit text
+    <string name="quite_app">Are you sure you want to quit app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <string name="default_notification_channel_id">ff11</string>
+
+
+
+    <string name="lbl_set_profile_photo">Choose image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="tnc_resp"><p>This is a real-money gaming app. Please game responsibly and only play what you can afford. For gaming addiction help and support, please contact at <b>+91 95342 29534</b>, or visit </p></string>
+    <string name="tnc_resp_link_web"><b>https://www.fantafeat.com/play-responsibly.html</b></string>
+    <string name="title_activity_image_picker">ImagePickerActivity</string>
+
+    //Error text
+    <string name="internet_error">Please Check Internet</string>
+    <string name="unexpected_error">Unexpected Error</string>
+    <string name="server_error">Server Error</string>
+    <string name="client_error">Client Error</string>
+
+    //Bottom Navigation bar
+    <string name="home">Home</string>
+    <string name="my_leagues">My Matches</string>
+    <string name="feed">Feed</string>
+    <string name="wallet">Wallet</string>
+    <string name="more">More</string>
+    <string name="DOT">◉</string>
+
+    //Activity stack
+    <string-array name="stack">
+        //0
+        <item>Home</item>
+        //1
+        <item>My Leagues</item>
+        //2
+        <item>Feed</item>
+        //3
+        <item>Wallet</item>
+        //4
+        <item>Phone Number</item>
+        //5
+        <item>OTP</item>
+        //6
+        <item>Basic Details</item>
+        //7
+        <item>Cricket</item>
+        //8
+        <item>Football</item>
+        //9
+        <item>Basketball</item>
+        //10
+        <item>Rugby</item>
+        //11
+        <item>Baseball</item>
+        //12
+        <item>Contest List</item>
+        //13
+        <item>Create cricket team</item>
+        //14
+        <item>Select cricket CVC</item>
+        //15
+        <item>Team Preview</item>
+        //16
+        <item>More</item>
+        //17
+        <item>Webview</item>
+        //18
+        <item>Affiliation</item>
+        //19
+        <item>Affiliation Details</item>
+        //20
+        <item>Call Back</item>
+        //21
+        <item>Full Image</item>
+        //22
+        <item>Update KYC</item>
+        //23
+        <item>Request Statement</item>
+        //24
+        <item>Withdraw</item>
+        //25
+        <item>Paytm Verify</item>
+        //26
+        <item>MyReferrals</item>
+        //27
+        <item>Transfer</item>
+        //28
+        <item>AddDeposit</item>
+        //29
+        <item>Profile</item>
+        //30
+        <item>FollowFollowers</item>
+        //31
+        <item>Notification</item>
+        //32
+        <item>InviteFriends</item>
+        //33
+        <item>TransactionList</item>
+        //34
+        <item>CompareTeam</item>
+        //35
+        <item>Lineup Selection</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_back">Welcome back</string>
+    <string name="use_your_credentials_below_and_login_to_your_account">Use your credentials below and login to your account</string>
+    <string name="log_into_your_account">Log into your account</string>
+    <string name="otp">OTP</string>
+    <string name="please_enter_otp">Please enter 6-digit OTP</string>
+    <string name="basic_details">Basic Details</string>
+    <string name="e_mail">Enter E-mail</string>
+    <string name="team_name">Enter User Team Name</string>
+    <string name="full_name">Enter Full Name</string>
+    <string name="referal_code_optional">Enter Referal Code(Optional)</string>
+    <string name="submit">Submit</string>
+    <string name="rs">₹</string>
+    <string name="no_record_found">No record found</string>
+    <string name="match_not_start">Match not started yet</string>
+    <string name="arrive_soon">Arriving Soon...!!!</string>
+    <string name="title_activity_affilation_match_list">AffilationMatchList</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="use_referral_code">Use Referral Code</string>
+    <string name="basic_detail">Basic Detail</string>
+    <string name="set_your_name_and_password">Set your Name and Password</string>
+    <string name="fanta_gems">FantaGems</string>
+
+</resources>

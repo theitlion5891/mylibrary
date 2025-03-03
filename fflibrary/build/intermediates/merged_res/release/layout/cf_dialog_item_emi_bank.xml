@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_emi_bank_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/cf_dimen_16"
+        android:paddingVertical="@dimen/cf_dimen_8">
+
+        <com.cashfree.pg.core.api.view.CFNetworkImageView
+            android:id="@+id/emi_bank_img"
+            android:layout_width="@dimen/cf_dimen_36"
+            android:layout_height="@dimen/cf_dimen_36"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/cf_ic_nb" />
+
+        <TextView
+            android:id="@+id/tv_emi_bank_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/cf_dimen_16"
+            android:layout_marginTop="@dimen/cf_dimen_16"
+            android:layout_toEndOf="@id/emi_bank_img"
+            android:textAllCaps="false"
+            android:textAppearance="?textAppearanceHeadline6"
+            android:textSize="@dimen/cf_text_size_18"
+            tools:text="Axis Credit Card" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_emi_detail_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/cf_dimen_16"
+            android:src="@drawable/cf_ic_down" />
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_emi_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:animateLayoutChanges="true"
+        tools:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cf_dimen_36"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:textAppearance="?textAppearanceHeadline4"
+            android:textSize="@dimen/cf_text_size_14"
+            android:textStyle="bold"
+            android:weightSum="10">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/cf_title_emi_plan"
+                android:textAppearance="?textAppearanceHeadline4"
+                android:textSize="@dimen/cf_text_size_14"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/emi_month_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/cf_title_emi_month"
+                android:textAppearance="?textAppearanceHeadline4"
+                android:textSize="@dimen/cf_text_size_14"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/emi_interest_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/cf_title_emi_interest"
+                android:textAppearance="?textAppearanceHeadline4"
+                android:textSize="@dimen/cf_text_size_14"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/emi_cost_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/cf_title_emi_cost"
+                android:textAppearance="?textAppearanceHeadline4"
+                android:textSize="@dimen/cf_text_size_14"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/emi_detail_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="5"
+            android:nestedScrollingEnabled="false"
+            tools:listitem="@layout/cf_dialog_item_emi_option_info" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

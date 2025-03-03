@@ -3,9 +3,8 @@
 
     <application>
         <activity
-            android:name=".ModuleActivity"
-            android:exported="false"
-            android:theme="@style/Theme.MyApplication" />
+            android:name=".MainModuleActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/_7sdp">
+
+    <LinearLayout
+        android:id="@+id/ll_background"
+        android:layout_width="@dimen/_225sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/green_border_fill_end_timer"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginHorizontal="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/light_green_gradiant1"
+            android:gravity="end"
+            android:paddingHorizontal="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/entryFee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Confirm Trade (₹1 = 1 Slot)"
+                android:textColor="@color/darkgreen"
+                android:textSize="@dimen/_10sdp" />
+
+        </LinearLayout>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who Will win the match?"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:minLines="2"
+            android:maxLines="2"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:id="@+id/conDesc"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layTeam1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/event_placeholder"
+                    android:id="@+id/imgContest1"/>
+
+                <TextView
+                    android:id="@+id/team1ShortName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:singleLine="true"
+                    android:text="India"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tradeboard_rate_bg_unselected">
+
+                    <TextView
+                        android:id="@+id/opt1_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:paddingVertical="@dimen/_3sdp"
+                        android:text="1.90"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10sdp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Event Ended"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/green_pure"
+                    android:background="@drawable/opinio_yes"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_9sdp"
+                    android:id="@+id/txtContestTime"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/gray_444444"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_8sdp"
+                    android:id="@+id/txtContestDate"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/thunder_vs"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/layTeam2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/event_placeholder"
+                    android:id="@+id/imgContest2"/>
+
+                <TextView
+                    android:id="@+id/team2ShortName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:singleLine="true"
+                    android:text="Australia"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tradeboard_rate_bg_unselected">
+
+                    <TextView
+                        android:id="@+id/opt2_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:paddingVertical="@dimen/_3sdp"
+                        android:text="3.00"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10sdp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/_4sdp"
+            android:background="@drawable/grey_bottom_corners"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/entryFee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_semi_bold"
+                android:text="Confirm Trade (₹1 = 1 Slot)"
+                android:textColor="@color/gray_686868"
+                android:textSize="@dimen/_9sdp" />
+            <TextView
+                android:id="@+id/totalTrades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_semi_bold"
+                android:gravity="end"
+                android:paddingEnd="@dimen/_5sdp"
+                android:text="238 joined"
+                android:textColor="@color/gray_686868"
+                android:textSize="@dimen/_9sdp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/endTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Starts In"
+        android:textColor="@color/dark_blue"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="@dimen/_9sdp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_2sdp"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="@+id/ll_background"
+        app:layout_constraintTop_toTopOf="@+id/ll_background"
+        app:layout_constraintBottom_toTopOf="@id/ll_background"
+        app:layout_constraintStart_toStartOf="@id/ll_background"
+        android:background="@drawable/green_border_fill_end_timer"/>
+
+    <View
+        android:id="@+id/viewDisable"
+        android:layout_width="290dp"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_height="283dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#83F3F2F2"/>
+
+   <!-- <LinearLayout
+        android:id="@+id/ll_timer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:background="@drawable/timer_end_bg_tournament"
+        app:layout_constraintEnd_toEndOf="@+id/ll_background"
+        app:layout_constraintTop_toTopOf="@+id/ll_background"
+        app:layout_constraintBottom_toTopOf="@id/ll_background"
+        app:layout_constraintStart_toStartOf="@id/ll_background">
+        <TextView
+            android:id="@+id/endTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingVertical="@dimen/_2sdp"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="@dimen/_9sdp"
+            android:text="ENDS ON 06H : 41M" />
+    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

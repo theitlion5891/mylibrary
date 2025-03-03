@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:background="?colorSurface"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_emi_payment_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/cf_dimen_8">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/view_emi_ic"
+            android:layout_width="@dimen/cf_dimen_42"
+            android:layout_height="@dimen/cf_dimen_42"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/cf_dimen_16"
+            android:background="@drawable/cf_ic_rounded_bg"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_emi_ic"
+                android:layout_width="@dimen/cf_dimen_24"
+                android:layout_height="@dimen/cf_dimen_24"
+                android:layout_marginHorizontal="@dimen/cf_dimen_16"
+                android:src="@drawable/cf_ic_card" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:id="@+id/tv_emi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/cf_dimen_16"
+            android:layout_marginTop="@dimen/cf_dimen_16"
+            android:layout_toEndOf="@id/view_emi_ic"
+            android:text="@string/cf_title_emi"
+            android:textAllCaps="false"
+            android:textAppearance="?textAppearanceHeadline6"
+            android:textSize="@dimen/cf_text_size_18" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_emi_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/cf_dimen_16"
+            android:src="@drawable/cf_ic_down" />
+    </RelativeLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

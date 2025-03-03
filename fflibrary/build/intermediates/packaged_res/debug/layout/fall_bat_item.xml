@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginVertical="0.5dp"
+        android:paddingVertical="@dimen/_3sdp"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtBatName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:maxLines="1"
+                android:textColor="@color/colorPrimary"
+                style="@style/Tv_10_bold"/>
+
+            <TextView
+                android:id="@+id/txtBatDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                style="@style/Tv_8_normal"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtRuns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginStart="@dimen/_3sdp"
+            style="@style/Tv_10_normal"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="center"
+           />
+
+        <TextView
+            android:id="@+id/txtOvers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:maxLines="1"
+            android:gravity="center"
+            style="@style/Tv_10_normal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

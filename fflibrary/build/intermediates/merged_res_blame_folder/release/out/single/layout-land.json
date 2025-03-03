@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout-land/mtrl_picker_header_dialog.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout-land/mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout-land/material_clock_period_toggle_land.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout-land/material_clock_period_toggle_land.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout-land/material_timepicker.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout-land/material_timepicker.xml"
+    }
+]

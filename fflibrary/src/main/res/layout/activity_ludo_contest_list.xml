@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ludo_bg"
+    tools:context=".Activity.LudoContestListActivity">
+
+    <!--<ImageView
+        android:id="@+id/background_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:alpha="0.2"
+        android:src="@drawable/image_background_home"/>
+
+    <ImageView
+        android:id="@+id/background_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:alpha="0.4"
+        android:src="@drawable/image_background_home"/>-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/toolbar_back"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:src="@drawable/back_round_arrow" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:paddingVertical="@dimen/_5sdp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="16sp"
+                android:text="Title"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:paddingVertical="@dimen/_5sdp"
+                android:visibility="gone"
+                android:src="@drawable/ff_ludo_logo"/>
+
+            <ImageView
+                android:id="@+id/toolbar_info"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/game_info" />
+            <ImageView
+                android:id="@+id/toolbar_friend"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_toStartOf="@+id/toolbar_info"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:visibility="gone"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/friend_cycle" />
+
+            <ImageView
+                android:id="@+id/toolbar_wallet"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_toStartOf="@+id/toolbar_friend"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/wallet_game_rounded" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Ludo Contest"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/_35sdp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14sdp" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/layTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/txtTabContest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Contest"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/txtTabFriend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Play with Friends"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_5sdp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bac_dim_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C0000000"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/layContest"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/txtTest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layTab"
+        android:gravity="center">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerContest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txtNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Contest Available"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEST MODE"
+        android:textColor="@color/green_pure"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="gone"
+        android:paddingHorizontal="@dimen/_8sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/layFriend"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layTab">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/layMainFrd"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_320sdp"
+                    android:layout_margin="@dimen/_12sdp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/layTabFrd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="1dp">
+
+                        <TextView
+                            android:id="@+id/txtTabJoin"
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:gravity="center"
+                            android:paddingVertical="@dimen/_5sdp"
+                            android:text="Join"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_10sdp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtTabCreate"
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:background="@drawable/transparent_view"
+                            android:gravity="center"
+                            android:paddingVertical="@dimen/_5sdp"
+                            android:text="Create"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_10sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layJoin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Enter Code"
+                            android:textAllCaps="true"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textAllCaps="true"
+                            android:text="Join a Friend's Room"
+                            android:textColor="@color/textPrimary" />
+
+                        <EditText
+                            android:id="@+id/edtCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:layout_marginVertical="20dp"
+                            android:layout_marginTop="10dp"
+                            android:hint="XXXX"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/roboto_bold"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:textAllCaps="true"
+                            android:paddingHorizontal="20dp"
+                            android:textSize="30sp"
+                            android:textColor="@color/white"
+                             />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layCreate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textAllCaps="true"
+                            android:text="Enter Amount"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/edtAmount"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:layout_marginVertical="20dp"
+                            android:layout_marginTop="10dp"
+                            android:textAllCaps="true"
+                            android:hint="XXXX"
+                            android:maxLength="10"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/roboto_bold"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:paddingHorizontal="20dp"
+                            android:textSize="30sp"
+                            android:textColor="@color/white"
+                             />
+                        <!--<EditText
+                            android:id="@+id/edtAmount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:layout_marginVertical="20dp"
+                            android:background="@drawable/bg_ludo_frd"
+                            android:hint="Enter Amount"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="5dp"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/colorWhiteLight" />-->
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:text="Number of Players"
+                            android:textAllCaps="true"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="22sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="20dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txtSpot2"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:layout_marginHorizontal="@dimen/_10sdp"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textColor="@color/textPrimary"
+                                android:textSize="@dimen/_18sdp" />
+
+                            <TextView
+                                android:id="@+id/txtSpot3"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:layout_marginHorizontal="@dimen/_10sdp"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textSize="@dimen/_18sdp" />
+
+                            <TextView
+                                android:id="@+id/txtSpot4"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:layout_marginHorizontal="@dimen/_10sdp"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textColor="@color/textPrimary"
+                                android:textSize="@dimen/_18sdp" />
+
+                        </LinearLayout>
+
+                        <!--<Button
+                            android:id="@+id/btnCreateTable"
+                            android:layout_width="@dimen/_150sdp"
+                            android:layout_height="@dimen/_38sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginVertical="20dp"
+                            android:background="@drawable/ic_btn_bg_yellow"
+                            android:paddingHorizontal="@dimen/_10sdp"
+                            android:text="Create Table"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />-->
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnSubmitTable"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="20dp"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:layout_below="@+id/layMainFrd"
+                    android:layout_centerHorizontal="true"
+                    android:text="Join Table"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,112 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fantafeat.fflibrary-merged_res-57:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/7a9ba23d6c51df8aeb30d6f024781c53/transformed/appcompat-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "243",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "411"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/33e1174814d8c25ea22af0aca441f0ab/transformed/IntentSDK-2.4.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "416",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "529"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/7f30061e281dc84637b419206c8880f1/transformed/alerter-7.2.4/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "238"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.fantafeat.fflibrary-mergeReleaseResources-55:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/7a9ba23d6c51df8aeb30d6f024781c53/transformed/appcompat-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "243",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "411"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/33e1174814d8c25ea22af0aca441f0ab/transformed/IntentSDK-2.4.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "416",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "529"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/7f30061e281dc84637b419206c8880f1/transformed/alerter-7.2.4/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "238"
+                    }
+                }
+            ]
+        }
+    ]
+}

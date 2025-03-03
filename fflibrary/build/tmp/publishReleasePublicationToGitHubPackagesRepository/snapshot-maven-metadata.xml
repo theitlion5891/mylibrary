@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.fantafeat</groupId>
+  <artifactId>fflibrary</artifactId>
+  <versioning>
+    <lastUpdated>20250303122534</lastUpdated>
+    <snapshot>
+      <timestamp>20250303.122534</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.0.10-20250303.122534-1</value>
+        <updated>20250303122534</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.10-20250303.122534-1</value>
+        <updated>20250303122534</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.10-SNAPSHOT</version>
+</metadata>

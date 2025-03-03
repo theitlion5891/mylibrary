@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_tnc.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_tnc.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/team2.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/team2.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_help.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_help.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_invite.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_invite.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_condition.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_condition.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_up_arrow.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_up_arrow.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_privacy.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_privacy.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_wallet.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_wallet.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_more.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_more.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_down_arrow.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_down_arrow.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_home.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_home.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_setting.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_setting.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/team1.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/team1.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_offers.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_offers.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_buddies.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_buddies.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_myleague.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_myleague.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_horse_racing.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_horse_racing.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_arrow_back.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_edit.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_edit.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_launcher_foreground.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_drawerbutton.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_drawerbutton.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_stats.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_stats.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_dashboard.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_dashboard.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/tab_icon_back.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/tab_icon_back.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_wallet.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_wallet.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_feed.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_feed.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_groups.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_groups.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/menu_faq.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/menu_faq.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/tab_icon_background_shape.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/tab_icon_background_shape.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-v24/ic_american_football.xml",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-v24/ic_american_football.xml"
+    }
+]

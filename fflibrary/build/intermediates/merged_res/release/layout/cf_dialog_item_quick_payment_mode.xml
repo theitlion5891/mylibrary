@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quick_checkout_app"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <com.cashfree.pg.core.api.view.CFNetworkImageView
+        android:id="@+id/app_img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/cf_ic_nb" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/app_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/app_img"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:textSize="12sp"
+            tools:text="Wallet" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="2dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:text="Jio Money Wallet" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/tv_payment_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/app_layout"
+        android:alpha="0.7"
+        android:maxLines="1"
+        android:padding="2dp"
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        tools:text="TestSsdasdasdasdaasdasda@okicici" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/rb_quick_checkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:clickable="false" />
+
+</RelativeLayout>

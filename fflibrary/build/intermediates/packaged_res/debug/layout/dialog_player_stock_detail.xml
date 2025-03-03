@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/ic_user_team" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/player_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Rahul Tewatia"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_semi_bold"
+                android:textSize="@dimen/_10sdp"
+                android:text="17 Apr 2024, 07:30 PM"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:text="Total Investment:"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="₹18"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:text="Total Investment on Long:"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="₹0"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:text="Total Investment on Short:"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="₹18"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:text="Total Stocks:"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="1"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:text="Live Position:"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="₹18"
+            android:textColor="@color/darkgreen"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:text="Total Fantasy Points:"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="Updating"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:gravity="start"
+        android:text="Go Short"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:text="Base Price:"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="₹18"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_bold"
+                />
+            <ImageView
+                android:layout_width="@dimen/_12sdp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:src="@drawable/down_arrow_hide"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:text="Investment:"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:text="₹18"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stocks on Short:"
+            />
+            <ImageView
+                android:layout_width="@dimen/_12sdp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:src="@drawable/trade_arrow_descent"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="1"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

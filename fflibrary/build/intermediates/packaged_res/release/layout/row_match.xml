@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/match_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:id="@+id/card_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--                android:background="@drawable/border_match_green"-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_1sdp"
+                android:background="@drawable/white_fill_curve"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_3sdp"
+                android:paddingHorizontal="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/match_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="ECS T10 -  ECS T10 - Frankfut ECS T10 - Frankfut"
+                    android:textColor="@color/btnGrey"
+                    android:textSize="@dimen/_8sdp"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/layDate"
+                    android:gravity="right"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/match_dates"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="8-Feb-22"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_7sdp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/layLine"
+                    android:gravity="right"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                  <!--  <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/shimmer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">-->
+                        <ImageView
+                            android:id="@+id/lineout"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            />
+                   <!-- </com.facebook.shimmer.ShimmerFrameLayout>-->
+
+
+                    <TextView
+                        android:id="@+id/match_lineups_out"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:layout_toRightOf="@+id/lineout"
+                        android:text="Lineups out"
+                        android:textColor="@color/green_pure"
+                        android:textSize="@dimen/_8sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:background="@color/appBackground"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/team1_img"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_team1_placeholder" />
+
+                    <TextView
+                        android:id="@+id/team1_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:text="KXIP"
+                        android:textAllCaps="true"
+                        android:textColor="@color/font_color"
+                        android:textSize="@dimen/_10sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1.1">
+                    <TextView
+                        android:id="@+id/match_timer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/_48sdp"
+                        android:paddingHorizontal="@dimen/_9sdp"
+                        android:paddingVertical="@dimen/_3sdp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/_9ssp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtMatchStartTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/_48sdp"
+                        android:paddingHorizontal="@dimen/_9sdp"
+                        android:textColor="@color/btnGrey"
+                        android:textSize="@dimen/_8ssp"
+                         />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/team2_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:text="RCB"
+                        android:textAllCaps="true"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:textColor="@color/font_color"
+                        android:textSize="@dimen/_10sdp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/team2_img"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_team2_placeholder" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_8sdp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/team1_full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    android:layout_marginVertical="@dimen/_4sdp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="King XI Punjab"
+                    android:textColor="@color/btnGrey"
+                    android:textSize="@dimen/_10sdp" />
+                <TextView
+                    android:id="@+id/team2_full_name"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    android:layout_marginVertical="@dimen/_4sdp"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:maxLines="1"
+                    android:text="Royal Challenger Bangalore"
+                    android:textColor="@color/btnGrey"
+                    android:textSize="@dimen/_10sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layInvest"
+                android:visibility="gone"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:background="@color/selected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Invest"
+                    android:layout_weight="1"
+                    android:id="@+id/txtInvest"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:fontFamily="@font/roboto_regular"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textSize="@dimen/_8sdp"
+                    android:paddingVertical="2dp"
+                    android:layout_margin="2dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Earn"
+                    android:layout_weight="1"
+                    android:id="@+id/txtEarn"
+                    android:ellipsize="marquee"
+                    android:fontFamily="@font/roboto_regular"
+                    android:singleLine="true"
+                    android:gravity="end"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textSize="@dimen/_8sdp"
+                    android:paddingVertical="2dp"
+                    android:layout_margin="2dp"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:background="@color/appBackGround"/>
+
+            <LinearLayout
+                android:id="@+id/layDesc"
+                android:visibility="visible"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_2sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/lblGrand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:background="@drawable/offer_text_bg"
+                    android:fontFamily="@font/roboto_extra_bold"
+                    android:text="MEGA"
+                    android:visibility="visible"
+                    android:gravity="center"
+                    android:paddingHorizontal="4dp"
+                    android:paddingVertical="1dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/popti"
+                    android:textSize="@dimen/_7sdp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtGrandText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/btnGrey"
+                    android:textSize="@dimen/_8sdp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text=""
+                    android:layout_weight="1"
+                    android:id="@+id/txtMatchDesc"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:gravity="center"
+                    android:fontFamily="@font/roboto_regular"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textSize="@dimen/_8sdp"
+                    android:paddingVertical="2dp"
+                    android:layout_margin="2dp"
+                  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green_pure"
+                    android:textStyle="bold"
+                    android:text="S"
+                    android:id="@+id/txtSingles"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:fontFamily="@font/roboto_regular"
+                    android:background="@drawable/offer_text_bg"
+                    android:paddingHorizontal="@dimen/_3sdp"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textSize="@dimen/_9sdp"
+                    android:layout_margin="2dp"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green_pure"
+                    android:textStyle="bold"
+                    android:text="F"
+                    android:id="@+id/txtFifer"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:gravity="center"
+                    android:fontFamily="@font/roboto_regular"
+                    android:clickable="true"
+                    android:background="@drawable/offer_text_bg"
+                    android:paddingHorizontal="@dimen/_3sdp"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textSize="@dimen/_9sdp"
+                    android:layout_marginHorizontal="5dp"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/leaderboard_badge"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:id="@+id/imgLeader"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

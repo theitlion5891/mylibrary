@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v24/cf_ic_qr.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v24/cf_ic_qr.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v24/cf_ic_pay_later.xml",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-anydpi-v24/cf_ic_pay_later.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v24/cf_ic_wallet.xml",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-anydpi-v24/cf_ic_wallet.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v24/cf_card_vendor_jcb.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v24/cf_card_vendor_jcb.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v24/cf_ic_nb.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v24/cf_ic_nb.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v24/ic_cf_logo.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v24/ic_cf_logo.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v24/cf_ic_card.xml",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-anydpi-v24/cf_ic_card.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v24/cf_ic_upi.xml",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-anydpi-v24/cf_ic_upi.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v24/cf_logo_complete.xml",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-anydpi-v24/cf_logo_complete.xml"
+    }
+]

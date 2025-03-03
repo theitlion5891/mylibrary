@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_margin="@dimen/_10sdp">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_round_corner"
+            android:clipToPadding="false"
+            android:imeOptions="actionDone"
+            android:padding="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:src="@drawable/ic_timer"/>
+                        <TextView
+                            android:id="@+id/txtEndDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Ends on May 20th"
+                            android:textSize="@dimen/_9sdp"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textColor="@color/dark_blue"
+                            android:layout_marginStart="@dimen/_5sdp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:src="@drawable/ic_trade"/>
+                        <TextView
+                            android:id="@+id/txtTrades"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1466 Trades"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/_9sdp"
+                            android:layout_marginStart="@dimen/_5sdp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtNewBadge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NEW"
+                        android:visibility="gone"
+                        android:background="@drawable/red_bg_radius"
+                        android:paddingHorizontal="@dimen/_3sdp"
+                        android:paddingVertical="@dimen/_2sdp"
+                        android:textSize="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgConImage"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        app:civ_border_color="#ccc"
+                        app:civ_border_width="1dp"
+                        app:civ_circle_background_color="@color/light_gray_a9a9a9"
+                        android:src="@drawable/event_placeholder"/>
+                    <TextView
+                        android:id="@+id/txtConTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/dark_blue"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:text="Chennai to qualify for playoffs Indian T20 League 2023"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:paddingHorizontal="@dimen/_5sdp"
+                    android:background="@drawable/light_blue_bg_curve"
+                    android:paddingVertical="3dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:src="@drawable/ic_trophy"/>
+                    <TextView
+                        android:id="@+id/txtConDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ends on May 20th"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/dark_blue"
+                        android:layout_marginStart="@dimen/_5sdp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_1dp"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:layout_marginVertical="@dimen/_8sdp"
+                android:background="@color/appBackground"/>
+
+            <LinearLayout
+                android:id="@+id/layOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="visible"
+                android:paddingVertical="3dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/layOp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ProgressBar
+                        android:id="@+id/progressOp1"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:progressDrawable="@drawable/poll_option_progress_bg_light"
+                        android:layout_height="@dimen/_25sdp"
+                        android:progress="50" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50.00%"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp1Per"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layOp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    >
+                    <ProgressBar
+                        android:id="@+id/progressOp2"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:progressDrawable="@drawable/poll_option_progress_bg_light"
+                        android:layout_height="@dimen/_25sdp"
+                        android:progress="50" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50.00%"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp2Per"/>
+
+                </RelativeLayout>
+
+<!--prediction_option_bg-->
+
+                <RelativeLayout
+                    android:id="@+id/layOp3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    >
+                    <ProgressBar
+                        android:id="@+id/progressOp3"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:progressDrawable="@drawable/poll_option_progress_bg_light"
+                        android:layout_height="@dimen/_25sdp"
+                        android:progress="50" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp3"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50.00%"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp3Per"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layOp4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    >
+                    <ProgressBar
+                        android:id="@+id/progressOp4"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:progressDrawable="@drawable/poll_option_progress_bg_light"
+                        android:layout_height="@dimen/_25sdp"
+                        android:progress="50" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp4"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50.00%"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp4Per"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layOp5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    >
+                    <ProgressBar
+                        android:id="@+id/progressOp5"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:progressDrawable="@drawable/poll_option_progress_bg_light"
+                        android:layout_height="@dimen/_25sdp"
+                        android:progress="50" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp5"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50.00%"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_semi_bold"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:id="@+id/txtOp5Per"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Set Quantity (Max 1000)"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtQty"
+                    android:paddingHorizontal="@dimen/_8sdp"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:digits="0123456789"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:hint="Qty"
+                    android:maxLength="4"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:background="@drawable/gray_round_border"
+                    android:text=""/>
+
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seekQty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:progressDrawable="@drawable/option_progress_bg"
+                android:thumb="@drawable/opinion_slider_thum"
+                android:max="1000"
+                android:min="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtBtn10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_match_green"
+                    android:text="10"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:textColor="@color/green_pure"
+                    android:textSize="@dimen/_10ssp"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    />
+                <TextView
+                    android:id="@+id/txtBtn50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_match_green"
+                    android:text="50"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:layout_marginHorizontal="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:textColor="@color/green_pure"
+                    android:textSize="@dimen/_10ssp"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    />
+                <TextView
+                    android:id="@+id/txtBtn100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_match_green"
+                    android:text="100"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="@dimen/_3sdp"
+                    android:textColor="@color/green_pure"
+                    android:textSize="@dimen/_10ssp"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    />
+                <TextView
+                    android:id="@+id/txtBtn500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_match_green"
+                    android:text="500"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:layout_marginHorizontal="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:textColor="@color/green_pure"
+                    android:textSize="@dimen/_10ssp"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    />
+                <TextView
+                    android:id="@+id/txtBtn750"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_match_green"
+                    android:text="750"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:textColor="@color/green_pure"
+                    android:textSize="@dimen/_10ssp"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_8sdp"
+                android:gravity="center"
+                android:background="@drawable/yellow_border_bg_optinion"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="You Invest"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textColor="@color/dark_blue"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:id="@+id/txtInvest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textColor="@color/dark_blue"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="@dimen/_5sdp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/flagBorder"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Aprox. Winning"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textColor="@color/dark_blue"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:id="@+id/txtGet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textColor="@color/dark_blue"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="@dimen/_5sdp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/join_contest_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/_15sdp"
+                android:background="@drawable/btn_green"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingVertical="@dimen/_8sdp"
+                android:text="Confirm"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLblCommision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_9sdp"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/dark_blue"
+                android:layout_marginStart="@dimen/_5sdp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/_3sdp">
+
+    <LinearLayout
+        android:id="@+id/layHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_team1_placeholder"
+            android:id="@+id/imgHeader"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mega Leagues"
+                android:id="@+id/contest_title"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get ready for mega winning.!"
+                android:id="@+id/contest_sub_title"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_8sdp"
+                android:textColor="@color/font_color"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="View All >>"
+            android:id="@+id/txtViewAll"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:id="@+id/contest_sub_list"/>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layAnnounce"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/purple_line"
+            android:id="@+id/imgAnnounceLine"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="-2dp"
+            android:src="@drawable/purple_announce_bottom"
+            android:id="@+id/imgAnnounceBottom"/>
+
+        <TextView
+            android:id="@+id/txtAnnounce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Substitute"
+            android:textSize="@dimen/_9sdp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

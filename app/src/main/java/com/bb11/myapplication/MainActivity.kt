@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.bb11.mylibrary.ModuleActivity
+import com.fantafeat.Activity.LoginActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<TextView>(R.id.txxt).setOnClickListener {
-            startActivity(Intent(this,ModuleActivity::class.java))
+            startActivity(Intent(this,LoginActivity::class.java))
         }
     }
 }

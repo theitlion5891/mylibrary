@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_bank_placeholder.png",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-ldpi-v4/cf_ic_bank_placeholder.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/ucrop_ic_done.png",
+        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/drawable-ldpi-v4/ucrop_ic_done.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/ic_call_answer_low.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-ldpi-v4/ic_call_answer_low.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_round_info.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_ic_round_info.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_wallet.png",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-ldpi-v4/cf_ic_wallet.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_vendor_rupay.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_vendor_rupay.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_failure.png",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-ldpi-v4/cf_ic_failure.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_outline_pending.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_ic_outline_pending.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_pay_later.png",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-ldpi-v4/cf_ic_pay_later.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/team_loading.png",
+        "source": "com.fantafeat.fflibrary-main-58:/drawable-ldpi/team_loading.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_vendor_mastercard.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_vendor_mastercard.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_vendor_master.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_vendor_master.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_vendor_maestro.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_vendor_maestro.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/ucrop_ic_angle.png",
+        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/drawable-ldpi-v4/ucrop_ic_angle.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_logo_complete.png",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-ldpi-v4/cf_logo_complete.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/ic_cf_logo.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/ic_cf_logo.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/ic_call_decline.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-ldpi-v4/ic_call_decline.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_nb.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_ic_nb.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/ic_call_answer_video.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-ldpi-v4/ic_call_answer_video.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_icon_success.png",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-ldpi-v4/cf_icon_success.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/ic_call_decline_low.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-ldpi-v4/ic_call_decline_low.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_cf_close.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_ic_cf_close.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_date.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_date.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_vendor_amex.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_vendor_amex.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_person.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_person.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_qr.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_ic_qr.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_vendor_jcb.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_vendor_jcb.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_down.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_ic_down.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_upi.png",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-ldpi-v4/cf_ic_upi.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_vendor_diners.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_vendor_diners.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_cf_back.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_ic_cf_back.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_number.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_number.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_vendor_visa.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_vendor_visa.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_up.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_ic_up.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/ic_call_answer_video_low.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-ldpi-v4/ic_call_answer_video_low.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_card_cvv.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_card_cvv.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/ic_call_answer.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-ldpi-v4/ic_call_answer.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_card.png",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-ldpi-v4/cf_ic_card.png"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-ldpi-v4/cf_ic_round_info_highlighted.png",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-ldpi-v4/cf_ic_round_info_highlighted.png"
+    }
+]

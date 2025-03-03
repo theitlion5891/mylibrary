@@ -1,0 +1,2 @@
+ninja: Entering directory `/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/.cxx/RelWithDebInfo/6b1z2y4o/x86'
+ninja: no work to do.

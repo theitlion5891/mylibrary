@@ -1,0 +1,3 @@
+ninja: Entering directory `/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/.cxx/Debug/2s3b1a2s/x86'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[2/2] Linking CXX shared library /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/build/intermediates/cxx/Debug/2s3b1a2s/obj/x86/libnative-lib.so

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@color/pureWhite"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingTop="@dimen/_7sdp">
+
+        <RelativeLayout
+            android:layout_width="@dimen/_42sdp"
+            android:layout_height="@dimen/_42sdp">
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="@dimen/_42sdp"
+                android:layout_height="@dimen/_42sdp"
+                android:layout_marginStart="@dimen/_5sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_13sdp"
+                android:layout_height="@dimen/_13sdp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/c"
+                android:elevation="5dp"
+                android:visibility="visible"
+                android:id="@+id/imgCVC"/>
+
+            <TextView
+                android:id="@+id/player_team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imgProfile"
+                android:background="@drawable/team1_name_select_player"
+                android:paddingHorizontal="@dimen/_3sdp"
+                android:paddingVertical="@dimen/_1sdp"
+                android:text="MI"
+                android:textAllCaps="true"
+                android:textColor="@color/pureWhite"
+                android:textSize="@dimen/_6ssp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Gautam"
+                    android:textColor="@color/font_color"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_10ssp" />
+                <TextView
+                    android:id="@+id/txtSelBy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Sel By "
+                    android:textSize="@dimen/_9ssp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_25sdp"
+                android:layout_weight="1.4"
+                android:text="45"
+                android:textAlignment="center"
+                android:textColor="@color/font_color"
+                android:textSize="@dimen/_10ssp" />
+            <TextView
+                android:id="@+id/txtPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="121111"
+                android:textAlignment="center"
+                android:textColor="@color/font_color"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:background="@color/appBackGround" />
+</LinearLayout>

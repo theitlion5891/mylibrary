@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B20017</color>
+    <color name="colorPrimaryDark">#B20017</color><!--A31F22-->
+    <color name="colorAccent">#D32C2E</color>
+    <color name="white_font">#EAEAEA</color>
+    <color name="transparent">#00000000</color>
+    <color name="font_color">#2C2C2C</color>
+    <color name="tab_unselected">#8A8A91</color>
+    <color name="lighetest_gray">#ECECEC</color>
+    <color name="white_trans">#7AF1EDED</color>
+    <color name="moderateGrey">#D6D6D6</color>
+    <color name="pureWhite">#FFFFFF</color>
+    <color name="white_pure">#FFFFFF</color>
+    <color name="pureWhiteTran">#B3FFFFFF</color>
+    <color name="appBackGround">#F5F5F5</color>
+    <color name="lightGrey">#F4F4F4</color>
+    <color name="greyThree">#00000029</color>
+    <color name="trans_blue">#1901579C</color>
+    <color name="lightest_green">#197DF374</color>
+    <color name="gray_8ba6c1">#8ba6c1</color>
+
+    <color name="anounce_bg">#4DD386</color>
+    <color name="gray_anim">#C5C5C5</color>
+    <color name="gray_444444">#444444</color>
+    <color name="light_gray_a9a9a9">#a9a9a9</color>
+
+    <color name="waiting_bg">#451215</color>
+    <color name="normal_bg">#982428</color>
+
+    <color name="colorGray">#F7F7F7</color>
+    <color name="flagBorder">#9F9E9E</color>
+    <color name="pink">#E81051</color>
+    <color name="red">#D5171E</color>
+
+    <color name="colorWhiteLight">#A6FFFFFF</color>
+
+    <color name="dark_red">#3E1919</color>
+    <color name="dark_blue">#000000</color>
+    <color name="lightest_blue">#8190CB</color>
+
+    <color name="orange_selection">#fc7703</color>
+
+
+    <color name="selected">#faf0f1</color>
+
+    <color name="light_bg">#F3F3F3</color>
+
+    <color name="yellow_dark">#FCE147</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="textSecondary">#414141</color>
+
+    <color name="gray_686868">#686868</color>
+    <color name="black_pure">#000000</color>
+    <color name="blackPrimary">#000000</color>
+    <color name="blackSecondary">#1D1D1D</color>
+    <color name="blackTabFont">#373737</color>
+    <color name="darkGrey">#373737</color>
+    <color name="darkGreyTran">#B3373737</color>
+    <color name="btnGrey">#9F9F9F</color>
+    <color name="gradientGrey">#777777</color>
+    <color name="blue">#2A41CF</color>
+    <color name="blue1">#01579B</color>
+
+    <color name="gray_scale">#8affffff</color>
+    <color name="yellow_golden">#A16604</color>
+
+    <color name="appBackground">#F5F5F5</color>
+
+    <color name="lightgray">#E4E4E4</color>
+
+    <color name="colorPrimaryTransparentRegular">#d4e3fc</color>
+
+    <color name="darkgreen">#298814</color>
+    <color name="grey2">#2C2C2C1A</color>
+    <color name="green_pure">#39AD5E</color>
+    <color name="green_trans">#E5F7E1</color>
+    <color name="popti">#39AD5E</color>
+    <color name="orange">#FE8620</color>
+    <color name="light_yellow">#F4E1B1</color>
+    <color name="lightGreen">#F7FCF9</color>
+    <color name="lightYellow">#FFF8DC</color>
+
+    <color name="appBackground_secondary">#F8F8F8</color>
+
+    <color name="primaryLine">#C1C1C1</color>
+    <color name="textPrimary">#1B2734</color>
+    <color name="colorPrimaryTransparent">#8001579B</color>
+    <color name="lighest_blue">#F0EEFF</color>
+
+    <color name="selectGreen">#ccedcd</color>
+    <color name="selectRed">#E8C4C8</color>
+    <color name="darkRed">#B20017</color>
+    <color name="darkRedTrans">#33B20017</color>
+</resources>

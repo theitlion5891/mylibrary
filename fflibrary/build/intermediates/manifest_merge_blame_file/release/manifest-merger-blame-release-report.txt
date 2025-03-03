@@ -1,0 +1,586 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fantafeat" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+7-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:5:5-79
+7-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:5:22-76
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:6:5-67
+8-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:6:22-64
+9    <uses-permission android:name="android.permission.VIBRATE" />
+9-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:7:5-66
+9-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:7:22-63
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:8:5-81
+10-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:8:22-78
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:9:5-80
+11-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:9:22-77
+12    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+12-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:10:5-76
+12-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:10:22-73
+13    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+13-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:11:5-75
+13-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:11:22-72
+14    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+14-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:12:5-75
+14-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:12:22-72
+15    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+15-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:13:5-82
+15-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:13:22-79
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:14:5-65
+16-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:14:22-62
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:15:5-76
+17-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:15:22-74
+18
+19    <application android:name="com.fantafeat.Session.MyApp" >
+19-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:17:5-294:19
+19-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:18:9-51
+20        <activity
+20-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:20:9-23:52
+21            android:name="com.fantafeat.Activity.BrowseAllTopicActivity"
+21-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:21:13-73
+22            android:exported="true"
+22-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:22:14-37
+23            android:screenOrientation="portrait" />
+23-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:23:13-49
+24        <activity
+24-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:24:9-27:52
+25            android:name="com.fantafeat.Activity.AllTicketsActivity"
+25-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:25:13-69
+26            android:exported="true"
+26-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:26:14-37
+27            android:screenOrientation="portrait" />
+27-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:27:13-49
+28        <activity
+28-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:28:9-31:52
+29            android:name="com.fantafeat.Activity.ChatActivity"
+29-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:29:13-63
+30            android:exported="true"
+30-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:30:14-37
+31            android:screenOrientation="portrait" />
+31-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:31:13-49
+32        <activity
+32-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:32:9-35:52
+33            android:name="com.fantafeat.Activity.HelpDeskActivity"
+33-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:33:13-67
+34            android:exported="true"
+34-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:34:14-37
+35            android:screenOrientation="portrait" />
+35-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:35:13-49
+36        <activity
+36-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:36:9-39:52
+37            android:name="com.fantafeat.Activity.CustomMoreContestListActivity"
+37-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:37:13-80
+38            android:exported="true"
+38-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:38:14-37
+39            android:screenOrientation="portrait" />
+39-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:39:13-49
+40        <activity
+40-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:40:9-43:52
+41            android:name="com.fantafeat.Activity.InstantKycActivity"
+41-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:41:13-69
+42            android:exported="true"
+42-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:42:14-37
+43            android:screenOrientation="portrait" />
+43-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:43:13-49
+44        <activity
+44-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:44:9-47:52
+45            android:name="com.fantafeat.Activity.LudoTournamentActivity"
+45-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:45:13-73
+46            android:exported="true"
+46-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:46:14-37
+47            android:screenOrientation="portrait" />
+47-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:47:13-49
+48        <activity
+48-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:48:9-51:52
+49            android:name="com.fantafeat.Activity.GameLeaderboardActivity"
+49-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:49:13-74
+50            android:exported="true"
+50-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:50:14-37
+51            android:screenOrientation="portrait" />
+51-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:51:13-49
+52        <activity
+52-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:52:9-55:52
+53            android:name="com.fantafeat.Activity.InvesterDetailsActivity"
+53-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:53:13-74
+54            android:exported="true"
+54-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:54:14-37
+55            android:screenOrientation="portrait" />
+55-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:55:13-49
+56        <activity
+56-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:56:9-59:52
+57            android:name="com.fantafeat.Activity.InvestmentLeaderboardActivity"
+57-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:57:13-80
+58            android:exported="true"
+58-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:58:14-37
+59            android:screenOrientation="portrait" />
+59-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:59:13-49
+60        <activity
+60-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:60:9-63:52
+61            android:name="com.fantafeat.Activity.LeaderboardListActivity"
+61-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:61:13-74
+62            android:exported="true"
+62-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:62:14-37
+63            android:screenOrientation="portrait" />
+63-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:63:13-49
+64        <activity
+64-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:64:9-67:52
+65            android:name="com.fantafeat.Activity.EventDetailsActivity"
+65-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:65:13-71
+66            android:exported="true"
+66-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:66:14-37
+67            android:screenOrientation="portrait" />
+67-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:67:13-49
+68        <activity
+68-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:68:9-71:52
+69            android:name="com.fantafeat.Activity.PollDetailsActivity"
+69-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:69:13-70
+70            android:exported="true"
+70-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:70:14-37
+71            android:screenOrientation="portrait" />
+71-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:71:13-49
+72        <activity
+72-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:72:9-75:52
+73            android:name="com.fantafeat.Activity.OpinionDetailsActivity"
+73-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:73:13-73
+74            android:exported="true"
+74-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:74:14-37
+75            android:screenOrientation="portrait" />
+75-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:75:13-49
+76        <activity
+76-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:76:9-79:52
+77            android:name="com.fantafeat.Activity.UpcomingEventDetailsActivity"
+77-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:77:13-79
+78            android:exported="true"
+78-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:78:14-37
+79            android:screenOrientation="portrait" />
+79-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:79:13-49
+80        <activity
+80-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:80:9-83:52
+81            android:name="com.fantafeat.Activity.TOPActivity"
+81-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:81:13-62
+82            android:exported="true"
+82-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:82:14-37
+83            android:screenOrientation="portrait" />
+83-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:83:13-49
+84        <activity
+84-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:84:9-87:52
+85            android:name="com.fantafeat.Activity.WithdrawListActivity"
+85-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:85:13-71
+86            android:exported="true"
+86-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:86:14-37
+87            android:screenOrientation="portrait" />
+87-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:87:13-49
+88        <activity
+88-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:88:9-91:52
+89            android:name="com.fantafeat.Activity.MoreContestListActivity"
+89-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:89:13-74
+90            android:exported="true"
+90-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:90:14-37
+91            android:screenOrientation="portrait" />
+91-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:91:13-49
+92        <activity
+92-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:92:9-95:52
+93            android:name="com.fantafeat.Activity.RummyContestActivity"
+93-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:93:13-71
+94            android:exported="true"
+94-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:94:14-37
+95            android:screenOrientation="portrait" />
+95-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:95:13-49
+96        <activity
+96-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:96:9-99:52
+97            android:name="com.fantafeat.Activity.PaymentWebActivity"
+97-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:97:13-69
+98            android:exported="true"
+98-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:98:14-37
+99            android:screenOrientation="portrait" />
+99-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:99:13-49
+100        <activity
+100-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:100:9-103:52
+101            android:name="com.fantafeat.Activity.WebViewGameActivity"
+101-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:101:13-70
+102            android:exported="true"
+102-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:102:14-37
+103            android:screenOrientation="portrait" />
+103-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:103:13-49
+104        <activity
+104-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:104:9-107:52
+105            android:name="com.fantafeat.Activity.PromotorLeaderboardActivity"
+105-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:105:13-78
+106            android:exported="true"
+106-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:106:14-37
+107            android:screenOrientation="portrait" />
+107-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:107:13-49
+108        <activity
+108-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:108:9-111:52
+109            android:name="com.fantafeat.Activity.FiferContestActivity"
+109-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:109:13-71
+110            android:exported="true"
+110-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:110:14-37
+111            android:screenOrientation="portrait" />
+111-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:111:13-49
+112        <activity
+112-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:112:9-115:52
+113            android:name="com.fantafeat.Activity.SinglesContestActivity"
+113-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:113:13-73
+114            android:exported="true"
+114-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:114:14-37
+115            android:screenOrientation="portrait" />
+115-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:115:13-49
+116        <activity
+116-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:116:9-119:52
+117            android:name="com.fantafeat.Activity.GameListActivity"
+117-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:117:13-67
+118            android:exported="true"
+118-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:118:14-37
+119            android:screenOrientation="portrait" />
+119-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:119:13-49
+120        <activity
+120-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:120:9-123:52
+121            android:name="com.fantafeat.Activity.LudoContestListActivity"
+121-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:121:13-74
+122            android:exported="true"
+122-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:122:14-37
+123            android:screenOrientation="portrait" />
+123-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:123:13-49
+124        <activity
+124-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:124:9-128:52
+125            android:name="com.fantafeat.Activity.ImagePickerActivity"
+125-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:125:13-70
+126            android:exported="true"
+126-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:126:14-37
+127            android:label="@string/title_activity_image_picker"
+127-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:127:13-64
+128            android:screenOrientation="portrait" />
+128-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:128:13-49
+129        <activity
+129-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:129:9-133:51
+130            android:name="com.fantafeat.Activity.AffilationMatchList"
+130-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:130:13-70
+131            android:exported="true"
+131-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:131:14-37
+132            android:label="@string/title_activity_affilation_match_list"
+132-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:132:13-73
+133            android:screenOrientation="portrait" />
+133-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:133:13-49
+134        <!--
+135            <activity
+136            android:name="com.yalantis.ucrop.UCropActivity"
+137             android:exported="true"
+138            android:screenOrientation="portrait" />
+139        -->
+140        <activity
+140-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:138:9-141:52
+141            android:name="com.fantafeat.Activity.CommongSoonActivity"
+141-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:139:13-70
+142            android:exported="true"
+142-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:140:14-37
+143            android:screenOrientation="portrait" />
+143-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:141:13-49
+144        <activity
+144-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:142:9-145:52
+145            android:name="com.fantafeat.Activity.UserDetailActivity"
+145-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:143:13-69
+146            android:exported="true"
+146-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:144:14-37
+147            android:screenOrientation="portrait" />
+147-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:145:13-49
+148        <activity
+148-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:146:9-149:52
+149            android:name="com.fantafeat.Activity.UserLeaderboardActivity"
+149-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:147:13-74
+150            android:exported="true"
+150-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:148:14-37
+151            android:screenOrientation="portrait" />
+151-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:149:13-49
+152        <activity
+152-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:150:9-153:52
+153            android:name="com.fantafeat.Activity.InstantWithdrawActivity"
+153-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:151:13-74
+154            android:exported="true"
+154-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:152:14-37
+155            android:screenOrientation="portrait" />
+155-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:153:13-49
+156        <activity
+156-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:154:9-157:52
+157            android:name="com.fantafeat.Activity.AffiliationDetailsActivity"
+157-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:155:13-77
+158            android:exported="true"
+158-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:156:14-37
+159            android:screenOrientation="portrait" />
+159-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:157:13-49
+160        <activity
+160-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:158:9-161:52
+161            android:name="com.fantafeat.Activity.AffiliationActivity"
+161-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:159:13-70
+162            android:exported="true"
+162-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:160:14-37
+163            android:screenOrientation="portrait" />
+163-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:161:13-49
+164        <activity
+164-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:162:9-165:52
+165            android:name="com.fantafeat.Activity.InviteFriendListActivity"
+165-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:163:13-75
+166            android:exported="true"
+166-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:164:14-37
+167            android:screenOrientation="portrait" />
+167-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:165:13-49
+168        <activity
+168-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:166:9-169:52
+169            android:name="com.fantafeat.Activity.CallbackSelectQueryActivity"
+169-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:167:13-78
+170            android:exported="true"
+170-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:168:14-37
+171            android:screenOrientation="portrait" />
+171-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:169:13-49
+172        <activity
+172-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:170:9-173:52
+173            android:name="com.fantafeat.Activity.CompareTeamActivity"
+173-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:171:13-70
+174            android:exported="true"
+174-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:172:14-37
+175            android:screenOrientation="portrait" />
+175-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:173:13-49
+176        <activity
+176-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:174:9-177:52
+177            android:name="com.fantafeat.Activity.ProfileActivity"
+177-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:175:13-66
+178            android:exported="true"
+178-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:176:14-37
+179            android:screenOrientation="portrait" />
+179-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:177:13-49
+180        <activity
+180-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:178:9-181:52
+181            android:name="com.fantafeat.Activity.PaytmVerifyActivity"
+181-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:179:13-70
+182            android:exported="true"
+182-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:180:14-37
+183            android:screenOrientation="portrait" />
+183-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:181:13-49
+184        <activity
+184-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:182:9-185:52
+185            android:name="com.fantafeat.Activity.FullImageActivity"
+185-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:183:13-68
+186            android:exported="true"
+186-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:184:14-37
+187            android:screenOrientation="portrait" />
+187-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:185:13-49
+188        <activity
+188-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:186:9-189:52
+189            android:name="com.fantafeat.Activity.UpdateKYCActivity"
+189-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:187:13-68
+190            android:exported="true"
+190-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:188:14-37
+191            android:screenOrientation="portrait" />
+191-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:189:13-49
+192        <activity
+192-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:190:9-193:52
+193            android:name="com.fantafeat.Activity.CallbackActivity"
+193-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:191:13-67
+194            android:exported="true"
+194-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:192:14-37
+195            android:screenOrientation="portrait" />
+195-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:193:13-49
+196        <activity
+196-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:194:9-197:52
+197            android:name="com.fantafeat.Activity.WebViewActivity"
+197-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:195:13-66
+198            android:exported="true"
+198-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:196:14-37
+199            android:screenOrientation="portrait" />
+199-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:197:13-49
+200        <activity
+200-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:198:9-201:52
+201            android:name="com.fantafeat.Activity.TransactionListActivity"
+201-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:199:13-74
+202            android:exported="true"
+202-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:200:14-37
+203            android:screenOrientation="portrait" />
+203-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:201:13-49
+204        <activity
+204-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:202:9-205:52
+205            android:name="com.fantafeat.Activity.WithdrawActivity"
+205-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:203:13-67
+206            android:exported="true"
+206-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:204:14-37
+207            android:screenOrientation="portrait" />
+207-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:205:13-49
+208        <activity
+208-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:206:9-209:52
+209            android:name="com.fantafeat.Activity.RequestStatementActivity"
+209-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:207:13-75
+210            android:exported="true"
+210-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:208:14-37
+211            android:screenOrientation="portrait" />
+211-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:209:13-49
+212        <activity
+212-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:210:9-213:52
+213            android:name="com.fantafeat.Activity.WelcomeActivity"
+213-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:211:13-66
+214            android:exported="true"
+214-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:212:14-37
+215            android:screenOrientation="portrait" />
+215-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:213:13-49
+216        <activity
+216-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:214:9-217:52
+217            android:name="com.fantafeat.Activity.PromoteAppFormActivity"
+217-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:215:13-73
+218            android:exported="true"
+218-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:216:14-37
+219            android:screenOrientation="portrait" />
+219-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:217:13-49
+220        <activity
+220-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:218:9-221:52
+221            android:name="com.fantafeat.Activity.PromoteAppActivity"
+221-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:219:13-69
+222            android:exported="true"
+222-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:220:14-37
+223            android:screenOrientation="portrait" />
+223-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:221:13-49
+224        <activity
+224-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:222:9-225:52
+225            android:name="com.fantafeat.Activity.PlayerStatsActivity"
+225-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:223:13-70
+226            android:exported="true"
+226-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:224:14-37
+227            android:screenOrientation="portrait" />
+227-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:225:13-49
+228        <activity
+228-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:226:9-229:52
+229            android:name="com.fantafeat.Activity.AfterMatchPlayerStatesActivity"
+229-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:227:13-81
+230            android:exported="true"
+230-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:228:14-37
+231            android:screenOrientation="portrait" />
+231-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:229:13-49
+232        <activity
+232-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:230:9-233:52
+233            android:name="com.fantafeat.Activity.SwipeTeamActivity"
+233-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:231:13-68
+234            android:exported="true"
+234-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:232:14-37
+235            android:screenOrientation="portrait" />
+235-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:233:13-49
+236        <activity
+236-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:234:9-237:52
+237            android:name="com.fantafeat.Activity.TeamSelectJoinActivity"
+237-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:235:13-73
+238            android:exported="true"
+238-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:236:14-37
+239            android:screenOrientation="portrait" />
+239-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:237:13-49
+240        <activity
+240-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:238:9-241:52
+241            android:name="com.fantafeat.Activity.AddDepositActivity"
+241-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:239:13-69
+242            android:exported="true"
+242-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:240:14-37
+243            android:screenOrientation="portrait" />
+243-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:241:13-49
+244        <activity
+244-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:242:9-245:52
+245            android:name="com.fantafeat.Activity.PaymentActivity"
+245-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:243:13-66
+246            android:exported="true"
+246-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:244:14-37
+247            android:screenOrientation="portrait" />
+247-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:245:13-49
+248        <activity
+248-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:246:9-249:52
+249            android:name="com.fantafeat.Activity.NewPasswordActivity"
+249-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:247:13-70
+250            android:exported="true"
+250-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:248:14-37
+251            android:screenOrientation="portrait" />
+251-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:249:13-49
+252        <activity
+252-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:250:9-253:52
+253            android:name="com.fantafeat.Activity.ForgotPasswordActivity"
+253-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:251:13-73
+254            android:exported="true"
+254-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:252:14-37
+255            android:screenOrientation="portrait" />
+255-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:253:13-49
+256        <activity
+256-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:254:9-257:52
+257            android:name="com.fantafeat.Activity.SignUpActivity"
+257-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:255:13-65
+258            android:exported="true"
+258-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:256:14-37
+259            android:screenOrientation="portrait" />
+259-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:257:13-49
+260        <activity
+260-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:258:9-261:52
+261            android:name="com.fantafeat.Activity.LeaderBoardActivity"
+261-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:259:13-70
+262            android:exported="true"
+262-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:260:14-37
+263            android:screenOrientation="portrait" />
+263-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:261:13-49
+264        <activity
+264-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:262:9-265:52
+265            android:name="com.fantafeat.Activity.AfterMatchActivity"
+265-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:263:13-69
+266            android:exported="true"
+266-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:264:14-37
+267            android:screenOrientation="portrait" />
+267-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:265:13-49
+268        <activity
+268-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:266:9-269:52
+269            android:name="com.fantafeat.Activity.SelectCVCActivity"
+269-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:267:13-68
+270            android:exported="true"
+270-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:268:14-37
+271            android:screenOrientation="portrait" />
+271-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:269:13-49
+272        <activity
+272-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:270:9-273:52
+273            android:name="com.fantafeat.Activity.CricketSelectPlayerActivity"
+273-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:271:13-78
+274            android:exported="true"
+274-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:272:14-37
+275            android:screenOrientation="portrait" />
+275-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:273:13-49
+276        <activity
+276-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:274:9-277:52
+277            android:name="com.fantafeat.Activity.ContestListActivity"
+277-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:275:13-70
+278            android:exported="true"
+278-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:276:14-37
+279            android:screenOrientation="portrait" />
+279-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:277:13-49
+280        <activity
+280-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:278:9-281:52
+281            android:name="com.fantafeat.Activity.LoginActivity"
+281-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:279:13-64
+282            android:exported="true"
+282-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:280:14-37
+283            android:screenOrientation="portrait" />
+283-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:281:13-49
+284        <activity
+284-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:282:9-287:20
+285            android:name="com.fantafeat.Activity.SplashActivity"
+285-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:283:13-65
+286            android:exported="true"
+286-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:284:13-36
+287            android:screenOrientation="portrait" >
+287-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:285:13-49
+288        </activity>
+289        <activity
+289-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:288:9-293:20
+290            android:name="com.fantafeat.Activity.HomeActivity"
+290-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:289:13-63
+291            android:exported="true"
+291-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:290:13-36
+292            android:screenOrientation="portrait" >
+292-->/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:291:13-49
+293        </activity>
+294    </application>
+295
+296</manifest>

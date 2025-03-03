@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.PrizePoolFragment">
+
+    <LinearLayout
+        android:id="@+id/layHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_3sdp"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:background="@drawable/gradient_grey_white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="RANK"
+            android:textColor="@color/white_font"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="PRIZE"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="@dimen/_10ssp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/match_rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layNoData"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgPlace"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/cricket_placeholder" />
+
+        <TextView
+            android:id="@+id/txtPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="Price Pool will appear after match starts."
+            android:textColor="#0A1F44"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+</LinearLayout>

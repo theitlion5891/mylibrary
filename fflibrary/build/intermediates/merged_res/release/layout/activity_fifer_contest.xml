@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.FiferContestActivity">
+
+    <include layout="@layout/toolbar_contest_list"
+        android:id="@+id/contest_list_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layClassic">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            app:tabMaxWidth="0dp"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            android:background="@color/pureWhite"
+            app:tabTextAppearance="@style/MyCustomTabOnlyText"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabIndicatorHeight="@dimen/_3sdp"
+            app:tabSelectedTextColor="@color/blackTabFont">
+        </com.google.android.material.tabs.TabLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/selected"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:id="@+id/layNotice"
+            android:visibility="visible"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_anouncement"/>
+            <TextView
+                android:id="@+id/txtAnounce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Winning depends on Joining Entry"
+                android:paddingVertical="@dimen/_7sdp"
+                android:textSize="@dimen/_9sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                android:ellipsize="marquee"/>
+        </LinearLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/viewpager"/>
+
+    </LinearLayout>
+
+</LinearLayout>

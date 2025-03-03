@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:fillViewport="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.OtpFragment"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="@dimen/_20sdp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/txtResendCnt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="OTP"
+                    android:textColor="@color/font_color"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgClose"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:src="@drawable/ic_close_black" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Enter otp sent to your registered mobile number"
+                android:textColor="@color/font_color"
+                android:textSize="@dimen/_10sdp" />
+
+           <!-- <com.mukesh.OtpView
+                android:id="@+id/otp_numbers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:inputType="number"
+                android:textColor="@color/font_color"
+                app:itemCount="6"
+
+                app:lineColor="@color/colorPrimary"
+                app:viewType="line" />-->
+<!--            app:itemRadius="@dimen/_5sdp"
+                app:itemSpacing="@dimen/_3sdp"-->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtResendCnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:textSize="16sp"
+            android:text="0:0"
+            android:textColor="@color/blackPrimary"
+            app:layout_constraintBottom_toTopOf="@+id/otp_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <Button
+            android:id="@+id/otp_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_primary"
+            android:elevation="0dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textColor="@color/white_font"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

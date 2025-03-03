@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:paddingVertical="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:visibility="visible"
+            android:id="@+id/imgBack"
+            app:tint="@color/colorPrimary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip &amp; Withdraw"
+            android:paddingVertical="@dimen/_8sdp"
+            android:gravity="end"
+            android:layout_gravity="end"
+            android:paddingEnd="@dimen/_8sdp"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/txtSkip"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layTop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get up to"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
+                android:textColor="#A05610"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10% Extra deposit cash"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="#A05610"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Winning"
+                android:paddingStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/txtWinBal"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray_border_field"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:hint="Enter Amount"
+                android:textSize="@dimen/_12sdp"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:inputType="numberDecimal"
+                android:id="@+id/edtAmt"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_below="@+id/edtAmt"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardCal"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/darkRedTrans">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/primary_round_border"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingVertical="@dimen/_8sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/_55sdp"
+                            android:layout_height="@dimen/_55sdp"
+                            android:src="@drawable/winning_crown_cash"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:gravity="center"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_16sdp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:id="@+id/txtEnteredAmt"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Winning Cash"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="@dimen/_10sdp"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginHorizontal="@dimen/_40sdp"
+                        android:src="@drawable/arrow_right_bhuro"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingVertical="@dimen/_8sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/_55sdp"
+                            android:layout_height="@dimen/_55sdp"
+                            android:src="@drawable/bank_cash"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:gravity="center"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_16sdp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:id="@+id/txtDepositAmt"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Deposit Cash"
+                            android:gravity="center"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_10sdp"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/recyclerList"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert Winning"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_primary"
+        android:textColor="@color/white"
+        android:paddingVertical="@dimen/_10sdp"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:id="@+id/btnConvert"/>
+
+</RelativeLayout>

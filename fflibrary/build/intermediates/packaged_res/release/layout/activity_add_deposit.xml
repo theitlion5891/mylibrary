@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Activity.AddDepositActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/blackSecondary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/toolbar_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_5sdp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:text="Add Cash"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14sdp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <!--
+            android:layout_below="@id/toolbar"
+        android:layout_above="@+id/add_cash_button"
+       <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:id="@+id/layAmt"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/gray_gradiant"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/_8sdp"
+                    android:paddingVertical="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wallet Balance"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <TextView
+                        android:id="@+id/total_balance_add_cash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹0"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/linear1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/add_cash_button"
+                    android:layout_below="@id/view"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/_16sdp"
+                    android:paddingVertical="@dimen/_12sdp">
+
+                    <!-- <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:gravity="center"
+                         android:layout_marginTop="@dimen/_20sdp"
+                         android:background="@drawable/btn_gray_outline"
+                         android:orientation="horizontal">
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:padding="@dimen/_8sdp"
+                             android:src="@drawable/ic_rupee"/>
+                         <View
+                             android:layout_width="1dp"
+                             android:layout_height="match_parent"
+                             android:background="#ccc"/>
+                         <EditText
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:hint="Add Cash"
+                             android:inputType="number"
+                             android:id="@+id/add_amount_edit"
+                             android:layout_marginEnd="@dimen/_10sdp"
+                             android:layout_marginStart="@dimen/_10sdp"
+                             android:background="@color/transparent"
+                             android:textColor="@color/textPrimary"
+                             android:textSize="@dimen/_11ssp"/>
+
+                     </LinearLayout>-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add Cash"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="@dimen/_11ssp" />
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:background="@drawable/curv_black_border"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:textColor="@color/textPrimary"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_15ssp"/>
+                        <EditText
+                            android:id="@+id/add_amount_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:inputType="number"
+                            android:digits=".0123456789"
+                            android:background="@color/transparent"
+                            android:paddingHorizontal="@dimen/_5sdp"
+                            android:paddingVertical="@dimen/_5sdp"
+                            android:text=""
+                            android:textStyle="bold"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="@dimen/_15ssp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/_20sdp"
+                        android:padding="1dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quick Add :"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="@dimen/_11ssp" />
+                        <TextView
+                            android:id="@+id/first_topup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:background="@drawable/curv_black_border"
+                            android:paddingHorizontal="@dimen/_10sdp"
+                            android:paddingVertical="@dimen/_5sdp"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:text="₹100"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:id="@+id/second_topup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/curv_black_border"
+                            android:paddingHorizontal="@dimen/_10sdp"
+                            android:paddingVertical="@dimen/_5sdp"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:text="₹200"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:id="@+id/third_topup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/curv_black_border"
+                            android:paddingHorizontal="@dimen/_10sdp"
+                            android:paddingVertical="@dimen/_5sdp"
+                            android:text="₹500"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="@dimen/_10ssp" />
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:foreground="@drawable/curv_black_border"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/edtCode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@color/white"
+                                android:drawableStart="@drawable/ic_ticket_code"
+                                android:drawablePadding="@dimen/_10sdp"
+                                android:hint="Apply Promo Code"
+                                android:inputType="textCapCharacters"
+                                android:maxLength="16"
+                                android:paddingHorizontal="@dimen/_10sdp"
+                                android:textSize="16sp" />
+
+                            <Button
+                                android:id="@+id/btnApply"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorPrimary"
+                                android:text="Apply"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtCodeDesc"
+                        android:textSize="@dimen/_10sdp"
+                        android:text="*AAAA"
+                        android:visibility="gone"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textColor="@color/green_pure"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingHorizontal="@dimen/_15sdp"
+                    android:background="@color/white"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dark_bg_border"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:padding="@dimen/_5sdp"
+                                android:text="Deposit Amount\n(Inclusive GST)"
+                                android:textColor="@color/textPrimary"
+                                android:textSize="@dimen/_10sdp" />
+                            <View
+                                android:layout_width="0.5dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/black"/>
+                            <TextView
+                                android:id="@+id/txtDepositAmt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="₹0"
+                                android:padding="@dimen/_5sdp"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_10sdp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/txtGstLbl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:padding="@dimen/_5sdp"
+                                android:text="Applicable GST"
+                                android:textColor="@color/textPrimary"
+                                android:textSize="@dimen/_10sdp" />
+                            <View
+                                android:layout_width="0.5dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/black"/>
+                            <TextView
+                                android:id="@+id/txtGst"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="₹0"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/_10sdp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="Deposit to Account"
+                                    android:textColor="@color/textPrimary"
+                                    android:textSize="@dimen/_10sdp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="A"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:paddingVertical="2dp"
+                                    android:paddingHorizontal="5dp"
+                                    android:textColor="@color/green_pure"
+                                    android:background="@drawable/offer_text_bg"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0.5dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/black"/>
+                            <TextView
+                                android:id="@+id/txtDepositToAccount"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="₹0"
+                                android:textColor="@color/green_pure"
+                                android:textSize="@dimen/_10sdp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="@string/fanta_gems"
+                                    android:textColor="@color/textPrimary"
+                                    android:textSize="@dimen/_10sdp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="B"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:paddingVertical="2dp"
+                                    android:paddingHorizontal="5dp"
+                                    android:textColor="@color/green_pure"
+                                    android:background="@drawable/offer_text_bg"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0.5dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/black"/>
+                            <TextView
+                                android:id="@+id/txtDepositToGems"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="₹0"
+                                android:textColor="@color/green_pure"
+                                android:textSize="@dimen/_10sdp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:maxLines="1"
+                                    android:text="Total"
+                                    android:textColor="@color/textPrimary"
+                                    android:textSize="@dimen/_10sdp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="A"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:paddingVertical="2dp"
+                                    android:layout_marginStart="@dimen/_5sdp"
+                                    android:paddingHorizontal="5dp"
+                                    android:textColor="@color/green_pure"
+                                    android:background="@drawable/offer_text_bg"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:paddingVertical="2dp"
+                                    android:layout_marginStart="@dimen/_5sdp"
+                                    android:paddingHorizontal="5dp"
+                                    android:textColor="@color/black"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="B"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:paddingVertical="2dp"
+                                    android:layout_marginStart="@dimen/_5sdp"
+                                    android:paddingHorizontal="5dp"
+                                    android:textColor="@color/green_pure"
+                                    android:background="@drawable/offer_text_bg"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0.5dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/black"/>
+                            <TextView
+                                android:id="@+id/txtDepositTotal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="₹0"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_10sdp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Offers"
+                android:layout_below="@+id/layAmt"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:textColor="#1D1D1D"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:id="@+id/txtLbl"
+                android:textSize="@dimen/_14ssp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_below="@+id/txtLbl"
+                android:visibility="visible"
+                android:paddingBottom="@dimen/_5sdp"
+                android:layout_marginVertical="@dimen/_8sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:id="@+id/relOffer"/>
+        <!--</RelativeLayout>-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/add_cash_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:text="Add Cash"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

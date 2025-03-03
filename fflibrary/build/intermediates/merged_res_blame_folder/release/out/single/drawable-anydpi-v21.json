@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_vendor_amex.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_vendor_amex.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_number.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_number.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_vendor_maestro.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_vendor_maestro.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_ic_cf_back.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_ic_cf_back.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_vendor_master.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_vendor_master.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/ic_call_answer.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-anydpi-v21/ic_call_answer.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/ic_call_decline_low.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-anydpi-v21/ic_call_decline_low.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_ic_up.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_ic_up.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/ic_call_answer_low.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-anydpi-v21/ic_call_answer_low.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_person.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_person.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_ic_cf_close.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_ic_cf_close.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_ic_round_info_highlighted.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_ic_round_info_highlighted.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_icon_success.xml",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-anydpi-v21/cf_icon_success.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_ic_failure.xml",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-anydpi-v21/cf_ic_failure.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_vendor_rupay.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_vendor_rupay.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_vendor_diners.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_vendor_diners.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_ic_outline_pending.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_ic_outline_pending.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/ic_call_answer_video_low.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-anydpi-v21/ic_call_answer_video_low.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_cvv.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_cvv.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_date.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_date.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/ic_call_answer_video.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-anydpi-v21/ic_call_answer_video.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/ic_call_decline.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-anydpi-v21/ic_call_decline.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_vendor_mastercard.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_vendor_mastercard.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_ic_round_info.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_ic_round_info.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_ic_down.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_ic_down.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_card_vendor_visa.xml",
+        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-anydpi-v21/cf_card_vendor_visa.xml"
+    },
+    {
+        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-anydpi-v21/cf_ic_bank_placeholder.xml",
+        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-anydpi-v21/cf_ic_bank_placeholder.xml"
+    }
+]

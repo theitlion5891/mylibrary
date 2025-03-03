@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="3dp"
+    app:contentPadding="@dimen/_5sdp">
+
+    <LinearLayout
+        android:id="@+id/layMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/_3sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtConTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/dark_blue"
+            android:fontFamily="@font/roboto_regular"
+            android:minLines="4"
+            android:text="Chennai to qualify for playoffs Indian T20 League 2023"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:src="@drawable/ic_trade"/>
+                <TextView
+                    android:id="@+id/txtTrades"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0 Trades"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="@dimen/_9sdp"
+                    android:layout_marginStart="@dimen/_5sdp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingVertical="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Yes"
+                    android:paddingVertical="@dimen/_5sdp"
+                    android:textColor="@color/green_pure"
+                    android:background="@drawable/opinio_yes"
+                    android:fontFamily="@font/roboto_bold"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_9sdp"
+                    android:layout_weight="1"
+                    android:id="@+id/txtYes"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="No"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:background="@drawable/opinio_no"
+                    android:paddingVertical="@dimen/_5sdp"
+                    android:textColor="@color/red"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="@dimen/_9sdp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:id="@+id/txtNo"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

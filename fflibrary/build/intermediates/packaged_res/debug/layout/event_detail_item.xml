@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:contentPadding="@dimen/_8sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layMain"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="@dimen/_3sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray_border"
+                android:text="Exit"
+                android:textSize="@dimen/_9sdp"
+                android:paddingHorizontal="@dimen/_3sdp"
+                android:paddingVertical="1dp"
+                android:fontFamily="@font/roboto_regular"
+                android:id="@+id/txtExitTag"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtOptionValue"
+                android:background="@drawable/opinio_yes"
+                android:text="Yes"
+                android:layout_gravity="end"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/dark_blue"
+                android:fontFamily="@font/roboto_semi_bold"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_2sdp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Quantity"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="@dimen/_10sdp"
+                    android:textColor="@color/dark_blue"
+                    />
+
+                <TextView
+                    android:id="@+id/txtQty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/dark_blue"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_3sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Joining Price"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:textColor="@color/dark_blue"
+                    android:layout_marginStart="@dimen/_5sdp"/>
+
+                <TextView
+                    android:id="@+id/txtJoinAmt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/dark_blue"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginStart="@dimen/_5sdp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layAvailExit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txtLnlAvail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Avail to Exit"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="@dimen/_10sdp"
+                    android:gravity="end"
+                    android:textColor="@color/dark_blue"
+                    android:layout_marginStart="@dimen/_5sdp"/>
+
+                <TextView
+                    android:id="@+id/txtAvailExit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="end"
+                    android:fontFamily="@font/roboto_semi_bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/dark_blue"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginStart="@dimen/_5sdp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:paddingVertical="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtLblText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Investment "
+                android:textColor="@color/dark_blue"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/txtInvst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginHorizontal="@dimen/_3sdp"
+                android:textColor="@color/dark_blue"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="@dimen/_12sdp"/>
+
+            <TextView
+                android:id="@+id/txtLblWinText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Winning "
+                android:visibility="gone"
+                android:textColor="@color/green_pure"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/txtWin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:visibility="gone"
+                android:layout_marginHorizontal="@dimen/_3sdp"
+                android:textColor="@color/green_pure"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="@dimen/_12sdp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/txtSell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="Exit"
+                android:textColor="@color/red"
+                android:padding="@dimen/_3sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="@dimen/_10sdp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

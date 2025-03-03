@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/roboto_regular</item>
+        <item>@font/roboto_bold</item>
+    </array>
+    <string-array name="stack">
+        //0
+        <item>Home</item>
+        //1
+        <item>My Leagues</item>
+        //2
+        <item>Feed</item>
+        //3
+        <item>Wallet</item>
+        //4
+        <item>Phone Number</item>
+        //5
+        <item>OTP</item>
+        //6
+        <item>Basic Details</item>
+        //7
+        <item>Cricket</item>
+        //8
+        <item>Football</item>
+        //9
+        <item>Basketball</item>
+        //10
+        <item>Rugby</item>
+        //11
+        <item>Baseball</item>
+        //12
+        <item>Contest List</item>
+        //13
+        <item>Create cricket team</item>
+        //14
+        <item>Select cricket CVC</item>
+        //15
+        <item>Team Preview</item>
+        //16
+        <item>More</item>
+        //17
+        <item>Webview</item>
+        //18
+        <item>Affiliation</item>
+        //19
+        <item>Affiliation Details</item>
+        //20
+        <item>Call Back</item>
+        //21
+        <item>Full Image</item>
+        //22
+        <item>Update KYC</item>
+        //23
+        <item>Request Statement</item>
+        //24
+        <item>Withdraw</item>
+        //25
+        <item>Paytm Verify</item>
+        //26
+        <item>MyReferrals</item>
+        //27
+        <item>Transfer</item>
+        //28
+        <item>AddDeposit</item>
+        //29
+        <item>Profile</item>
+        //30
+        <item>FollowFollowers</item>
+        //31
+        <item>Notification</item>
+        //32
+        <item>InviteFriends</item>
+        //33
+        <item>TransactionList</item>
+        //34
+        <item>CompareTeam</item>
+        //35
+        <item>Lineup Selection</item>
+
+    </string-array>
+    <color name="anounce_bg">#4DD386</color>
+    <color name="appBackGround">#F5F5F5</color>
+    <color name="appBackground">#F5F5F5</color>
+    <color name="appBackground_secondary">#F8F8F8</color>
+    <color name="blackPrimary">#000000</color>
+    <color name="blackSecondary">#1D1D1D</color>
+    <color name="blackTabFont">#373737</color>
+    <color name="black_pure">#000000</color>
+    <color name="blue">#2A41CF</color>
+    <color name="blue1">#01579B</color>
+    <color name="btnGrey">#9F9F9F</color>
+    <color name="colorAccent">#D32C2E</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#F7F7F7</color>
+    <color name="colorPrimary">#B20017</color>
+    <color name="colorPrimaryDark">#B20017</color>
+    <color name="colorPrimaryTransparent">#8001579B</color>
+    <color name="colorPrimaryTransparentRegular">#d4e3fc</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteLight">#A6FFFFFF</color>
+    <color name="darkGrey">#373737</color>
+    <color name="darkGreyTran">#B3373737</color>
+    <color name="darkRed">#B20017</color>
+    <color name="darkRedTrans">#33B20017</color>
+    <color name="dark_blue">#000000</color>
+    <color name="dark_red">#3E1919</color>
+    <color name="darkgreen">#298814</color>
+    <color name="flagBorder">#9F9E9E</color>
+    <color name="font_color">#2C2C2C</color>
+    <color name="gradientGrey">#777777</color>
+    <color name="gray_444444">#444444</color>
+    <color name="gray_686868">#686868</color>
+    <color name="gray_8ba6c1">#8ba6c1</color>
+    <color name="gray_anim">#C5C5C5</color>
+    <color name="gray_scale">#8affffff</color>
+    <color name="green_pure">#39AD5E</color>
+    <color name="green_trans">#E5F7E1</color>
+    <color name="grey2">#2C2C2C1A</color>
+    <color name="greyThree">#00000029</color>
+    <color name="ic_launcher_background">#AC091C</color>
+    <color name="lighest_blue">#F0EEFF</color>
+    <color name="lighetest_gray">#ECECEC</color>
+    <color name="lightGreen">#F7FCF9</color>
+    <color name="lightGrey">#F4F4F4</color>
+    <color name="lightYellow">#FFF8DC</color>
+    <color name="light_bg">#F3F3F3</color>
+    <color name="light_gray_a9a9a9">#a9a9a9</color>
+    <color name="light_yellow">#F4E1B1</color>
+    <color name="lightest_blue">#8190CB</color>
+    <color name="lightest_green">#197DF374</color>
+    <color name="lightgray">#E4E4E4</color>
+    <color name="moderateGrey">#D6D6D6</color>
+    <color name="normal_bg">#982428</color>
+    <color name="orange">#FE8620</color>
+    <color name="orange_selection">#fc7703</color>
+    <color name="pink">#E81051</color>
+    <color name="popti">#39AD5E</color>
+    <color name="primaryLine">#C1C1C1</color>
+    <color name="pureWhite">#FFFFFF</color>
+    <color name="pureWhiteTran">#B3FFFFFF</color>
+    <color name="red">#D5171E</color>
+    <color name="selectGreen">#ccedcd</color>
+    <color name="selectRed">#E8C4C8</color>
+    <color name="selected">#faf0f1</color>
+    <color name="tab_unselected">#8A8A91</color>
+    <color name="textPrimary">#1B2734</color>
+    <color name="textSecondary">#414141</color>
+    <color name="trans_blue">#1901579C</color>
+    <color name="transparent">#00000000</color>
+    <color name="waiting_bg">#451215</color>
+    <color name="white_font">#EAEAEA</color>
+    <color name="white_pure">#FFFFFF</color>
+    <color name="white_trans">#7AF1EDED</color>
+    <color name="yellow_dark">#FCE147</color>
+    <color name="yellow_golden">#A16604</color>
+    <dimen name="create_team_bottom_margin">30dp</dimen>
+    <dimen name="dimen_0dp">0dp</dimen>
+    <dimen name="dimen_1dp">1dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_3dp">3dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="four_player_height">85dp</dimen>
+    <dimen name="progress_bar_height">2dp</dimen>
+    <dimen name="top_bottom_margin">80dp</dimen>
+    <dimen name="two_player_height">65dp</dimen>
+    <string name="DOT">◉</string>
+    <string name="arrive_soon">Arriving Soon...!!!</string>
+    <string name="basic_detail">Basic Detail</string>
+    <string name="basic_details">Basic Details</string>
+    <string name="client_error">Client Error</string>
+    <string name="close_drawer">Close</string>
+    <string name="default_notification_channel_id">ff11</string>
+    <string name="e_mail">Enter E-mail</string>
+    <string name="fanta_gems">FantaGems</string>
+    <string name="feed">Feed</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="full_name">Enter Full Name</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="home">Home</string>
+    <string name="internet_error">Please Check Internet</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="lbl_set_profile_photo">Choose image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="log_into_your_account">Log into your account</string>
+    <string name="match_not_start">Match not started yet</string>
+    <string name="more">More</string>
+    <string name="my_leagues">My Matches</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="no_record_found">No record found</string>
+    <string name="open_drawer">Open</string>
+    <string name="otp">OTP</string>
+    <string name="please_enter_otp">Please enter 6-digit OTP</string>
+    <string name="previous">Previous</string>
+    <string name="quite_app">Are you sure you want to quit app?</string>
+    <string name="referal_code_optional">Enter Referal Code(Optional)</string>
+    <string name="rs">₹</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="server_error">Server Error</string>
+    <string name="set_your_name_and_password">Set your Name and Password</string>
+    <string name="submit">Submit</string>
+    <string name="team_name">Enter User Team Name</string>
+    <string name="title_activity_affilation_match_list">AffilationMatchList</string>
+    <string name="title_activity_image_picker">ImagePickerActivity</string>
+    <string name="tnc_resp"><p>This is a real-money gaming app. Please game responsibly and only play what you can afford. For gaming addiction help and support, please contact at <b>+91 95342 29534</b>, or visit </p></string>
+    <string name="tnc_resp_link_web"><b>https://www.fantafeat.com/play-responsibly.html</b></string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+    <string name="unexpected_error">Unexpected Error</string>
+    <string name="use_referral_code">Use Referral Code</string>
+    <string name="use_your_credentials_below_and_login_to_your_account">Use your credentials below and login to your account</string>
+    <string name="wallet">Wallet</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="yes">Yes</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="backgroundColor">@color/appBackGround</item>
+        <item name="android:forceDarkAllowed" ns1:targetApi="q">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="DialogTheme" parent="android:Theme.Dialog">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="MyCustomBottomBarActiveText" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="MyCustomBottomBarInactiveText" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="MyCustomTabOnlyText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="MyCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="MyCustomTabWithIcon" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>7
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="TabLayoutStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="Theme_Dialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="Tv_10_bold">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Tv_10_bold_primary">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Tv_10_normal">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+    <style name="Tv_10_primary">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Tv_11_bold">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Tv_7_bold">
+        <item name="android:textSize">@dimen/_7ssp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Tv_7_normal">
+        <item name="android:textSize">@dimen/_7ssp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/textPrimary</item>>
+    </style>
+    <style name="Tv_8_bold">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Tv_8_normal">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/textPrimary</item>>
+    </style>
+    <style name="Tv_9_bold">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Tv_9_normal">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/textPrimary</item>>
+    </style>
+    <style name="storyAnimation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/fade_in_dialog</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_dialog</item>
+    </style>
+</resources>

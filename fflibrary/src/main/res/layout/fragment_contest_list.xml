@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.ContestListFragment"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_contest_list"
+        android:id="@+id/contest_list_toolbar"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:background="@color/pureWhite"
+        app:tabTextAppearance="@style/MyCustomTabText"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabIndicatorHeight="@dimen/_3sdp"
+        app:tabSelectedTextColor="@color/colorPrimary">
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager">
+    </androidx.viewpager2.widget.ViewPager2>
+
+</LinearLayout>

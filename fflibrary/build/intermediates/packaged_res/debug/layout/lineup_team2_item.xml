@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layClick"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_15sdp"
+            android:id="@+id/imgPlus"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:src="@drawable/ic_plus"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/team_player_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLines="1"
+                android:text="Virat Kohli"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/team_player_point"
+                android:layout_gravity="center"
+                android:text="156 pts • ALL"
+                android:fontFamily="@font/roboto_regular"
+                android:ellipsize="marquee"
+                android:gravity="end"
+                android:textColor="@color/btnGrey"
+                android:textSize="@dimen/_8ssp"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:id="@+id/team_player_img"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:src="@drawable/user_image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingEnd="@dimen/_3sdp"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/btnGrey"
+            android:fontFamily="@font/roboto_semi_bold"
+            android:textStyle="italic"
+            android:id="@+id/txtCnt"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/appBackground"/>
+
+</LinearLayout>

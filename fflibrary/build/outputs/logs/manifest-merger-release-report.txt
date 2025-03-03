@@ -1,0 +1,596 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:2:1-295:12
+INJECTED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:2:1-295:12
+	package
+		INJECTED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:7:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:11:22-72
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:13:5-82
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:13:22-79
+uses-permission#android.permission.CAMERA
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:14:22-62
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:15:22-74
+application
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:17:5-294:19
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:18:9-51
+activity#com.fantafeat.Activity.BrowseAllTopicActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:20:9-23:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:23:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:22:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:21:13-73
+activity#com.fantafeat.Activity.AllTicketsActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:24:9-27:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:27:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:26:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:25:13-69
+activity#com.fantafeat.Activity.ChatActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:28:9-31:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:31:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:30:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:29:13-63
+activity#com.fantafeat.Activity.HelpDeskActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:32:9-35:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:35:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:34:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:33:13-67
+activity#com.fantafeat.Activity.CustomMoreContestListActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:36:9-39:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:39:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:38:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:37:13-80
+activity#com.fantafeat.Activity.InstantKycActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:40:9-43:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:43:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:42:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:41:13-69
+activity#com.fantafeat.Activity.LudoTournamentActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:44:9-47:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:47:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:46:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:45:13-73
+activity#com.fantafeat.Activity.GameLeaderboardActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:48:9-51:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:51:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:50:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:49:13-74
+activity#com.fantafeat.Activity.InvesterDetailsActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:52:9-55:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:55:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:54:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:53:13-74
+activity#com.fantafeat.Activity.InvestmentLeaderboardActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:56:9-59:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:59:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:58:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:57:13-80
+activity#com.fantafeat.Activity.LeaderboardListActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:60:9-63:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:63:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:62:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:61:13-74
+activity#com.fantafeat.Activity.EventDetailsActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:64:9-67:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:67:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:66:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:65:13-71
+activity#com.fantafeat.Activity.PollDetailsActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:68:9-71:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:71:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:70:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:69:13-70
+activity#com.fantafeat.Activity.OpinionDetailsActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:72:9-75:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:75:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:74:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:73:13-73
+activity#com.fantafeat.Activity.UpcomingEventDetailsActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:76:9-79:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:79:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:78:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:77:13-79
+activity#com.fantafeat.Activity.TOPActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:80:9-83:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:83:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:82:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:81:13-62
+activity#com.fantafeat.Activity.WithdrawListActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:84:9-87:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:87:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:86:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:85:13-71
+activity#com.fantafeat.Activity.MoreContestListActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:88:9-91:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:91:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:90:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:89:13-74
+activity#com.fantafeat.Activity.RummyContestActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:92:9-95:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:95:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:94:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:93:13-71
+activity#com.fantafeat.Activity.PaymentWebActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:96:9-99:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:99:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:98:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:97:13-69
+activity#com.fantafeat.Activity.WebViewGameActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:100:9-103:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:103:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:102:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:101:13-70
+activity#com.fantafeat.Activity.PromotorLeaderboardActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:104:9-107:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:107:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:106:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:105:13-78
+activity#com.fantafeat.Activity.FiferContestActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:108:9-111:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:111:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:110:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:109:13-71
+activity#com.fantafeat.Activity.SinglesContestActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:112:9-115:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:115:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:114:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:113:13-73
+activity#com.fantafeat.Activity.GameListActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:116:9-119:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:119:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:118:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:117:13-67
+activity#com.fantafeat.Activity.LudoContestListActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:120:9-123:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:123:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:122:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:121:13-74
+activity#com.fantafeat.Activity.ImagePickerActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:124:9-128:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:128:13-49
+	android:label
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:127:13-64
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:126:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:125:13-70
+activity#com.fantafeat.Activity.AffilationMatchList
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:129:9-133:51
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:132:13-73
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:131:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:130:13-70
+activity#com.fantafeat.Activity.CommongSoonActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:138:9-141:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:141:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:140:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:139:13-70
+activity#com.fantafeat.Activity.UserDetailActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:142:9-145:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:145:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:144:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:143:13-69
+activity#com.fantafeat.Activity.UserLeaderboardActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:146:9-149:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:149:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:148:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:147:13-74
+activity#com.fantafeat.Activity.InstantWithdrawActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:150:9-153:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:153:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:152:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:151:13-74
+activity#com.fantafeat.Activity.AffiliationDetailsActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:154:9-157:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:157:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:156:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:155:13-77
+activity#com.fantafeat.Activity.AffiliationActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:158:9-161:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:161:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:160:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:159:13-70
+activity#com.fantafeat.Activity.InviteFriendListActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:162:9-165:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:165:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:164:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:163:13-75
+activity#com.fantafeat.Activity.CallbackSelectQueryActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:166:9-169:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:169:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:168:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:167:13-78
+activity#com.fantafeat.Activity.CompareTeamActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:170:9-173:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:173:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:172:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:171:13-70
+activity#com.fantafeat.Activity.ProfileActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:174:9-177:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:177:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:176:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:175:13-66
+activity#com.fantafeat.Activity.PaytmVerifyActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:178:9-181:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:181:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:180:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:179:13-70
+activity#com.fantafeat.Activity.FullImageActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:182:9-185:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:185:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:184:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:183:13-68
+activity#com.fantafeat.Activity.UpdateKYCActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:186:9-189:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:189:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:188:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:187:13-68
+activity#com.fantafeat.Activity.CallbackActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:190:9-193:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:193:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:192:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:191:13-67
+activity#com.fantafeat.Activity.WebViewActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:194:9-197:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:197:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:196:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:195:13-66
+activity#com.fantafeat.Activity.TransactionListActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:198:9-201:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:201:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:200:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:199:13-74
+activity#com.fantafeat.Activity.WithdrawActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:202:9-205:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:205:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:204:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:203:13-67
+activity#com.fantafeat.Activity.RequestStatementActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:206:9-209:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:209:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:208:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:207:13-75
+activity#com.fantafeat.Activity.WelcomeActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:210:9-213:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:213:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:212:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:211:13-66
+activity#com.fantafeat.Activity.PromoteAppFormActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:214:9-217:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:217:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:216:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:215:13-73
+activity#com.fantafeat.Activity.PromoteAppActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:218:9-221:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:221:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:220:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:219:13-69
+activity#com.fantafeat.Activity.PlayerStatsActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:222:9-225:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:225:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:224:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:223:13-70
+activity#com.fantafeat.Activity.AfterMatchPlayerStatesActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:226:9-229:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:229:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:228:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:227:13-81
+activity#com.fantafeat.Activity.SwipeTeamActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:230:9-233:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:233:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:232:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:231:13-68
+activity#com.fantafeat.Activity.TeamSelectJoinActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:234:9-237:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:237:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:236:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:235:13-73
+activity#com.fantafeat.Activity.AddDepositActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:238:9-241:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:241:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:240:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:239:13-69
+activity#com.fantafeat.Activity.PaymentActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:242:9-245:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:245:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:244:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:243:13-66
+activity#com.fantafeat.Activity.NewPasswordActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:246:9-249:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:249:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:248:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:247:13-70
+activity#com.fantafeat.Activity.ForgotPasswordActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:250:9-253:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:253:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:252:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:251:13-73
+activity#com.fantafeat.Activity.SignUpActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:254:9-257:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:257:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:256:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:255:13-65
+activity#com.fantafeat.Activity.LeaderBoardActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:258:9-261:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:261:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:260:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:259:13-70
+activity#com.fantafeat.Activity.AfterMatchActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:262:9-265:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:265:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:264:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:263:13-69
+activity#com.fantafeat.Activity.SelectCVCActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:266:9-269:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:269:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:268:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:267:13-68
+activity#com.fantafeat.Activity.CricketSelectPlayerActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:270:9-273:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:273:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:272:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:271:13-78
+activity#com.fantafeat.Activity.ContestListActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:274:9-277:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:277:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:276:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:275:13-70
+activity#com.fantafeat.Activity.LoginActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:278:9-281:52
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:281:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:280:14-37
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:279:13-64
+activity#com.fantafeat.Activity.SplashActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:282:9-287:20
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:285:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:284:13-36
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:283:13-65
+activity#com.fantafeat.Activity.HomeActivity
+ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:288:9-293:20
+	android:screenOrientation
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:291:13-49
+	android:exported
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:290:13-36
+	android:name
+		ADDED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml:289:13-63
+uses-sdk
+INJECTED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/AndroidManifest.xml

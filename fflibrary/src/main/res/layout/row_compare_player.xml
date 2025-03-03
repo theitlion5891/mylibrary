@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="@dimen/_5sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_5sdp">
+
+
+                <ImageView
+                    android:id="@+id/imgUSerProfile"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:src="@drawable/user_image" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/type_left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SA|BAT"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_8ssp" />
+
+                    <TextView
+                        android:ellipsize="end"
+                        android:id="@+id/txtPlayerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Manoj"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="115"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:text="|"
+                        android:layout_weight="1.5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="@dimen/_10sdp"
+                        android:id="@+id/txtOppScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="105"
+                        android:textColor="@color/black" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/type_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IND|BAT"
+                        android:gravity="right"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_8ssp" />
+                    <TextView
+                        android:id="@+id/txtOppPlayerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kholi"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgOppUserProfile"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:src="@drawable/user_image" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/left_team_cvc"
+                    android:text="C"
+                    android:background="@drawable/white_circle"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:gravity="center"
+                    android:textSize="@dimen/_6sdp"
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"/>
+
+                <TextView
+                    android:id="@+id/right_team_cvc"
+                    android:text="VC"
+                    android:background="@drawable/white_circle"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:textSize="@dimen/_6sdp"
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"/>
+
+         <!--       <ImageView
+                    android:id="@+id/right_team_cvc"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/c"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>-->
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:background="@color/appBackground" />
+</LinearLayout>
