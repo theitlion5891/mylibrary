@@ -13,12 +13,13 @@
     <!--<item android:title="@string/feed"
         android:icon="@drawable/ic_feed"
         android:id="@+id/feed"/>-->
-    <item android:title=""
+   <!-- <item android:title=""
         android:enabled="false"
-        android:id="@+id/empty"/>
+        android:id="@+id/empty"/>-->
 
     <item android:title="@string/wallet"
         android:icon="@drawable/wallet_selector"
+        android:visible="false"
         android:id="@+id/wallet"/>
 
     <!--   <item android:title="Profile"
@@ -27,6 +28,7 @@
 
     <item android:title="More"
         android:icon="@drawable/more_selector"
+        android:visible="false"
         android:id="@+id/more"/>
 
 </menu>

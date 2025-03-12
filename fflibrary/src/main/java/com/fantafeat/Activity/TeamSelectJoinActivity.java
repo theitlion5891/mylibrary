@@ -53,7 +53,6 @@ import com.fantafeat.util.GetApiResult;
 import com.fantafeat.util.HttpRestClient;
 import com.fantafeat.util.LogUtil;
 import com.fantafeat.util.PrefConstant;
-import com.github.nkzawa.socketio.client.Socket;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.checkbox.MaterialCheckBox;
 
@@ -264,10 +263,10 @@ public class TeamSelectJoinActivity extends BaseActivity {
 
     private void makeArray() throws JSONException {
 
-        if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())){
+      /*  if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())){
             showBasicDetailDialog("makeArray");
             return;
-        }
+        }*/
 
         /*NumberFormat nf = NumberFormat.getNumberInstance(Locale.US);
         DecimalFormat format = (DecimalFormat) nf;
@@ -519,17 +518,18 @@ public class TeamSelectJoinActivity extends BaseActivity {
             if (amt<1){
                 amt=1;
             }
-            LogUtil.e("debg","amt if "+amt);
+            /*LogUtil.e("debg","amt if "+amt);
             String patableAmt=CustomUtil.getFormater("0.00").format(amt);
-            LogUtil.e("debg","amt patableAm1 "+patableAmt);
+            LogUtil.e("debg","amt patableAm1 "+patableAmt);*/
         //    String patableAmt=String.valueOf(Math.round(totalCharge-(deposit + useBonus + winning)));
             MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS,false);
-            Intent intent = new Intent(TeamSelectJoinActivity.this,AddDepositActivity.class);
+            CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+           /* Intent intent = new Intent(TeamSelectJoinActivity.this,AddDepositActivity.class);
             intent.putExtra("isJoin",true);
             intent.putExtra("depositAmt",patableAmt);
             intent.putExtra("contestData",gson.toJson(contestData));
-            startActivity(intent);
-            LogUtil.e("debg","amt patableAmt2 "+patableAmt);
+            startActivity(intent);*/
+           // LogUtil.e("debg","amt patableAmt2 "+patableAmt);
             return;
         }
 
@@ -1056,66 +1056,6 @@ public class TeamSelectJoinActivity extends BaseActivity {
 
     private void confirmTeam() {
 
-        if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())){
-            showBasicDetailDialog("confirm");
-            return;
-        }
-
-       /* use_deposit = use_transfer = use_winning = use_donation_deposit = useBonus = 0;
-
-        final float[] Contest_fee = {CustomUtil.convertFloat(contestData.getEntryFee())};
-        float orgContestEntry = CustomUtil.convertFloat(contestData.getEntryFee());
-        final float deposit = CustomUtil.convertFloat(preferences.getUserModel().getDepositBal());
-        float bonus = CustomUtil.convertFloat(preferences.getUserModel().getBonusBal());
-        final float winning = CustomUtil.convertFloat(preferences.getUserModel().getWinBal());
-        //final float transfer_bal = CustomUtil.convertFloat(preferences.getUserModel().getTransferBal());
-        float usableBonus = 0;
-
-        if (!TextUtils.isEmpty(contestData.getOffer_date_text())){
-            if (contestData.getNewOfferRemovedList().size()>0){
-                NewOfferModal modal=contestData.getNewOfferRemovedList().get(0);
-                if (modal.getDiscount_entry_fee().equalsIgnoreCase("")){
-                    Contest_fee[0] =CustomUtil.convertFloat(contestData.getEntryFee());
-                    orgContestEntry =CustomUtil.convertFloat(contestData.getEntryFee());
-                }else {
-                    Contest_fee[0] =CustomUtil.convertFloat(modal.getDiscount_entry_fee());
-                    orgContestEntry =CustomUtil.convertFloat(modal.getDiscount_entry_fee());
-                }
-                usableBonus=CustomUtil.convertFloat(modal.getUsed_bonus());
-                // teamno=modal.getTeam_no();
-            }
-            else {
-                usableBonus=CustomUtil.convertFloat(contestData.getDefaultBonus());
-                Contest_fee[0] =CustomUtil.convertFloat(contestData.getEntryFee());
-                orgContestEntry =CustomUtil.convertFloat(contestData.getEntryFee());
-            }
-        }else {
-            usableBonus=CustomUtil.convertFloat(contestData.getDefaultBonus());
-            Contest_fee[0] =CustomUtil.convertFloat(contestData.getEntryFee());
-            orgContestEntry =CustomUtil.convertFloat(contestData.getEntryFee());
-        }
-
-        useBonus = ((Contest_fee[0] * usableBonus) / 100);
-
-        if (useBonus > bonus) {
-            useBonus = bonus;
-        }
-
-        if (Contest_fee[0] - useBonus >= 0) {// (Contest_fee[0] - useBonus >= 0)
-            Contest_fee[0] = Contest_fee[0] - useBonus;
-        }
-
-        if ((Contest_fee[0] - deposit) < 0) {
-            use_deposit = Contest_fee[0];
-        }
-        else {
-            use_deposit = deposit;
-            //use_transfer = transfer_bal;
-            use_winning = Contest_fee[0] - deposit;
-        }
-
-        LogUtil.e(TAG, "onClick: deposit: " + deposit +"\n useBonus:" + useBonus + "\n Winning:" + winning);
-        LogUtil.e(TAG, "onClick: Total: " + (deposit + useBonus + winning)+"\n Contest_fee[0]:" + Contest_fee[0]);*/
 
         if (!isValidForJoin(contestData,1)) {//((deposit +  winning + useBonus) - Contest_fee[0]) < 0
 
@@ -1125,13 +1065,10 @@ public class TeamSelectJoinActivity extends BaseActivity {
                 amt=1;
             }
 
-            String patableAmt=CustomUtil.getFormater("0.00").format(amt);
+            //String patableAmt=CustomUtil.getFormater("0.00").format(amt);
             MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS,false);
-            Intent intent = new Intent(mContext,AddDepositActivity.class);
-            intent.putExtra("isJoin",true);
-            intent.putExtra("depositAmt",patableAmt);
-            intent.putExtra("contestData",gson.toJson(contestData));
-            startActivity(intent);
+            CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+
         }
         else {
             TextView join_contest_fee, join_use_deposit, join_use_borrowed, join_use_rewards,
@@ -1214,69 +1151,12 @@ public class TeamSelectJoinActivity extends BaseActivity {
 
                                 isValidForJoin(contestData,qty);
 
-                                /*use_deposit=use_winning=useBonus=0;
-                                Contest_fee[0]=CustomUtil.convertFloat(contestData.getEntryFee()) * qty;
-                                // LogUtil.e(TAG, "onClick: total: "+ total);
-
-                                float usableBonus = 0;
-                                if (CustomUtil.convertInt(contestData.getMyJoinedTeam()) < CustomUtil.convertInt(contestData.getMaxTeamBonusUse())) {
-                                    usableBonus = CustomUtil.convertFloat(contestData.getUseBonus());
-                                }
-                                else {
-                                    usableBonus = CustomUtil.convertFloat(contestData.getDefaultBonus());
-                                }
-                                useBonus = ((Contest_fee[0] * usableBonus) / 100);
-
-                                if (useBonus > bonus) {
-                                    useBonus = bonus;
-                                }
-
-                                if (Contest_fee[0] - useBonus >= 0) {// (Contest_fee - useBonus >= 0)
-                                    Contest_fee[0] = Contest_fee[0] - useBonus;
-                                }
-
-                                if ((Contest_fee[0] - deposit) < 0) {
-                                    use_deposit = Contest_fee[0];
-                                }
-                                else {
-                                    use_deposit = deposit;
-                                    //use_transfer = transfer_bal;
-                                    use_winning = Contest_fee[0] - deposit;
-                                }*/
                             }
                             else {
                                 qty = Integer.parseInt(edtConQty.getText().toString().trim());
 
                                 isValidForJoin(contestData,qty);
 
-                                /*use_deposit=use_winning=useBonus=0;
-                                Contest_fee[0]=CustomUtil.convertFloat(contestData.getEntryFee()) * qty;
-                                // LogUtil.e(TAG, "onClick: total: "+ total);
-
-                                float usableBonus = 0;
-                                if (CustomUtil.convertInt(contestData.getMyJoinedTeam()) < CustomUtil.convertInt(contestData.getMaxTeamBonusUse())) {
-                                    usableBonus = CustomUtil.convertFloat(contestData.getUseBonus());
-                                } else {
-                                    usableBonus = CustomUtil.convertFloat(contestData.getDefaultBonus());
-                                }
-                                useBonus = ((Contest_fee[0] * usableBonus) / 100);
-
-                                if (useBonus > bonus) {
-                                    useBonus = bonus;
-                                }
-
-                                if (Contest_fee[0] - useBonus >= 0) {// (Contest_fee - useBonus >= 0)
-                                    Contest_fee[0] = Contest_fee[0] - useBonus;
-                                }
-
-                                if ((Contest_fee[0] - deposit) < 0) {
-                                    use_deposit = Contest_fee[0];
-                                }
-                                else {
-                                    use_deposit = deposit;
-                                    //use_transfer = transfer_bal;
-                                    use_winning = Contest_fee[0] - deposit;
-                                }*/
                             }
 
                             LogUtil.e(TAG, "onClick: deposit_bal" + CustomUtil.getFormater("00.00").format(use_deposit) +
@@ -1306,21 +1186,6 @@ public class TeamSelectJoinActivity extends BaseActivity {
                 layMultiContest.setVisibility(View.GONE);
             }
 
-
-
-            //join_donation_select = (CheckBox) view.findViewById(R.id.join_donation_select);
-            //join_donation_text = (TextView) view.findViewById(R.id.join_donation_text);
-            //join_donation_price = (EditText) view.findViewById(R.id.join_donation_number);
-
-            /*join_donation_price.setEnabled(false);
-
-            if (preferences.getMatchModel().getTeamAXi().equalsIgnoreCase("Yes") &&
-                    preferences.getMatchModel().getTeamBXi().equalsIgnoreCase("Yes")){
-                join_donation_select.setChecked(false);
-            }else {
-                join_donation_select.setChecked(true);
-            }*/
-
             join_use_deposit.setText(getResources().getString(R.string.rs) + CustomUtil.getFormater("00.00").format((use_deposit+useCoin)));
             //join_use_borrowed.setText(getResources().getString(R.string.rs) + CustomUtil.getFormater("00.00").format(use_transfer));
             join_use_winning.setText(getResources().getString(R.string.rs) + CustomUtil.getFormater("00.00").format(use_winning));
@@ -1348,7 +1213,7 @@ public class TeamSelectJoinActivity extends BaseActivity {
 
                         if (!isValidForJoin(contestData,qty)){//((deposit +  winning + useBonus) - (CustomUtil.convertFloat(contestData.getEntryFee()) * qty)) < 0
                             bottomSheetDialog.dismiss();
-                            CustomUtil.showToast(mContext,"Insufficient Balance");
+                            //CustomUtil.showToast(mContext,"Insufficient Balance");
                             //float amt= (CustomUtil.convertFloat(contestData.getEntryFee()) * qty) - (deposit + winning);
                             double amt=Math.ceil(amtToAdd);
 
@@ -1356,13 +1221,10 @@ public class TeamSelectJoinActivity extends BaseActivity {
                                 amt=1;
                             }
                             contestData.setJoin_con_qty(edtConQty.getText().toString().trim());
-                            String patableAmt=CustomUtil.getFormater("0.00").format(amt);
+                            //String patableAmt=CustomUtil.getFormater("0.00").format(amt);
                             MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS,false);
-                            Intent intent = new Intent(mContext,AddDepositActivity.class);
-                            intent.putExtra("isJoin",true);
-                            intent.putExtra("depositAmt",patableAmt);
-                            intent.putExtra("contestData",gson.toJson(contestData));
-                            startActivity(intent);
+                            CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+
                             return;
                         }
 
@@ -1598,22 +1460,6 @@ public class TeamSelectJoinActivity extends BaseActivity {
             array.put(childObj);
             jsonObject.put("team_array",array);
 
-            /*if (contestData.getIs_pass().equalsIgnoreCase("yes")){
-                if (contestData.getPassModelArrayList().size()>0){
-                    LogUtil.e(TAG,"teamSelectJoin="+contestData.getPassModelArrayList().size());
-                    PassModel model = contestData.getPassModelArrayList().get(0);
-
-                    passData.put("id", model.getId());
-                    passData.put("no_of_entry", model.getNoOfEntry());
-                    passData.put("pass_id", model.getPassId());
-                    passData.put("total_join_spot", model.getTotalJoinSpot());
-                    LogUtil.e(TAG,"pass_data=>"+passData);
-
-                    jsonObject.put("pass_id",model.getPassId());
-                    jsonObject.put("applied_pass_count","");
-                    jsonObject.put("my_pass_data",passData);
-                }
-            }*/
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -1672,11 +1518,6 @@ public class TeamSelectJoinActivity extends BaseActivity {
                                 CustomUtil.convertFloat(user.getFf_coin());
 
                     }
-                    /*float total = CustomUtil.convertFloat(user.getDepositBal()) +
-                            CustomUtil.convertFloat(user.getWinBal()) +
-                            CustomUtil.convertFloat(user.getFf_coin()) +
-                          //  CustomUtil.convertFloat(user.getTransferBal()) +
-                            CustomUtil.convertFloat(user.getBonusBal());*/
 
                     user.setTotal_balance(total);
 
@@ -1799,11 +1640,6 @@ public class TeamSelectJoinActivity extends BaseActivity {
                                     CustomUtil.convertFloat(user.getFf_coin());
 
                         }
-                        /*float total = CustomUtil.convertFloat(user.getDepositBal()) +
-                                CustomUtil.convertFloat(user.getWinBal()) +
-                                CustomUtil.convertFloat(user.getFf_coin()) +
-                               // CustomUtil.convertFloat(user.getTransferBal()) +
-                                CustomUtil.convertFloat(user.getBonusBal());*/
 
                         user.setTotal_balance(total);
 
@@ -1822,41 +1658,6 @@ public class TeamSelectJoinActivity extends BaseActivity {
                         String message = responseBody.optString("msg");
                         CustomUtil.showTopSneakWarning(mContext, message);
 
-
-                      /*  if (responseBody.has("new_con_id")) {
-                            final String new_con_id = responseBody.optString("new_con_id");
-                            if (new_con_id != null && !new_con_id.equals("null") && !new_con_id.equals("0")) {
-                                AlertDialog.Builder builder = new AlertDialog.Builder(TeamSelectJoinActivity.this);
-                                builder.setTitle("The Contest is already full!!");//Almost there! That League filled up
-                                builder.setMessage("Don't worry, we have same contest for you! join this contest.");//No worries, join this League instead! it is exactly the same type
-                                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        dialog.dismiss();
-                                        try {
-                                            param.remove("contest_id");
-                                            param.put("contest_id", new_con_id);
-                                            joinContest(new_con_id);
-                                        } catch (JSONException e) {
-                                            e.printStackTrace();
-                                        }
-                                    }
-                                });
-                                builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialogInterface, int i) {
-                                        dialogInterface.dismiss();
-                                    }
-                                });
-                                // AlertDialog alertDialog = builder.create();
-                                builder.setCancelable(false);
-                                builder.show();
-                            } else {
-                                CustomUtil.showTopSneakError(mContext, "Please join another contest.");//Almost there! The League already filled Join any other League.
-                            }
-                        } else {
-                            CustomUtil.showTopSneakError(mContext, message);
-                        }*/
                     }
                 }
 
@@ -1868,20 +1669,6 @@ public class TeamSelectJoinActivity extends BaseActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    public void refreshArray(String id) {
-        String[] temp = new String[selectedTeams.length + 1];
-
-        for (int i = 0; i < selectedTeams.length+1; i++){
-            if (i==selectedTeams.length){
-                temp[i] = id;
-            }else {
-                temp[i] = selectedTeams[i];
-            }
-        }
-        selectedTeams = temp;
-        LogUtil.d("resp",selectedTeams+" ");
     }
 
     private void setTimer() {
@@ -2159,7 +1946,7 @@ public class TeamSelectJoinActivity extends BaseActivity {
                         confirmTeam();
                     }
                 } else {
-                    CustomUtil.showTopSneakError(mContext, responseBody.optString("msg"));
+                    CustomUtil.showToast(mContext, responseBody.optString("msg"));
                     LogUtil.e(TAG,"MDHD3:"+responseBody.optString("msg"));
                 }
             }

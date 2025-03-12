@@ -46,6 +46,7 @@ public class CompletedLeagueFragment extends BaseFragment {
     LinearLayoutManager linearLayoutManager;
     String sportId="";
     private long lastUpdateTime=0;
+    private boolean isDataLoaded=false;
 
     public CompletedLeagueFragment() {
        // this.sportId = sportId;
@@ -121,6 +122,15 @@ public class CompletedLeagueFragment extends BaseFragment {
                 }
             }
         });
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (isVisible() && !isDataLoaded) {
+            isDataLoaded=true;
+            getData();
+        }
     }
 
     protected void getData() {

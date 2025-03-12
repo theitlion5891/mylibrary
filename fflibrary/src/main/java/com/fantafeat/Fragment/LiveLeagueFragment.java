@@ -41,6 +41,7 @@ public class LiveLeagueFragment extends BaseFragment {
     ImageView imgPlace;
     TextView txtPlace;
     String sportId="";
+    private boolean isDataLoaded=false;
 
     public LiveLeagueFragment() {
       //  this.sportId = sportId;
@@ -79,6 +80,15 @@ public class LiveLeagueFragment extends BaseFragment {
         layNoData = view.findViewById(R.id.layNoData);
         imgPlace = view.findViewById(R.id.imgPlace);
         txtPlace = view.findViewById(R.id.txtPlace);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (isVisible() && !isDataLoaded) {
+            isDataLoaded=true;
+            getData();
+        }
     }
 
     @Override

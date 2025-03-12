@@ -1119,66 +1119,12 @@ public class MoreContestListActivity extends BaseActivity {
 
     public void confirmTeam(ContestModel.ContestDatum contestData) {
 
-        if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())) {
+        /*if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())) {
             showBasicDetailDialog(contestData);
             return;
-        }
+        }*/
 
         this.contestData = null;
-        //this.mainPosition=-1;
-
-        /*use_deposit = use_transfer = use_winning = use_donation_deposit = useBonus = 0;
-
-        final float[] Contest_fee = {CustomUtil.convertFloat(contestData.getEntryFee())};
-        float orgContestEntry = CustomUtil.convertFloat(contestData.getEntryFee());
-        final float deposit = CustomUtil.convertFloat(preferences.getUserModel().getDepositBal());
-        float bonus = CustomUtil.convertFloat(preferences.getUserModel().getBonusBal());
-
-        final float winning = CustomUtil.convertFloat(preferences.getUserModel().getWinBal());
-        //final float transfer_bal = CustomUtil.convertFloat(preferences.getUserModel().getTransferBal());
-        float usableBonus = 0;
-        // String teamno="";
-
-        if (contestData.getNewOfferRemovedList().size()>0){
-            NewOfferModal modal=contestData.getNewOfferRemovedList().get(0);
-            if (modal.getDiscount_entry_fee().equalsIgnoreCase("")){
-                Contest_fee[0] =CustomUtil.convertFloat(contestData.getEntryFee());
-                orgContestEntry =CustomUtil.convertFloat(contestData.getEntryFee());
-            }else {
-                Contest_fee[0] =CustomUtil.convertFloat(modal.getDiscount_entry_fee());
-                orgContestEntry =CustomUtil.convertFloat(modal.getDiscount_entry_fee());
-            }
-            usableBonus=CustomUtil.convertFloat(modal.getUsed_bonus());
-            // teamno=modal.getTeam_no();
-        }
-        else {
-            usableBonus=CustomUtil.convertFloat(contestData.getDefaultBonus());
-            Contest_fee[0] =CustomUtil.convertFloat(contestData.getEntryFee());
-            orgContestEntry =CustomUtil.convertFloat(contestData.getEntryFee());
-        }
-
-        useBonus = ((Contest_fee[0] * usableBonus) / 100);
-
-        if (useBonus > bonus) {
-            useBonus = bonus;
-        }
-
-        if (Contest_fee[0] - useBonus >= 0) {// (Contest_fee - useBonus >= 0)
-            Contest_fee[0] = Contest_fee[0] - useBonus;
-        }
-
-        if ((Contest_fee[0] - deposit) < 0) {
-            use_deposit = Contest_fee[0];
-        }
-        else {
-            use_deposit = deposit;
-            //use_transfer = transfer_bal;
-            use_winning = Contest_fee[0] - deposit;
-        }
-
-        LogUtil.e(TAG, "onClick: deposit: " + deposit +"\n useBonus:" + useBonus + "\n Winning:" + winning);
-        LogUtil.e(TAG, "onClick: Total: " + (deposit + useBonus + winning)+"\n Contest_fee:" + Contest_fee[0]);*/
-
         if (!isValidForJoin(contestData, 1)) {//((deposit +  winning ) - Contest_fee[0]) < 0
 
             this.contestData = contestData;
@@ -1193,11 +1139,12 @@ public class MoreContestListActivity extends BaseActivity {
 
             String patableAmt = CustomUtil.getFormater("0.00").format(amt);
             MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS, false);
-            Intent intent = new Intent(mContext, AddDepositActivity.class);
+            CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+            /*Intent intent = new Intent(mContext, AddDepositActivity.class);
             intent.putExtra("isJoin", true);
             intent.putExtra("depositAmt", patableAmt);
             intent.putExtra("contestData", gson.toJson(contestData));
-            startActivity(intent);
+            startActivity(intent);*/
         } else {
             TextView join_contest_fee, join_use_deposit, join_use_borrowed, join_use_rewards,
                     join_use_winning, join_user_pay;
@@ -1271,69 +1218,11 @@ public class MoreContestListActivity extends BaseActivity {
 
                                 isValidForJoin(contestData, qty);
 
-                                /*use_deposit=use_winning=useBonus=0;
-                                Contest_fee[0]=CustomUtil.convertFloat(contestData.getEntryFee()) * qty;
-                                // LogUtil.e(TAG, "onClick: total: "+ total);
-
-                                float usableBonus = 0;
-                                if (CustomUtil.convertInt(contestData.getMyJoinedTeam()) < CustomUtil.convertInt(contestData.getMaxTeamBonusUse())) {
-                                    usableBonus = CustomUtil.convertFloat(contestData.getUseBonus());
-                                }
-                                else {
-                                    usableBonus = CustomUtil.convertFloat(contestData.getDefaultBonus());
-                                }
-                                useBonus = ((Contest_fee[0] * usableBonus) / 100);
-
-                                if (useBonus > bonus) {
-                                    useBonus = bonus;
-                                }
-
-                                if (Contest_fee[0] - useBonus >= 0) {// (Contest_fee - useBonus >= 0)
-                                    Contest_fee[0] = Contest_fee[0] - useBonus;
-                                }
-
-                                if ((Contest_fee[0] - deposit) < 0) {
-                                    use_deposit = Contest_fee[0];
-                                }
-                                else {
-                                    use_deposit = deposit;
-                                    //use_transfer = transfer_bal;
-                                    use_winning = Contest_fee[0] - deposit;
-                                }*/
                             } else {
                                 qty = Integer.parseInt(edtConQty.getText().toString().trim());
 
                                 isValidForJoin(contestData, qty);
 
-                                /*use_deposit=use_winning=useBonus=0;
-                                Contest_fee[0]=CustomUtil.convertFloat(contestData.getEntryFee()) * qty;
-                                // LogUtil.e(TAG, "onClick: total: "+ total);
-
-                                float usableBonus = 0;
-                                if (CustomUtil.convertInt(contestData.getMyJoinedTeam()) < CustomUtil.convertInt(contestData.getMaxTeamBonusUse())) {
-                                    usableBonus = CustomUtil.convertFloat(contestData.getUseBonus());
-                                }
-                                else {
-                                    usableBonus = CustomUtil.convertFloat(contestData.getDefaultBonus());
-                                }
-                                useBonus = ((Contest_fee[0] * usableBonus) / 100);
-
-                                if (useBonus > bonus) {
-                                    useBonus = bonus;
-                                }
-
-                                if (Contest_fee[0] - useBonus >= 0) {// (Contest_fee - useBonus >= 0)
-                                    Contest_fee[0] = Contest_fee[0] - useBonus;
-                                }
-
-                                if ((Contest_fee[0] - deposit) < 0) {
-                                    use_deposit = Contest_fee[0];
-                                }
-                                else {
-                                    use_deposit = deposit;
-                                    //use_transfer = transfer_bal;
-                                    use_winning = Contest_fee[0] - deposit;
-                                }*/
                             }
 
                             LogUtil.e(TAG, "onClick: deposit_bal" + CustomUtil.getFormater("00.00").format(use_deposit) +
@@ -1386,7 +1275,7 @@ public class MoreContestListActivity extends BaseActivity {
 
                         if (!isValidForJoin(contestData, qty)) {//((deposit +  winning  ) - Contest_fee[0]) < 0
                             bottomSheetDialog.dismiss();
-                            CustomUtil.showToast(mContext, "Insufficient Balance");
+                            //CustomUtil.showToast(mContext, "Insufficient Balance");
                             //float amt= Contest_fee[0] - (deposit + winning);
                             double amt = Math.ceil(amtToAdd);
 
@@ -1396,11 +1285,12 @@ public class MoreContestListActivity extends BaseActivity {
                             contestData.setJoin_con_qty(edtConQty.getText().toString().trim());
                             String patableAmt = CustomUtil.getFormater("0.00").format(amt);
                             MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS, false);
-                            Intent intent = new Intent(mContext, AddDepositActivity.class);
+                            CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+                            /*Intent intent = new Intent(mContext, AddDepositActivity.class);
                             intent.putExtra("isJoin", true);
                             intent.putExtra("depositAmt", patableAmt);
                             intent.putExtra("contestData", gson.toJson(contestData));
-                            startActivity(intent);
+                            startActivity(intent);*/
                             return;
                         }
 
@@ -1714,7 +1604,7 @@ public class MoreContestListActivity extends BaseActivity {
                     confirmTeam(contestData);
 
                 } else {
-                    CustomUtil.showTopSneakError(mContext, responseBody.optString("msg"));
+                    CustomUtil.showToast(mContext, responseBody.optString("msg"));
                     LogUtil.e(TAG, "joinSucess");
                 }
             }

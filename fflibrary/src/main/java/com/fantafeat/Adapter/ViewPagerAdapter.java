@@ -5,15 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 
-import com.fantafeat.Fragment.BasketballHomeFragment;
 import com.fantafeat.Fragment.CricketHomeFragment;
-import com.fantafeat.Fragment.FootballHomeFragment;
-import com.fantafeat.Fragment.BaseballHomeFragment;
-import com.fantafeat.Fragment.KabaddiFragment;
-import com.fantafeat.Fragment.VollyballHomeFragment;
 import com.fantafeat.Model.SportsModel;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ViewPagerAdapter extends FragmentStateAdapter {
@@ -21,16 +15,14 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
     private final List<String> mFragmentTitleList = new ArrayList<>();*/
     private List<SportsModel> allSports;
     //private Fragment fragment;
-    private String linkData;
+
 
     /*public ViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
     }*/
 
-    public ViewPagerAdapter(@NonNull Fragment fragment, List<SportsModel> sports,String linkData) {
+    public ViewPagerAdapter(@NonNull Fragment fragment, List<SportsModel> sports) {
         super(fragment);
-        //this.fragment=fragment;
-        this.linkData=linkData;
         this.allSports = sports;
     }
 
@@ -39,7 +31,7 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         SportsModel sportsModel = allSports.get(position);
       //  LogUtil.d("resp",sportsModel.getId()+"   "+sportsModel.getSportName()+"  "+position);
-        return CricketHomeFragment.newInstance(sportsModel.getId(),linkData);//fragment
+        return CricketHomeFragment.newInstance(sportsModel.getId());//fragment
 
        /* if(Integer.parseInt(sportsModel.getId()) == 1) {
             return CricketHomeFragment.newInstance(sportsModel.getId(),linkData*//*,fragment*//*);

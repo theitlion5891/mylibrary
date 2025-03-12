@@ -7,69 +7,8 @@
     android:orientation="vertical"
     tools:context=".Fragment.MatchMyContestFragment">
 
-    <LinearLayout
-        android:id="@+id/layTabs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/blackSecondary"
-        android:padding="1dp"
-        android:layout_gravity="center"
-        android:visibility="visible"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginHorizontal="@dimen/_20sdp"
-            android:layout_marginVertical="@dimen/_3sdp"
-            android:background="@drawable/white_fill_curve"
-            android:orientation="horizontal">
-            <TextView
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Classic"
-                android:paddingHorizontal="@dimen/_8sdp"
-                android:paddingVertical="@dimen/_2sdp"
-                android:background="@drawable/primary_fill_border"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_9sdp"
-                android:id="@+id/btnClassic"/>
-           <!-- <TextView
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Singles"
-                android:paddingHorizontal="@dimen/_8sdp"
-                android:paddingVertical="@dimen/_2sdp"
-                android:background="@drawable/transparent_view"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_9sdp"
-                android:id="@+id/btnDuo"/>-->
-            <TextView
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Fifer"
-                android:paddingHorizontal="@dimen/_8sdp"
-                android:paddingVertical="@dimen/_2sdp"
-                android:background="@drawable/transparent_view"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_9sdp"
-                android:id="@+id/btnQuinto"/>
-        </LinearLayout>
-
-    </LinearLayout>
-
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/refresh_my_contest"
-        android:layout_below="@+id/layTabs"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -114,25 +53,5 @@
         </LinearLayout>
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="@dimen/_100sdp"
-        android:layout_height="@dimen/_40sdp"
-        android:id="@+id/cardMvp"
-        android:visibility="visible"
-        android:layout_gravity="center"
-        android:layout_marginEnd="-20dp"
-        android:layout_alignParentEnd="true"
-        app:cardCornerRadius="@dimen/_20sdp"
-        app:cardElevation="@dimen/_5sdp"
-        android:layout_alignParentBottom="true"
-        app:contentPaddingLeft="@dimen/_15sdp"
-        android:layout_marginBottom="@dimen/top_bottom_margin">
-        <ImageView
-            android:layout_width="@dimen/_60sdp"
-            android:layout_height="@dimen/_40sdp"
-            android:src="@drawable/ic_mvp_launcher"
-            android:id="@+id/imgTop"/>
-    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

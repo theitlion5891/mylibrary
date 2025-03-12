@@ -19,9 +19,6 @@ import com.fantafeat.Session.BaseFragment;
 import com.fantafeat.Session.MyApp;
 import com.fantafeat.util.ApiManager;
 import com.fantafeat.util.ConstantUtil;
-import com.fantafeat.util.GetGroupDetail;
-import com.fantafeat.util.LogUtil;
-import com.github.nkzawa.socketio.client.Socket;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
@@ -82,8 +79,8 @@ public class MyLeagueInnerTabFragment extends BaseFragment {
                     }
                 }).attach();
 
-        league_inner_viewpager.setOffscreenPageLimit(3);
-        league_inner_viewpager.setCurrentItem(0);
+        league_inner_viewpager.setOffscreenPageLimit(1);
+        league_inner_viewpager.setCurrentItem(0,false);
         league_inner_viewpager.setUserInputEnabled(ApiManager.isPagerSwipe);
         ConstantUtil.reduceDragSensitivity(league_inner_viewpager);
 
@@ -107,7 +104,7 @@ public class MyLeagueInnerTabFragment extends BaseFragment {
         league_inner_tabs.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                if(tab.getPosition() == 0){
+                /*if(tab.getPosition() == 0){
                     if(upcomingLeagueFragment != null) {
                         upcomingLeagueFragment.getData();
                     }
@@ -123,7 +120,7 @@ public class MyLeagueInnerTabFragment extends BaseFragment {
                         completedLeagueFragment.matchAfterModelList = new ArrayList<>();
                         initSocket("completedtab");
                     }
-                }
+                }*/
             }
 
             @Override

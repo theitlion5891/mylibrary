@@ -1,38 +1,38 @@
 [
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/color-v23/abc_tint_edittext.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/color-v23/abc_tint_edittext.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/color-v23/abc_tint_switch_track.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/color-v23/abc_tint_switch_track.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/color-v23/abc_color_highlight_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/color-v23/abc_color_highlight_material.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/color-v23/abc_tint_default.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/color-v23/abc_tint_btn_checkable.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/color-v23/abc_tint_btn_checkable.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/color-v23/abc_tint_edittext.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/color-v23/abc_tint_switch_track.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/color-v23/abc_tint_switch_track.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/color-v23/abc_tint_btn_checkable.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/color-v23/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/color-v23/abc_btn_colored_text_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/color-v23/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/color-v23/abc_tint_spinner.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/color-v23/abc_tint_spinner.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/color-v23/abc_tint_seek_thumb.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/color-v23/abc_tint_seek_thumb.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/color-v23/abc_tint_seek_thumb.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/color-v23/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/color-v23/abc_tint_default.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/color-v23/abc_tint_default.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/color-v23/abc_color_highlight_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/color-v23/abc_color_highlight_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/color-v23/abc_btn_colored_text_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/color-v23/abc_btn_colored_text_material.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/color-v23/abc_tint_spinner.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/color-v23/abc_tint_spinner.xml"
     }
 ]

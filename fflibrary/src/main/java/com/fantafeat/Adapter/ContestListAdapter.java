@@ -1,10 +1,8 @@
 package com.fantafeat.Adapter;
 
-import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.net.Uri;
 import android.text.TextUtils;
@@ -28,10 +26,8 @@ import com.fantafeat.Activity.CustomMoreContestListActivity;
 import com.fantafeat.Activity.LeaderBoardActivity;
 import com.fantafeat.Activity.MoreContestListActivity;
 import com.fantafeat.Activity.TeamSelectJoinActivity;
-import com.fantafeat.Activity.UserLeaderboardActivity;
 import com.fantafeat.Model.ContestModel;
 import com.fantafeat.Model.NewOfferModal;
-import com.fantafeat.Model.PassModel;
 import com.fantafeat.Model.SportsModel;
 import com.fantafeat.R;
 import com.fantafeat.Session.MyApp;
@@ -265,7 +261,7 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
             //holder.join_btn.setBackground(mContext.getResources().getDrawable(R.drawable.green_filled_btn));
         }
 
-        if (list.getIs_lb().equalsIgnoreCase("yes")){
+        /*if (list.getIs_lb().equalsIgnoreCase("yes")){
             holder.txtLeaderboard.setVisibility(View.VISIBLE);
             holder.txtLeaderboard.setAnimation(animation);
             ViewGroup.MarginLayoutParams cardViewMarginParams = (ViewGroup.MarginLayoutParams) holder.contest_card.getLayoutParams();
@@ -277,7 +273,10 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
             ViewGroup.MarginLayoutParams cardViewMarginParams = (ViewGroup.MarginLayoutParams) holder.contest_card.getLayoutParams();
             cardViewMarginParams.setMargins(30, 15, 30, 30);
             holder.contest_card.requestLayout();
-        }
+        }*/
+        ViewGroup.MarginLayoutParams cardViewMarginParams = (ViewGroup.MarginLayoutParams) holder.contest_card.getLayoutParams();
+        cardViewMarginParams.setMargins(30, 15, 30, 30);
+        holder.contest_card.requestLayout();
 
         if (list.getIs_flexi().equalsIgnoreCase("yes")){
             holder.layConfirm.setVisibility(View.VISIBLE);
@@ -331,50 +330,6 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
 
         holder.txtWinPer.setText(totalWin+"%");
 
-        /*if (list.getContestFavorite()){
-            holder.imgFavBtn.setImageResource(R.drawable.ic_unfavorite_contest);
-        }
-        else {
-            holder.imgFavBtn.setImageResource(R.drawable.ic_favorite_contest);
-        }
-
-        if (isMyJoined){
-            holder.imgFavBtn.setVisibility(View.GONE);
-        }
-        else {
-            if (list.getConTypeName().equalsIgnoreCase("Grand Leagues")){
-                holder.imgFavBtn.setVisibility(View.GONE);
-            }else {
-                holder.imgFavBtn.setVisibility(View.VISIBLE);
-            }
-        }*/
-
-        String finalEntryFee = entryFee;
-        holder.imgShare.setOnClickListener(view -> {
-            String url= ConstantUtil.LINK_FANTASY_URL+MyApp.getMyPreferences().getMatchModel().getSportId()+"/"+
-                    MyApp.getMyPreferences().getMatchModel().getId()+ "/"+list.getId();
-            //LogUtil.e("resp","Share Link: "+url);
-            /*FirebaseDynamicLinks.getInstance().createDynamicLink()
-                    .setLink(Uri.parse(url))
-                    .setDomainUriPrefix(ConstantUtil.LINK_PREFIX_URL)
-                    .setIosParameters(new DynamicLink.IosParameters.Builder(ConstantUtil.FF_IOS_APP_BUNDLE).setAppStoreId(ConstantUtil.FF_IOS_APP_ID)
-                            .setFallbackUrl(Uri.parse(ConstantUtil.FALL_BACK_LINK)).build())
-                    .setAndroidParameters(new DynamicLink.AndroidParameters.Builder()
-                            .setFallbackUrl(Uri.parse(ConstantUtil.FALL_BACK_LINK))
-                            .build())
-                    .buildShortDynamicLink(ShortDynamicLink.Suffix.SHORT)
-                    .addOnCompleteListener((Activity) mContext, task -> {
-                        if (task.isSuccessful()) {
-                            if (task.getResult().getShortLink()!=null)
-                                shareShortLink(task.getResult().getShortLink(),list, finalEntryFee,totalSpots - jointeam);
-                            else {
-                                CustomUtil.showTopSneakWarning(mContext,"Can't share this");
-                            }
-                        } else {
-                            CustomUtil.showTopSneakWarning(mContext,"Can't share this");
-                        }
-                    });*/
-        });
 
         holder.imgOfferText.setOnClickListener(v->{
             if (MyApp.getClickStatus()) {
@@ -395,40 +350,6 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
             }
         });
 
-        /*holder.imgFavBtn.setOnClickListener(v->{
-            if (MyApp.getClickStatus()) {
-                holder.imgFavBtn.setEnabled(false);
-                String msg="";
-                if (list.getContestFavorite()){
-                    msg="Are you sure you want Unfavorite this Contest?";
-                }else {
-                    msg="Are you sure you want favorite this Contest?";
-                }
-
-                AlertDialog.Builder alert=new AlertDialog.Builder(mContext);
-                alert.setMessage(msg);
-                alert.setCancelable(false);
-                alert.setPositiveButton("Yes", (dialog, which) -> {
-                    holder.imgFavBtn.setEnabled(true);
-                    try {
-                        if (mContext instanceof  ContestListActivity){
-                            ((ContestListActivity)mContext).followUnFollowAction(list);
-                        }else {
-                            ((MoreContestListActivity)mContext).followUnFollowAction(list);
-                        }
-
-                    }catch (Exception e){
-                        e.printStackTrace();
-                    }
-                });
-                alert.setNegativeButton("No", (dialog, which) -> {
-                    holder.imgFavBtn.setEnabled(true);
-                    dialog.dismiss();
-                });
-                alert.show();
-            }
-        });*/
-
         holder.linear2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -439,13 +360,6 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
                     intent.putExtra("model",model);
                     mContext.startActivity(intent);
                 }
-            }
-        });
-
-        holder.txtLeaderboard.setOnClickListener(v->{
-            if (MyApp.getClickStatus()) {
-                mContext.startActivity(new Intent(mContext, UserLeaderboardActivity.class)
-                        .putExtra("leaderboard_id",list.getLb_id()));
             }
         });
 
@@ -483,25 +397,6 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
                 holder.contest_tree_layout.performClick();
             }
         });
-
-
-        /*if (list.getIs_pass() != null && list.getIs_pass().equalsIgnoreCase("yes")) {
-            if (list.getPassModelArrayList().size()>0){
-                holder.imgPass.setVisibility(View.VISIBLE);
-                holder.ll_pass.setVisibility(View.VISIBLE);
-                LogUtil.e("Size","SIZEE="+list.getPassModelArrayList().size());
-            }
-            else {
-                LogUtil.e("Sizeno","SIZEEno="+list.getPassModelArrayList().size());
-                holder.imgPass.setVisibility(View.GONE);
-                holder.ll_pass.setVisibility(View.GONE);
-            }
-
-        }else{
-            LogUtil.e("Sizenrtro","SIZEEnortr="+list.getPassModelArrayList().size());
-            holder.imgPass.setVisibility(View.GONE);
-            holder.ll_pass.setVisibility(View.GONE);
-        }*/
 
         holder.contest_entry.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -746,11 +641,11 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
 
     public class ContestListHolder extends RecyclerView.ViewHolder {
         TextView contest_price_pool, /*contest_total_winner,*/ contest_entry, contest_left_team, contest_total_team,/*contest_bonus,
-                contest_bonus_b,*/txtLeaderboard,txtSingleMultiple,txtFirstWin,txtWinPer,txtBonus,
+                contest_bonus_b,*//*txtLeaderboard,*/txtSingleMultiple,txtFirstWin,txtWinPer,txtBonus,
                 contest_left_spots_text, contest_offer_price, contest_total_spots_text,contest_confirm,/*contest_confirm,contest_multiple,txtSingleEntry,*/contest_offer_text;
         ProgressBar contest_progress;
         CardView contest_card;
-        ImageView /*imgFavBtn,*/imgOfferText,imgSingleMultiple,imgShare,imgConfirm;
+        ImageView /*imgFavBtn,*/imgOfferText,imgSingleMultiple,imgConfirm;
        // View vofr;
 
         LinearLayout contest_full_linear,teams_left_linear,linear2,/*join_btn,bonus_linear,*/contest_tree_layout,layConfirm,laySingleMultiple,
@@ -774,7 +669,7 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
             //contest_multiple = itemView.findViewById(R.id.contest_multiple);
             contest_full_linear = itemView.findViewById(R.id.contest_full_linear);
             teams_left_linear = itemView.findViewById(R.id.teams_left_linear);
-            txtLeaderboard = itemView.findViewById(R.id.txtLeaderboard);
+            //txtLeaderboard = itemView.findViewById(R.id.txtLeaderboard);
             imgSingleMultiple = itemView.findViewById(R.id.imgSingleMultiple);
             txtSingleMultiple = itemView.findViewById(R.id.txtSingleMultiple);
             laySingleMultiple = itemView.findViewById(R.id.laySingleMultiple);
@@ -786,19 +681,9 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
             layConfirm = itemView.findViewById(R.id.layConfirm);
             txtBonus = itemView.findViewById(R.id.txtBonus);
             layBonus = itemView.findViewById(R.id.layBonus);
-            imgShare = itemView.findViewById(R.id.imgShare);
-            //join_btn = itemView.findViewById(R.id.join_btn);
             linear2 = itemView.findViewById(R.id.linear2);
-            //bonus_linear = itemView.findViewById(R.id.bonus_linear);
-           // contest_bonus = itemView.findViewById(R.id.contest_bonus);
-            //txtSingleEntry = itemView.findViewById(R.id.txtSingleEntry);
             imgOfferText = itemView.findViewById(R.id.imgOfferText);
-            //imgFavBtn = itemView.findViewById(R.id.imgFavBtn);
             contest_offer_text = itemView.findViewById(R.id.contest_offer_text);
-            /*anim = ObjectAnimator.ofFloat(contest_offer_text, "alpha", 0.5f, 1.0f);
-            anim.setRepeatMode(Animation.REVERSE);
-            anim.setRepeatCount(Animation.INFINITE);
-            anim.setDuration(300);*/
 
             animation = AnimationUtils.loadAnimation(mContext,
                     R.anim.bottom_to_original);

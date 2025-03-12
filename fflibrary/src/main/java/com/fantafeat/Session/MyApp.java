@@ -32,12 +32,7 @@ public class MyApp extends Application {
 
     private static Context appContext;
     private static Toast toast;
-    public native String getSocketServer();
     public native String getImageBase();
-    public native String getPhonePeMID();
-    //static Socket mSocket;
-    //public static String URL = "http://13.127.129.218:8090/";
-    //public static String URL = "http://192.168.0.117:8090/";
 
     static long oldSecond = -1;
 
@@ -47,8 +42,6 @@ public class MyApp extends Application {
     static SharedPreferences.Editor editor = null;
 
     private static final String TAG = "MyApp";
-    public static SocketIo socketIo;
-    private  String URL = getSocketServer();
     private  String IMAGEURL = getImageBase();
 
     private static MyPreferences myPreferences;
@@ -80,41 +73,6 @@ public class MyApp extends Application {
         deviceBrand = Build.BRAND;
         deviceHardware = Build.HARDWARE;
 
-        //PhonePe.init(this, PhonePeEnvironment.RELEASE, getPhonePeMID(), "");//44b0b243823c4222bbe886ac2dd1717d
-
-        //socketIo = new SocketIo();
-        //socketIo.connect(getApplicationContext());
-
-       /* if (BuildConfig.APPLICATION_ID.equalsIgnoreCase(ConstantUtil.TEST_APP)){
-            ConstantUtil.is_game_test=true;
-            ApiManager.BASE=getDashBASEURL();
-            ApiManager.V3BASE=getV3DASHBASEURL();
-            ApiManager.OPINIOBASEURL=getOpinioDashBaseUrl();
-            LogUtil.isLog=true;
-        }else {
-            ConstantUtil.is_game_test=false;
-            ApiManager.BASE=getBASEURL();
-            ApiManager.V3BASE=getV3BASEURL();
-            ApiManager.OPINIOBASEURL=getOpinioBaseUrl();
-            LogUtil.isLog=false;
-        }*/
-
-       /* try {
-            IO.Options opts =new IO.Options();
-            //opts.query = "auth_token=$authToken"
-             *//*if (ConstantUtil.is_game_test)
-                 iSocket = IO.socket("http://65.1.2.61:2021/", opts);
-            else*//*
-                iSocket = IO.socket(URL, opts);
-
-            iSocket.connect();
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }*/
-
-        if(myPreferences == null){
-            Log.e(TAG, "onCreate: preferance");
-        }
 
         if (myPreferences.getUserModel().getId() != null &&
                 !myPreferences.getUserModel().getId().equals("")){
@@ -134,74 +92,9 @@ public class MyApp extends Application {
         }else {
             imageBase=myPreferences.getPrefString(PrefConstant.IMAGE_BASE);
         }
-        //imageBase=myPreferences.getPrefString(PrefConstant.IMAGE_BASE);
-        //LogUtil.e("Serial",deviceId);
-       /* if (TextUtils.isEmpty(myPreferences.getPrefString(PrefConstant.IMAGE_BASE))){
-            ApiManager.IMGURL=ApiManager.BASE+"myAppImages/";
-            myPreferences.setPref(PrefConstant.IMAGE_BASE,ApiManager.IMGURL);
-        }else {
-            ApiManager.IMGURL=myPreferences.getPrefString(PrefConstant.IMAGE_BASE);
-        }*/
-       // ApiManager.IMGURL=myPreferences.getPrefString(PrefConstant.IMAGE_BASE);
-
-        //getFCMToken();
-        /*FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(instanceIdResult -> {
-            LogUtil.d("token","  "+instanceIdResult.getToken());
-            if (instanceIdResult!=null && TextUtils.isEmpty(instanceIdResult.getToken())){
-                tokenNo=instanceIdResult.getToken();
-            }
-
-        });
-*/
 
 
-    }
 
-   /* public static HttpProxyCacheServer getProxy(Context context) {
-        MyApp app = (MyApp) context.getApplicationContext();
-        return app.proxy == null ? (app.proxy = app.newProxy()) : app.proxy;
-    }
-
-    private HttpProxyCacheServer newProxy() {
-        //return new HttpProxyCacheServer(this);
-        return new HttpProxyCacheServer.Builder(this)
-                .cacheDirectory(new File(getExternalCacheDir(), "video-cache"))
-                .maxCacheFilesCount(40)
-                .maxCacheSize(1024 * 1024 * 1024)
-                .build();
-    }*/
-
-    public static String getImageBaseUrl(){
-        if (TextUtils.isEmpty(imageBase))
-            return myPreferences.getPrefString(PrefConstant.IMAGE_BASE);
-        else
-            return imageBase;
-    }
-
-    public  String getApp_url() {
-        if (TextUtils.isEmpty(app_url) || app_url.equalsIgnoreCase("null")){
-            app_url="https://ffcdn.fantafeat.com/apk/fantafeat.apk";
-        }
-        return app_url;
-    }
-
-    public void setApp_url(String app_url) {
-        this.app_url = app_url;
-    }
-
-    public static void setImageBaseUrl(){
-        imageBase=myPreferences.getPrefString(PrefConstant.IMAGE_BASE);
-    }
-
-    private void getFCMToken(){
-/*        FirebaseMessaging.getInstance().getToken().addOnSuccessListener(tokenNo->{
-            if (!TextUtils.isEmpty(tokenNo)) {
-                MyApp.tokenNo=tokenNo;
-                Log.d(TAG, "retrieve token successful : " + tokenNo);
-            } else{
-                Log.w(TAG, "token should not be null...");
-            }
-        });*/
     }
 
     public static SimpleDateFormat changedFormat(String pattern){
@@ -227,15 +120,6 @@ public class MyApp extends Application {
         return appContext;
     }
 
-    public static String getDeviceName() {
-        String manufacturer = Build.MANUFACTURER;
-        String model = Build.MODEL;
-        if (model.startsWith(manufacturer)) {
-            return capitalize(model);
-        } else {
-            return capitalize(manufacturer) + " " + model;
-        }
-    }
 
     private static String capitalize(String s) {
         if (s == null || s.length() == 0) {

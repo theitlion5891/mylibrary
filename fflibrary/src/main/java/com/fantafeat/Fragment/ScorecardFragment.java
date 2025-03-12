@@ -31,7 +31,6 @@ import com.fantafeat.util.HttpRestClient;
 import com.fantafeat.util.LogUtil;
 import com.fantafeat.util.OnFragmentInteractionListener;
 import com.google.gson.JsonSyntaxException;
-import com.itextpdf.text.pdf.parser.Line;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -52,6 +51,7 @@ public class ScorecardFragment extends BaseFragment {
     private String selectedTeam="";
     private StateTeamFilterAdapter filterAdapter;
     private OnFragmentInteractionListener mListener;
+    private boolean isDataLoaded=false;
 
     @Override
     public void onAttach(Context context) {
@@ -106,7 +106,11 @@ public class ScorecardFragment extends BaseFragment {
         super.onResume();
         this.matchModel=preferences.getMatchModel();
         //getTeamData();
-        setScoreData();
+        if (isVisible() && !isDataLoaded) {
+            isDataLoaded = true;
+            setScoreData();
+        }
+       // setScoreData();
     }
 
     public void setScoreData(){

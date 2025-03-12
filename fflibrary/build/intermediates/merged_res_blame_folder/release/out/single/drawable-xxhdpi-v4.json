@@ -1,318 +1,166 @@
 [
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_cf_close.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_ic_cf_close.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_cvv.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_cvv.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/ic_call_answer.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/drawable-xxhdpi-v4/ic_call_answer.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_nb.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_ic_nb.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_person.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_person.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/team_loading.png",
-        "source": "com.fantafeat.fflibrary-main-58:/drawable-xxhdpi/team_loading.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/team_loading.png",
+        "source": "com.fantafeat.fflibrary-main-38:/drawable-xxhdpi/team_loading.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_cf_back.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_ic_cf_back.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/ic_call_answer_video.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/drawable-xxhdpi-v4/ic_call_answer_video.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ic_call_decline_low.png",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-xxhdpi-v4/ic_call_decline_low.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/ic_call_answer_video_low.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/drawable-xxhdpi-v4/ic_call_answer_video_low.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_list_focused_holo.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_round_info.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_ic_round_info.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_logo_complete.png",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-xxhdpi-v4/cf_logo_complete.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_vendor_amex.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_vendor_amex.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ic_call_decline.png",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-xxhdpi-v4/ic_call_decline.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ic_call_answer_low.png",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-xxhdpi-v4/ic_call_answer_low.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/ic_call_decline_low.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/drawable-xxhdpi-v4/ic_call_decline_low.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/googleg_standard_color_18.png",
-        "source": "com.fantafeat.fflibrary-play-services-base-18.0.1-1:/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_down.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_ic_down.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ic_call_answer_video.png",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-xxhdpi-v4/ic_call_answer_video.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
-        "source": "com.fantafeat.fflibrary-play-services-base-18.0.1-1:/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/ic_call_decline.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/drawable-xxhdpi-v4/ic_call_decline.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ucrop_ic_angle.png",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/drawable-xxhdpi-v4/ucrop_ic_angle.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_date.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_date.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/ic_push_notification_icon.png",
+        "source": "com.fantafeat.fflibrary-main-38:/drawable-xxhdpi/ic_push_notification_icon.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_vendor_master.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_vendor_master.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
-        "source": "com.fantafeat.fflibrary-play-services-base-18.0.1-1:/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_list_focused_holo.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_vendor_diners.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_vendor_diners.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_outline_pending.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_ic_outline_pending.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_qr.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_ic_qr.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/ic_call_answer_low.png",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/drawable-xxhdpi-v4/ic_call_answer_low.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ic_call_answer.png",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-xxhdpi-v4/ic_call_answer.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_pay_later.png",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-xxhdpi-v4/cf_ic_pay_later.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_vendor_jcb.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_vendor_jcb.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_wallet.png",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-xxhdpi-v4/cf_ic_wallet.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_round_info_highlighted.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_ic_round_info_highlighted.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
-        "source": "com.fantafeat.fflibrary-play-services-base-18.0.1-1:/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_up.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_ic_up.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_vendor_mastercard.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_vendor_mastercard.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_card.png",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-xxhdpi-v4/cf_ic_card.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_vendor_maestro.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_vendor_maestro.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_bank_placeholder.png",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-xxhdpi-v4/cf_ic_bank_placeholder.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
-        "source": "com.fantafeat.fflibrary-play-services-base-18.0.1-1:/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
-        "source": "com.fantafeat.fflibrary-play-services-base-18.0.1-1:/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ucrop_ic_done.png",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/drawable-xxhdpi-v4/ucrop_ic_done.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ic_push_notification_icon.png",
-        "source": "com.fantafeat.fflibrary-main-58:/drawable-xxhdpi/ic_push_notification_icon.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ic_cf_logo.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/ic_cf_logo.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_number.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_number.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_upi.png",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-xxhdpi-v4/cf_ic_upi.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_icon_success.png",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-xxhdpi-v4/cf_icon_success.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/ic_call_answer_video_low.png",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/drawable-xxhdpi-v4/ic_call_answer_video_low.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_vendor_visa.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_vendor_visa.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_ic_failure.png",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/drawable-xxhdpi-v4/cf_ic_failure.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/cf_card_vendor_rupay.png",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/drawable-xxhdpi-v4/cf_card_vendor_rupay.png"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl.png",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl.png"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     }
 ]

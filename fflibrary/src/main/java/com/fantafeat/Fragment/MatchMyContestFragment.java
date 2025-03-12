@@ -16,7 +16,6 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.os.Environment;
 import android.os.StrictMode;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,12 +25,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.fantafeat.Activity.AfterMatchActivity;
-import com.fantafeat.Activity.FiferContestActivity;
-import com.fantafeat.Activity.SinglesContestActivity;
-import com.fantafeat.Adapter.GroupListAdapter;
 import com.fantafeat.Adapter.JoinLeagueAdapter;
 import com.fantafeat.Model.ContestModel;
-import com.fantafeat.Model.GroupContestModel;
 import com.fantafeat.Model.GroupModel;
 import com.fantafeat.Model.MatchModel;
 import com.fantafeat.R;
@@ -63,11 +58,11 @@ public class MatchMyContestFragment extends BaseFragment {
 
     private RecyclerView joined_team_contest_list;
     SwipeRefreshLayout refresh_my_contest;
-    CardView cardMvp;
+
     JoinLeagueAdapter adapter;
     public List<ContestModel.ContestDatum> contestModelList;
-    private TextView btnClassic,/*btnDuo,*/btnQuinto;
-    private LinearLayout layTabs,layNoDataDuo;
+   // private TextView btnClassic,/*btnDuo,*/btnQuinto;
+    private LinearLayout/* layTabs,*/layNoDataDuo;
     public String selectedTag="1";
     private ArrayList<GroupModel> duoList;
     private boolean isFirstTime=false;
@@ -75,6 +70,7 @@ public class MatchMyContestFragment extends BaseFragment {
     private int offset, limit;
     private boolean isApiCall, isGetData;
     private long lastUpdateTime=0;
+    private boolean isDataLoaded=false;
 
     public MatchMyContestFragment() {
         //this.afterMatchActivity = afterMatchActivity;
@@ -97,12 +93,8 @@ public class MatchMyContestFragment extends BaseFragment {
     public void initControl(View view) {
         joined_team_contest_list = view.findViewById(R.id.after_joined_team_contest_list);
         refresh_my_contest = view.findViewById(R.id.refresh_my_contest);
-        layTabs = view.findViewById(R.id.layTabs);
-        btnClassic = view.findViewById(R.id.btnClassic);
-      //  btnDuo = view.findViewById(R.id.btnDuo);
-        btnQuinto = view.findViewById(R.id.btnQuinto);
+
         layNoDataDuo = view.findViewById(R.id.layNoDataDuo);
-        cardMvp = view.findViewById(R.id.cardMvp);
 
         offset = 0;
         limit = 100;
@@ -143,42 +135,21 @@ public class MatchMyContestFragment extends BaseFragment {
             }
         });
 
-        if (preferences.getMatchModel().getIs_fifer().equalsIgnoreCase("yes")){
-            layTabs.setVisibility(View.VISIBLE);
-        }else {
-            layTabs.setVisibility(View.GONE);
-        }
-
-        if (preferences.getMatchModel().getIs_single().equalsIgnoreCase("yes")){
-            cardMvp.setVisibility(View.VISIBLE);
-        }else {
-            cardMvp.setVisibility(View.GONE);
-        }
-
-        if (selectedTag.equalsIgnoreCase("1")){
-            getData();
-        }else {
-            getSinglesData();
-        }
-
         //getData();
+    }
+
+    @Override
+    public void onResume() {
+        if (isVisible() && !isDataLoaded) {
+            isDataLoaded=true;
+            getData();
+        }
+        super.onResume();
     }
 
     @Override
     public void initClick() {
 
-        joined_team_contest_list.addOnScrollListener(new MyRecyclerScroll() {
-            @Override
-            public void show() {
-                cardMvp.animate().translationX(0).setInterpolator(new DecelerateInterpolator(2)).start();
-            }
-
-            @Override
-            public void hide() {
-                int fabMargin=getResources().getDimensionPixelSize(R.dimen.top_bottom_margin);
-                cardMvp.animate().translationX(cardMvp.getHeight() + fabMargin).setInterpolator(new AccelerateInterpolator(2)).start();
-            }
-        });
 
         refresh_my_contest.setOnRefreshListener(() -> {
             if ((System.currentTimeMillis()-lastUpdateTime)>= ConstantUtil.Refresh_delay) {
@@ -189,8 +160,6 @@ public class MatchMyContestFragment extends BaseFragment {
                     adapter.updateData(contestModelList);
 
                     getData();
-                } else {
-                    getSinglesData();
                 }
 
                 if (preferences.getMatchModel() != null &&
@@ -202,83 +171,7 @@ public class MatchMyContestFragment extends BaseFragment {
             }
         });
 
-        btnClassic.setOnClickListener(view -> {
-            isGetData = false;
-            offset=0;
 
-            joined_team_contest_list.scrollToPosition(0);
-
-            duoList=new ArrayList<>();
-            contestModelList.clear();
-            adapter = new JoinLeagueAdapter(mContext, contestModelList, position -> {
-                if (contestModelList.size()>0){
-                    downloadExcel(contestModelList.get(position).getId());
-                }else {
-                    CustomUtil.showTopSneakError(mContext,"Unable to download");
-                }
-            });
-            joined_team_contest_list.setAdapter(adapter);
-            adapter.updateData(contestModelList);
-
-            selectedTag="1";
-            btnClassic.setBackgroundResource(R.drawable.primary_fill_border);
-            btnClassic.setTextColor(getResources().getColor(R.color.white_pure));
-
-            /*btnDuo.setBackgroundResource(R.drawable.transparent_view);
-            btnDuo.setTextColor(getResources().getColor(R.color.black));*/
-            btnQuinto.setBackgroundResource(R.drawable.transparent_view);
-            btnQuinto.setTextColor(getResources().getColor(R.color.black_pure));
-
-            getData();
-
-          /*  layClassic.setVisibility(View.VISIBLE);
-            layDuo.setVisibility(View.GONE);
-            layQuinto.setVisibility(View.GONE);*/
-
-        });
-
-        cardMvp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getMVPData();
-            }
-        });
-
-        /*btnDuo.setOnClickListener(view -> {
-
-            duoList=new ArrayList<>();
-            contestModelList = new ArrayList<>();
-
-            selectedTag="2";
-            btnClassic.setBackgroundResource(R.drawable.transparent_view);
-            btnClassic.setTextColor(getResources().getColor(R.color.black));
-
-            btnDuo.setBackgroundResource(R.drawable.primary_fill_border);
-            btnDuo.setTextColor(getResources().getColor(R.color.white));
-            btnQuinto.setBackgroundResource(R.drawable.transparent_view);
-            btnQuinto.setTextColor(getResources().getColor(R.color.black));
-
-            getSinglesData();
-
-        });*/
-
-        btnQuinto.setOnClickListener(view -> {
-            selectedTag="3";
-
-            duoList=new ArrayList<>();
-            contestModelList = new ArrayList<>();
-
-            btnClassic.setBackgroundResource(R.drawable.transparent_view);
-            btnClassic.setTextColor(getResources().getColor(R.color.black_pure));
-
-           /* btnDuo.setBackgroundResource(R.drawable.transparent_view);
-            btnDuo.setTextColor(getResources().getColor(R.color.black));*/
-            btnQuinto.setBackgroundResource(R.drawable.primary_fill_border);
-            btnQuinto.setTextColor(getResources().getColor(R.color.white_pure));
-
-            getSinglesData();
-
-        });
     }
 
     public void changeTabs(String id){
@@ -419,121 +312,6 @@ public class MatchMyContestFragment extends BaseFragment {
             @Override
             public void onFailureResult(String responseBody, int code) {refresh_my_contest.setRefreshing(false);}
 
-        });
-    }
-
-    public void getSinglesData() {
-        duoList=new ArrayList<>();
-        JSONObject jsonObject = new JSONObject();
-        try {
-            jsonObject.put("match_id", preferences.getMatchModel().getId());//ConstantUtil.testMatchId
-            jsonObject.put("display_type", selectedTag);
-            jsonObject.put("user_id", preferences.getUserModel().getId());
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        boolean isShow = refresh_my_contest == null || !refresh_my_contest.isRefreshing();
-        HttpRestClient.postJSON(mContext, isShow, ApiManager.MATCH_WISE_JOIN_GROUP_LIST, jsonObject, new GetApiResult() {
-            @Override
-            public void onSuccessResult(JSONObject responseBody, int code) {
-                lastUpdateTime=System.currentTimeMillis();
-                if (refresh_my_contest != null && refresh_my_contest.isRefreshing()) {
-                    refresh_my_contest.setRefreshing(false);
-                }
-                LogUtil.e(TAG, "onSuccessResult: " + responseBody.toString());
-                if (responseBody.optBoolean("status")) {
-
-                    JSONArray data = responseBody.optJSONArray("data");
-                    if (data!=null && data.length()>0){
-                        duoList.clear();
-                        for (int i = 0;i<data.length();i++){
-                            JSONObject obj=data.optJSONObject(i);
-                            GroupModel groupModel=gson.fromJson(obj.toString(),GroupModel.class);
-                            duoList.add(groupModel);
-                        }
-                        GroupListAdapter adapter=new GroupListAdapter(mContext, duoList, preferences.getMatchModel(), model -> {
-                            if (preferences.getMatchModel().getMatchStatus().equalsIgnoreCase("Cancelled")) {
-                                CustomUtil.showTopSneakWarning(mContext,"This match is cancelled.");
-                            }else {
-                                if (selectedTag.equalsIgnoreCase("2")){
-                                    startActivity(new Intent(mContext,SinglesContestActivity.class)
-                                            .putExtra("group_model",model)
-                                            .putExtra("is_match_after",true)
-                                    );
-                                }else {
-                                    startActivity(new Intent(mContext, FiferContestActivity.class)
-                                            .putExtra("group_model",model)
-                                            .putExtra("is_match_after",true)
-                                    );
-                                }
-                            }
-
-
-                        });
-                        joined_team_contest_list.setLayoutManager(new LinearLayoutManager(mContext,LinearLayoutManager.VERTICAL,false));
-                        joined_team_contest_list.setAdapter(adapter);
-                    }
-
-                }
-                if (duoList.size()>0){
-                    layNoDataDuo.setVisibility(View.GONE);
-                    joined_team_contest_list.setVisibility(View.VISIBLE);
-                }else {
-                    layNoDataDuo.setVisibility(View.VISIBLE);
-                    joined_team_contest_list.setVisibility(View.GONE);
-                }
-            }
-
-            @Override
-            public void onFailureResult(String responseBody, int code) {
-
-            }
-        });
-    }
-
-    public void getMVPData() {
-        ArrayList<GroupModel> duoList=new ArrayList<>();
-        JSONObject jsonObject = new JSONObject();
-        try {
-            jsonObject.put("match_id", preferences.getMatchModel().getId());//ConstantUtil.testMatchId
-            jsonObject.put("display_type", "2");
-            jsonObject.put("user_id", preferences.getUserModel().getId());
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
-        HttpRestClient.postJSON(mContext, true, ApiManager.MATCH_WISE_JOIN_GROUP_LIST, jsonObject, new GetApiResult() {
-            @Override
-            public void onSuccessResult(JSONObject responseBody, int code) {
-
-                LogUtil.e(TAG, "onSuccessResult: " + responseBody.toString());
-                if (responseBody.optBoolean("status")) {
-
-                    JSONArray data = responseBody.optJSONArray("data");
-                    if (data!=null && data.length()>0){
-                        duoList.clear();
-                        for (int i = 0;i<data.length();i++){
-                            JSONObject obj=data.optJSONObject(i);
-                            GroupModel groupModel=gson.fromJson(obj.toString(),GroupModel.class);
-                            duoList.add(groupModel);
-                        }
-
-                        if (duoList.size()>0){
-                            startActivity(new Intent(mContext,SinglesContestActivity.class)
-                                    .putExtra("group_model",duoList.get(0))
-                                    .putExtra("is_match_after",true)
-                            );
-                        }
-
-                    }
-
-                }
-            }
-
-            @Override
-            public void onFailureResult(String responseBody, int code) {
-
-            }
         });
     }
 

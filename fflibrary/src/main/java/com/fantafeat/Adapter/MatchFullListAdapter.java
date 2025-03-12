@@ -1,6 +1,7 @@
 package com.fantafeat.Adapter;
 
 import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -38,6 +39,7 @@ import com.fantafeat.Session.MyApp;
 import com.fantafeat.Session.MyPreferences;
 import com.fantafeat.util.ApiManager;
 import com.fantafeat.util.CustomUtil;
+import com.fantafeat.util.LogUtil;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -74,17 +76,11 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         if (viewType==1){
-            return new BannerHolder(LayoutInflater.from(mContext).inflate(R.layout.banner_pager_item,parent,false));
+            return new TradingHolder(LayoutInflater.from(mContext).inflate(R.layout.recyclerview_match_item,parent,false));
         }else if (viewType==2){
             return new TitleHolder(LayoutInflater.from(mContext).inflate(R.layout.match_title_item,parent,false));
         }else if (viewType==3){
             return new NoMatchHolder(LayoutInflater.from(mContext).inflate(R.layout.no_match_found,parent,false));
-        }else if (viewType==4){
-            return new TradingHolder(LayoutInflater.from(mContext).inflate(R.layout.recyclerview_match_item,parent,false));
-        }else if (viewType==5){
-            return new TradingHolder(LayoutInflater.from(mContext).inflate(R.layout.recyclerview_match_item,parent,false));
-        }else if (viewType==6){
-            return new TradingHolder(LayoutInflater.from(mContext).inflate(R.layout.recyclerview_match_item,parent,false));
         }else {
             return new MatchViewHolder(LayoutInflater.from(mContext).inflate(R.layout.row_match,parent,false));
         }
@@ -95,84 +91,6 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
         final MatchModel matchModel = matchModelList.get(position);
 
         if (getItemViewType(position)==1){
-            BannerHolder holder=(BannerHolder)viewHolder;
-
-            OfferBannerAdapter adapter = new OfferBannerAdapter(mContext, matchModel.getBannerModels(),model -> {
-                matchListener.onBannerClick(model);
-            });
-            holder.home_offer.setAdapter(adapter);
-            holder.home_offer.setClipChildren(false);
-            holder.home_offer.setOffscreenPageLimit(2);
-            holder.home_offer.setPageTransformer(new MarginPageTransformer(20));
-
-            if (holder.timerTopAds!=null){
-                holder.timerTopAds.cancel();
-            }
-            holder.timerTopAds = new Timer();
-            holder.timerTopAds.scheduleAtFixedRate(new TopAdsAutoScroll(holder.home_offer,matchModel.getBannerModels().size()),
-                    0, 5 * 1000);
-
-            holder.home_offer.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
-                @Override
-                public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                    super.onPageScrolled(position, positionOffset, positionOffsetPixels);
-                }
-
-                @Override
-                public void onPageSelected(int position) {
-                    super.onPageSelected(position);
-                    pageTopAds = position;
-                }
-
-                @Override
-                public void onPageScrollStateChanged(int state) {
-                    super.onPageScrollStateChanged(state);
-                }
-            });
-        }
-        else if (getItemViewType(position)==2){
-            TitleHolder holder=(TitleHolder)viewHolder;
-            holder.txtLbl.setText(matchModel.getMatchTitle());
-        }
-        else if (getItemViewType(position)==3){
-            NoMatchHolder holder=(NoMatchHolder)viewHolder;
-
-        }
-        else if (getItemViewType(position)==4){
-            TradingHolder holder=(TradingHolder) viewHolder;
-
-            if (TextUtils.isEmpty(matchModel.getMatchTitle())){
-                holder.txtLbl.setVisibility(View.GONE);
-            }
-            else {
-                holder.txtLbl.setVisibility(View.VISIBLE);
-                holder.txtLbl.setText(matchModel.getMatchTitle());
-            }
-
-            holder.recyclerOthers.setVisibility(View.VISIBLE);
-            TradingContestAdapter tradingAdapter=new TradingContestAdapter(mContext, matchModel.getTradingList(), "Trading", item -> {
-                matchListener.onTradeClick(item);
-            });
-            holder.recyclerOthers.setLayoutManager(new LinearLayoutManager(mContext,LinearLayoutManager.HORIZONTAL,false));
-            holder.recyclerOthers.setAdapter(tradingAdapter);
-        }
-        else if (getItemViewType(position)==5){
-            TradingHolder holder=(TradingHolder) viewHolder;
-
-            if (TextUtils.isEmpty(matchModel.getMatchTitle())){
-                holder.txtLbl.setVisibility(View.GONE);
-            }
-            else {
-                holder.txtLbl.setVisibility(View.VISIBLE);
-                holder.txtLbl.setText(matchModel.getMatchTitle());
-            }
-
-                holder.recyclerOthers.setLayoutManager(new LinearLayoutManager(mContext,LinearLayoutManager.HORIZONTAL,false));
-                holder.recyclerOthers.setAdapter(new StoryViewAdapter(matchModel.getStatusUserListModels(),mContext,(list,pos) -> {
-                    matchListener.onStatusClick(list,pos);
-                }));
-        }
-        else if (getItemViewType(position)==6){
             TradingHolder holder=(TradingHolder) viewHolder;
             if (TextUtils.isEmpty(matchModel.getMatchTitle())){
                 holder.txtLbl.setVisibility(View.GONE);
@@ -187,6 +105,13 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
                 matchListener.onMatchClick(model);
             });
             holder.recyclerOthers.setAdapter(tournamentMatchAdapter);
+        }
+        else if (getItemViewType(position)==2){
+            TitleHolder holder=(TitleHolder)viewHolder;
+            holder.txtLbl.setText(matchModel.getMatchTitle());
+        }
+        else if (getItemViewType(position)==3){
+            NoMatchHolder holder=(NoMatchHolder)viewHolder;
         }
         else {
 
@@ -213,7 +138,8 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
             if (CustomUtil.convertInt(matchModel.getMatchSquad()) == 0) {
                 holder.cardView.setClickable(false);
                 holder.cardView.setForeground(mContext.getResources().getDrawable(R.drawable.disable_match));
-            } else {
+            }
+            else {
                 holder.cardView.setClickable(true);
                 holder.cardView.setForeground(mContext.getResources().getDrawable(R.drawable.transparent_view));
             }
@@ -230,6 +156,7 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
             SimpleDateFormat format = MyApp.changedFormat("yyyy-MM-dd HH:mm:ss");
             SimpleDateFormat matchFormate = MyApp.changedFormat("hh:mm a");
             try {
+
                 date = format.parse(matchModel.getRegularMatchStartTime());
                 matchDate = matchFormate.format(date);
 
@@ -315,23 +242,8 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
                 matchModel.setIs_fifer("no");
             }
 
-        /*if (!TextUtils.isEmpty(matchModel.getMatchDesc()) ||
-                !TextUtils.isEmpty(matchModel.getMega_text()) ||
-                matchModel.getTeam1Color().equalsIgnoreCase("yes") ||
-                matchModel.getIs_single().equalsIgnoreCase("yes") ||
-                matchModel.getIs_fifer().equalsIgnoreCase("yes")){
-            holder.layDesc.setVisibility(View.VISIBLE);
-        }else {
-            holder.layDesc.setVisibility(View.GONE);
-        }*/
-
             if (!TextUtils.isEmpty(matchModel.getMatchDesc())){
-                // holder.layDesc.setVisibility(View.GONE);
                 holder.txtMatchDesc.setText(matchModel.getMatchDesc());
-            }else {
-                //holder.layDesc.setVisibility(View.VISIBLE);
-                // holder.txtMatchDesc.setText(matchModel.getMatchDesc());
-                // setTickerAnimation(holder.txtMatchDesc);
             }
 
             if (TextUtils.isEmpty(matchModel.getMega_text())){
@@ -348,71 +260,10 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
             if (matchModel.getTeam1Color().equalsIgnoreCase("yes")){
                 //holder.layDesc.setVisibility(View.VISIBLE);
                 holder.imgLeader.setVisibility(View.VISIBLE);
-            }else {
+            }
+            else {
                 holder.imgLeader.setVisibility(View.GONE);
             }
-
-            /*if (!TextUtils.isEmpty(matchModel.getIs_single()) && !TextUtils.isEmpty(matchModel.getIs_fifer())){
-                if (matchModel.getIs_single().equalsIgnoreCase("yes") || matchModel.getIs_fifer().equalsIgnoreCase("yes")){
-                    holder.txtFifer.setVisibility(View.VISIBLE);
-                    holder.txtSingles.setVisibility(View.VISIBLE);
-                    //holder.layDesc.setVisibility(View.VISIBLE);
-                }else {
-                    holder.txtFifer.setVisibility(View.GONE);
-                    holder.txtSingles.setVisibility(View.GONE);
-                    //holder.layDesc.setVisibility(View.GONE);
-                }
-            }else {
-                holder.txtFifer.setVisibility(View.GONE);
-                holder.txtSingles.setVisibility(View.GONE);
-                // holder.layDesc.setVisibility(View.GONE);
-            }*/
-
-
-        /*if (holder.handler!=null){
-                holder.handler.removeCallbacksAndMessages(null);
-                holder.handler.postDelayed(new Runnable() {
-                    public void run() {
-                        if (holder.imgLeaderboard.getTag().equals("red")){
-                            holder.imgLeaderboard.setTag("white");
-                            holder.imgLeaderboard.setImageResource(R.drawable.ic_white_leaderboard);
-                        }else {
-                            holder.imgLeaderboard.setTag("red");
-                            holder.imgLeaderboard.setImageResource(R.drawable.ic_red_leaderboard);
-                        }
-                        holder.handler.postDelayed(this, holder.delay);
-                    }
-                }, holder.delay);
-            }*/
-            //if (matchModel.is)
-
-           /* holder.txtFifer.setOnClickListener(view -> {
-                if (MyApp.getClickStatus()) {
-                    ViewTooltip
-                            .on((Activity)  mContext, holder.txtFifer)
-                            .autoHide(true, 1000)
-                            .align(CENTER)
-                            .position(TOP)
-                            .text("Fifer Contest Available")
-                            .textColor(Color.WHITE)
-                            .color( mContext.getResources().getColor(R.color.blackPrimary))
-                            .show();
-                }
-            });
-
-            holder.txtSingles.setOnClickListener(view -> {
-                if (MyApp.getClickStatus()) {
-                    ViewTooltip
-                            .on((Activity)  mContext, holder.txtSingles)
-                            .autoHide(true, 1000)
-                            .align(CENTER)
-                            .position(TOP)
-                            .text("Singles Contest Available")
-                            .textColor(Color.WHITE)
-                            .color( mContext.getResources().getColor(R.color.blackPrimary))
-                            .show();
-                }
-            });*/
 
             holder.imgLeader.setOnClickListener(v->{
                 if (MyApp.getClickStatus()) {
@@ -516,8 +367,6 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
             team1_name = itemView.findViewById(R.id.team1_name);
             team2_name = itemView.findViewById(R.id.team2_name);
             imgLeader = itemView.findViewById(R.id.imgLeader);
-           // txtSingles = itemView.findViewById(R.id.txtSingles);
-            //txtFifer = itemView.findViewById(R.id.txtFifer);
             txtMatchStartTime = itemView.findViewById(R.id.txtMatchStartTime);
             txtMatchDesc = itemView.findViewById(R.id.txtMatchDesc);
             txtMatchDesc.setSelected(true);
@@ -530,7 +379,7 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
             txtGrandText = itemView.findViewById(R.id.txtGrandText);
 
             anim = ObjectAnimator.ofFloat(match_timer, "alpha", 0.5f, 1.0f);
-            anim.setRepeatMode(Animation.REVERSE);
+            anim.setRepeatMode(ValueAnimator.REVERSE);
             anim.setRepeatCount(Animation.INFINITE);
             anim.setDuration(300);
             team2_img = itemView.findViewById(R.id.team2_img);
@@ -569,14 +418,4 @@ public class MatchFullListAdapter extends RecyclerView.Adapter<RecyclerView.View
         }
     }
 
-    protected class BannerHolder extends RecyclerView.ViewHolder{
-
-        private ViewPager2 home_offer;
-        private Timer timerTopAds;
-
-        public BannerHolder(@NonNull View itemView) {
-            super(itemView);
-            home_offer=itemView.findViewById(R.id.home_offer);
-        }
-    }
 }

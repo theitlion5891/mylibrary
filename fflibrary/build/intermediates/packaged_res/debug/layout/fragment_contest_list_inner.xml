@@ -7,19 +7,6 @@
 
     tools:context=".Fragment.ContestListInnerFragment">
 
-    <!--<androidx.core.widget.NestedScrollView
-        android:id="@+id/nested"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/match_header_filter"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/_5sdp" />
-
-    </androidx.core.widget.NestedScrollView>-->
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -97,21 +84,6 @@
             android:id="@+id/btnUnFillFilter"
             android:src="@drawable/unfilled_contest"/>
 
-       <!-- <com.facebook.shimmer.ShimmerFrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:shimmer_auto_start="true"
-            app:shimmer_base_alpha="1"
-            app:shimmer_highlight_alpha="0.1"
-            android:layout_marginHorizontal="@dimen/_5sdp"
-            app:shimmer_shape="linear">
-            <ImageView
-                android:layout_width="@dimen/_36sdp"
-                android:layout_height="@dimen/_26sdp"
-                android:id="@+id/btnUnFillFilter"
-                android:src="@drawable/unfilled_contest"/>
-        </com.facebook.shimmer.ShimmerFrameLayout>-->
-
         <ImageView
             android:id="@+id/imgFilter"
             android:layout_width="wrap_content"
@@ -173,40 +145,4 @@
 
     </LinearLayout>
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="@dimen/_100sdp"
-        android:layout_height="@dimen/_40sdp"
-        android:id="@+id/cardMvp"
-        android:visibility="visible"
-        android:layout_gravity="center"
-        android:layout_marginEnd="-20dp"
-        android:layout_alignParentEnd="true"
-        app:cardCornerRadius="@dimen/_20sdp"
-        app:cardElevation="@dimen/_5sdp"
-        android:layout_alignParentBottom="true"
-        app:contentPaddingLeft="@dimen/_15sdp"
-        android:layout_marginBottom="@dimen/top_bottom_margin">
-        <ImageView
-            android:layout_width="@dimen/_60sdp"
-            android:layout_height="@dimen/_40sdp"
-            android:src="@drawable/ic_mvp_launcher"
-            android:id="@+id/imgTop"/>
-    </androidx.cardview.widget.CardView>
-
-           <!-- <TextView
-                android:elevation="@dimen/_1sdp"
-                android:id="@+id/create_team"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/black_bg_round_fill"
-                android:layout_marginBottom="@dimen/_15sdp"
-                android:textSize="@dimen/_10sdp"
-                android:paddingHorizontal="@dimen/_19sdp"
-                android:paddingVertical="@dimen/_7sdp"
-                android:text="Create Team"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:textColor="@color/white" />-->
 </RelativeLayout>

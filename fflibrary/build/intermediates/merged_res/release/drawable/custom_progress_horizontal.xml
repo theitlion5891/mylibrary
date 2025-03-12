@@ -24,7 +24,7 @@
                 <gradient
                     android:startColor="@color/colorPrimary"
                     android:centerY="1.0"
-                    android:endColor="#FE7820"
+                    android:endColor="@color/colorAccent"
                     android:angle="225"
                     />
                 <size android:height="1dp"/>

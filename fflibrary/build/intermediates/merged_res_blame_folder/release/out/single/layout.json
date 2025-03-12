@@ -1,1850 +1,886 @@
 [
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_action_mode_bar.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_action_mode_bar.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_leader_board.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_leader_board.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_cf_core_upi_payment.xml",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/layout/activity_cf_core_upi_payment.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/m3_alert_dialog_actions.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/m3_alert_dialog_actions.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_dialog_title_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_dialog_title_material.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/faq_list_sheet.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/faq_list_sheet.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_instant_withdraw.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_instant_withdraw.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/toolbar_home_fragment.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/toolbar_home_fragment.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/new_offer_detail_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/new_offer_detail_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_select_dialog_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_event_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_event_details.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_player_stats.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_player_stats.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_story_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_story_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_fifer_contest.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_fifer_contest.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_popup_menu_item_layout.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_popup_menu_item_layout.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_bat_player.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_bat_player.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/rejoin_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/rejoin_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/dialog_team_priview.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/dialog_team_priview.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_kabaddi.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_kabaddi.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_more_contest_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_more_contest_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/clear_player_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/clear_player_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/affiliation_match_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/affiliation_match_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_team_priview.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_team_priview.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_header_fullscreen.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_header_fullscreen.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_clockface_view.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_clockface_view.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/select_dialog_singlechoice_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_activity_chooser_view.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_activity_chooser_view.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fall_bat_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fall_bat_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/instant_kyc_sheet.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/instant_kyc_sheet.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/team_breakup_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/team_breakup_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/withdraw_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/withdraw_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_action_menu_layout.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_item_emi_bank.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_item_emi_bank.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_menu_item_action_area.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_invite_friend_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_invite_friend_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/lineup_xi_header_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/lineup_xi_header_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ucrop_aspect_ratio.xml",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/layout/ucrop_aspect_ratio.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/lineup_other_player_header_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/lineup_other_player_header_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/no_match_found.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/no_match_found.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/spinner_text.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/spinner_text.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/pp.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/pp.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/state_team_filter_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/state_team_filter_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/topic_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/topic_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_screen_content_include.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_navigation_rail_item.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_navigation_rail_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_action_mode_bar.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_month_navigation.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_month_navigation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_header_dialog.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_header_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_pan_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_pan_details.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_action_mode_close_item_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_contest_header.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_contest_header.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_center_player.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_center_player.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_leaderboard_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_leaderboard_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/team1_announce.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/team1_announce.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_topactivity.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_topactivity.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_clockface_textview.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_clockface_textview.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_opinion_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_opinion_details.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_header_selection_text.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_header_selection_text.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fifer_player_row.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fifer_player_row.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_tooltip.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_tooltip.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_contest_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_contest_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/m3_side_sheet_dialog.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/m3_side_sheet_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_alert_dialog.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_alert_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_contest_header.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_contest_header.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_game_leaderboard.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_game_leaderboard.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/ime_base_split_test_activity.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/layout/ime_base_split_test_activity.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/user_team_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/user_team_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/select_player_main_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/select_player_main_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_fifer_my_contests.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_fifer_my_contests.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_my_team.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_my_team.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/toolbar_back.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/toolbar_back.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_alert_dialog_title_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_media_action.xml",
-        "source": "com.fantafeat.fflibrary-media-1.0.0-3:/layout/notification_media_action.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_player_state.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_player_state.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_template_part_chronometer.xml",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/layout/notification_template_part_chronometer.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_alert_dialog_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/m3_side_sheet_dialog.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/m3_side_sheet_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/team_show_filter_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/team_show_filter_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_order_success.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_order_success.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_my_league.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_my_league.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/dialog_loading.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/dialog_loading.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_player_stats.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_player_stats.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_menu.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_menu.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_payment_mode_wallet.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_payment_mode_wallet.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/select_dialog_item_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/event_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/event_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_navigation_item_header.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ucrop_view.xml",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/layout/ucrop_view.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/team2_announce.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/team2_announce.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_upi_option.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_upi_option.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_lineups_selection.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_lineups_selection.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/event_intro_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/event_intro_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_clock_period_toggle.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_clock_period_toggle.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_instant_kyc.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_instant_kyc.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_month_labeled.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_month_labeled.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_singles_contest.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_singles_contest.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_radial_view_group.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_radial_view_group.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/easy_pay_toolbar.xml",
-        "source": "com.fantafeat.fflibrary-easypay-8.7.3-appinvoke-4-31:/layout/easy_pay_toolbar.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_month_navigation.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_month_navigation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/m3_auto_complete_simple_item.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/m3_auto_complete_simple_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_navigation_item.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_navigation_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_f1_home.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_f1_home.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_timepicker_textinput_display.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_timepicker_textinput_display.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_center_player.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_center_player.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/dialog_events.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/dialog_events.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_alert_dialog_title.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_alert_dialog_title.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_bottom_sheet_dialog.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_select_player.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_select_player.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/lineup_team2_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/lineup_team2_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_text_input_start_icon.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_text_input_start_icon.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_more.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_more.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_after_match.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_after_match.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/welcome_slide_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/welcome_slide_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_days_of_week.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_days_of_week.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_layout_snackbar_include.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_layout_snackbar_include.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/m3_alert_dialog.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/m3_alert_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/lineup_select_main_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/lineup_select_main_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/lineup_sub_header_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/lineup_sub_header_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_upi_seamless.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_upi_seamless.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_my_team.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_my_team.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_navigation_item_subheader.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_navigation_item_subheader.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_layout_snackbar_include.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_layout_snackbar_include.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/order_success_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/order_success_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_my_league_inner_tab.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_my_league_inner_tab.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_phone_number.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_phone_number.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_alert_dialog.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_alert_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/toolbar_home_fragment.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/toolbar_home_fragment.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/lineup_team1_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/lineup_team1_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_screen_content_include.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_screen_content_include.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/toolbar_contest_list.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/toolbar_contest_list.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/state_team_filter_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/state_team_filter_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_fullscreen.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_fullscreen.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_item_upi_seamless_more.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_item_upi_seamless_more.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_layout_tab_text.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_item_upi_seamless_logo.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_item_upi_seamless_logo.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_navigation_menu.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/bowlerr_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/bowlerr_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_time_input.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_time_input.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/contest_header.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/contest_header.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/team_breakup.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/team_breakup.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ime_base_split_test_activity.xml",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/layout/ime_base_split_test_activity.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_bowl_player.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_bowl_player.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/trading_confirm_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/trading_confirm_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/network_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/network_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_prize_pool.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_prize_pool.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_home.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_home.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/layout_otp_helper.xml",
-        "source": "com.fantafeat.fflibrary-easypay-8.7.3-appinvoke-4-31:/layout/layout_otp_helper.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/scorecard_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/scorecard_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_action_menu_layout.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_action_menu_layout.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/tournament_match_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/tournament_match_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/tournament_user_items.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/tournament_user_items.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_select_c_v_c.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_select_c_v_c.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_address_verification.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_address_verification.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/batter_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/batter_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_conirm_grp_joining.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_conirm_grp_joining.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_timepicker_dialog.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_timepicker_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/user_board_type.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/user_board_type.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/m3_alert_dialog_title.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/m3_alert_dialog_title.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_months.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_months.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_player_stats.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_player_stats.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_new_password.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_new_password.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/select_dialog_multichoice_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_paytm_withdraw.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_paytm_withdraw.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_list_menu_item_checkbox.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ucrop_controls.xml",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/layout/ucrop_controls.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/alerter_alert_default_layout.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/layout/alerter_alert_default_layout.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/promote_chanel_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/promote_chanel_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_payment_web.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_payment_web.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/game_leaderboard_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/game_leaderboard_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_text_input_end_icon.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_text_input_end_icon.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_forgot_password.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_forgot_password.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_text_input_date_range.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_text_input_date_range.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_match_my_contest.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_match_my_contest.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_navigation_item_separator.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_select_c_v_c.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_select_c_v_c.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/lineup_notxi_header_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/lineup_notxi_header_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_affiliation_detail.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_affiliation_detail.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/faq_answer_sheet.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/faq_answer_sheet.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_login.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_login.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/lineup_team2_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/lineup_team2_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_ludo_contest_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_ludo_contest_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_a_rplayer.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_a_rplayer.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/leaderboard_list_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/leaderboard_list_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/notification_template_part_time.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_transaction_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_transaction_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_team_join_card.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_team_join_card.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_clock_display.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_clock_display.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/no_match_found.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/no_match_found.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_loading.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_loading.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_screen_simple.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_compare_team.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_compare_team.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_clock_display.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_clock_display.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_swipe_team.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_swipe_team.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_team_preview.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_team_preview.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_game_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_game_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_clock_display_divider.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_clock_display_divider.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_qr.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_qr.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_cricket_home.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_cricket_home.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_navigation_menu.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_navigation_menu.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_match.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_match.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/event_action_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/event_action_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/chip_layout.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/chip_layout.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/custom_progress_dialog_view.xml",
-        "source": "com.fantafeat.fflibrary-easypay-8.7.3-appinvoke-4-31:/layout/custom_progress_dialog_view.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_compare_player.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_compare_player.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/maintance_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/maintance_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_search_bar.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_search_bar.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_header_selection_text.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_header_selection_text.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/notification_template_part_chronometer.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_screen_toolbar.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_screen_toolbar.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_cricket_select_player.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_cricket_select_player.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_ludo_tournament.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_ludo_tournament.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_after_join.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_after_join.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_menu_item_action_area.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_menu_item_action_area.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_months.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_months.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/browser_actions_context_menu_row.xml",
-        "source": "com.fantafeat.fflibrary-browser-1.2.0-47:/layout/browser_actions_context_menu_row.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/commentary_header_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/commentary_header_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/banner_pager_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/banner_pager_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/commentry_bowl_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/commentry_bowl_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_referal.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_referal.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/offer_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/offer_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/poker_table_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/poker_table_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_screen_toolbar.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_investment_leaderboard.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_investment_leaderboard.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_after_match.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_after_match.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_horizontal.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_horizontal.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/custom_dialog.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/layout/custom_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/recyclerview_match_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/recyclerview_match_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_select_c_v_c.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_select_c_v_c.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_live_event.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_live_event.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/alerter_alert_view.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/layout/alerter_alert_view.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/alerter_alert_view.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/layout/alerter_alert_view.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_match_my_contest.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_match_my_contest.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_popup_menu_header_item_layout.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/dialog_session_out.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/dialog_session_out.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/toolbar_feed.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/toolbar_feed.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_contest_list.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_contest_list.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ucrop_activity_photobox.xml",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/layout/ucrop_activity_photobox.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_textinput_timepicker.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_textinput_timepicker.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_timepicker_dialog.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_timepicker_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_team_preview.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_team_preview.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_year.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_year.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/contest_filter_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/contest_filter_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_affiliation.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_affiliation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/ssp_example.xml",
+        "source": "com.fantafeat.fflibrary-ssp-android-1.0.6-1:/layout/ssp_example.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/faq_answer_sheet.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/faq_answer_sheet.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_actions.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_actions.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_dialog.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_prize_pool.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_prize_pool.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_phonepe_web.xml",
-        "source": "com.fantafeat.fflibrary-IntentSDK-2.4.2-13:/layout/activity_phonepe_web.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_dialog.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_withdraw_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_withdraw_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_alert_select_dialog_multichoice.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_alert_select_dialog_multichoice.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/otp_medium.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/otp_medium.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_year.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_year.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_clock_display_divider.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_clock_display_divider.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/lineup_select_main_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/lineup_select_main_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_my_team.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_my_team.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/team_announce.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/team_announce.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/item_stocks.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/item_stocks.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_layout_snackbar_include.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_layout_snackbar_include.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_withdraw.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_withdraw.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/discard_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/discard_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_affiliation_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_affiliation_details.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/dialog_confirm_joining.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/dialog_confirm_joining.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_bottom_navigation_item.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_bottom_navigation_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_after_match_player_states.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_after_match_player_states.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_fifer_contest_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_fifer_contest_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_contest_header_filter.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_contest_header_filter.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/trading_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/trading_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_alert_select_dialog_singlechoice.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_alert_select_dialog_singlechoice.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_list_menu_item_radio.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_list_menu_item_radio.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_list_menu_item_radio.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_template_media.xml",
-        "source": "com.fantafeat.fflibrary-media-1.0.0-3:/layout/notification_template_media.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_search_view.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_search_view.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_item_emi_option_info.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_item_emi_option_info.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_list_menu_item_layout.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_my_referrals.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_my_referrals.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_dialog_title_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_item_upi_seamless.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_item_upi_seamless.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_match_leaderboard.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_match_leaderboard.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/opinion_leaderboard_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/opinion_leaderboard_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_swipe_team.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_swipe_team.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_list_menu_item_icon.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_list_menu_item_icon.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_search_view.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_search_view.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/poll_join_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/poll_join_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_mock.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/layout/activity_mock.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_notification.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_notification.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_alert_dialog_actions.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_alert_dialog_actions.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_radial_view_group.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_radial_view_group.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_leader_board.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_leader_board.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_header_dialog.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_header_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_custom_more_contest_list.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_custom_more_contest_list.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_exit.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_exit.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/sp_example.xml",
+        "source": "com.fantafeat.fflibrary-ssp-android-1.0.6-1:/layout/sp_example.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_match_my_teams.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_match_my_teams.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/view_all_contest_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/view_all_contest_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_welcome.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_welcome.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_alert_dialog_title.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_alert_dialog_title.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_match.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_match.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/bowlerr_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/bowlerr_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_invester_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_invester_details.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_action_bar_title_item.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_days_of_week.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_days_of_week.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_chip_input_combo.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_chip_input_combo.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_navigation_menu_item.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_navigation_menu_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_team_preview.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_team_preview.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_commentary.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_commentary.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_month_labeled.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_month_labeled.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_popup_menu_item_layout.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_affiliation.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_affiliation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/dialog_match_rank.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/dialog_match_rank.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_select_cvc.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_select_cvc.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_match_player_stats.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_match_player_stats.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_action_mode_close_item_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_action_mode_close_item_material.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/banner_pager_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/banner_pager_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/withdraw_list_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/withdraw_list_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_alert_select_dialog_item.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_alert_select_dialog_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_payment_mode_emi.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_payment_mode_emi.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_bottom_navigation_item.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_bottom_navigation_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/games_main_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/games_main_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_clockface_view.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_clockface_view.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_otp.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_otp.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/contest_quantity_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/contest_quantity_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/exit_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/exit_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_contest_list.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_contest_list.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_action_menu_item_layout.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_action_menu_item_layout.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_w_kplayer.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_w_kplayer.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/new_offer_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/new_offer_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_timepicker.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_timepicker.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/netbanking.xml",
-        "source": "com.fantafeat.fflibrary-easypay-8.7.3-appinvoke-4-31:/layout/netbanking.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_home_activity.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_home_activity.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_help_desk.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_help_desk.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_action_menu_item_layout.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/offer_sheet_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/offer_sheet_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_scorecard.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_scorecard.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/team_announce.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/team_announce.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/recyclerview_match_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/recyclerview_match_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/offer_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/offer_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_navigation_item_subheader.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_navigation_item_subheader.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_my_league_inner_tab.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_my_league_inner_tab.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/offer_sheet_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/offer_sheet_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/browser_actions_context_menu_page.xml",
-        "source": "com.fantafeat.fflibrary-browser-1.2.0-47:/layout/browser_actions_context_menu_page.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_select_cvc.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_select_cvc.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_rugby_home.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_rugby_home.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_horizontal.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_horizontal.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_live_plater_states.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_live_plater_states.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_layout_snackbar.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_layout_snackbar.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_chip_input_combo.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_chip_input_combo.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_team_select_join.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_team_select_join.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/exit_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/exit_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_cricket_select_player.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_cricket_select_player.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/contest_header.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/contest_header.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_fifer_contest.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_fifer_contest.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_day_of_week.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_day_of_week.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_group_contest_my_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_group_contest_my_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_my_matches.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_my_matches.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_commentary.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_commentary.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_header_title_text.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_header_title_text.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_upcoming_league.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_upcoming_league.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/ime_secondary_split_test_activity.xml",
+        "source": "com.fantafeat.fflibrary-core-1.13.0-22:/layout/ime_secondary_split_test_activity.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/lineup_other_player_header_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/lineup_other_player_header_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/toolbar_back.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/toolbar_back.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_wallet_option.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_wallet_option.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_layout_tab_icon.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_profile.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_profile.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_contest.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_contest.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_payment_mode_upi.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_payment_mode_upi.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ludo_tournament_contest_iitem.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/ludo_tournament_contest_iitem.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_more_contest_list.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_more_contest_list.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_golf_home.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_golf_home.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_auto_complete_simple_item.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_auto_complete_simple_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_social_connection.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_social_connection.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_prize_pool.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_prize_pool.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_browse_all_topic.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_browse_all_topic.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_month.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_month.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_text_input_date_range.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_text_input_date_range.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/row_live_plater_states.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/row_live_plater_states.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_vertical.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_vertical.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/dp_example.xml",
+        "source": "com.fantafeat.fflibrary-sdp-android-1.1.0-33:/layout/dp_example.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_contest_list_inner.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_contest_list_inner.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/material_time_chip.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/material_time_chip.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_chat.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_chat.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_day.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_day.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ssp_example.xml",
-        "source": "com.fantafeat.fflibrary-ssp-android-1.0.6-4:/layout/ssp_example.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/deposit_offer_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/deposit_offer_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dp_example.xml",
-        "source": "com.fantafeat.fflibrary-sdp-android-1.1.0-53:/layout/dp_example.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_header_toggle.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_header_toggle.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_item_quick_payment_mode.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_item_quick_payment_mode.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_contest_list_inner.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_contest_list_inner.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_my_league.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_my_league.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/dialog_terms_condition.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/dialog_terms_condition.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/promotors_link_detail.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/promotors_link_detail.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_upcoming_league.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_upcoming_league.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_basic_detail.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_basic_detail.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/m3_auto_complete_simple_item.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/m3_auto_complete_simple_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_confirm_trading.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_confirm_trading.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_expanded_menu_layout.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_paylater_option.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_paylater_option.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_profile.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_bowl_player.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_bowl_player.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_compare_team.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_compare_team.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/poker_table_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/poker_table_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_cascading_menu_item_layout.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_cascading_menu_item_layout.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_call_back.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_call_back.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_activity_chooser_view.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_layout_snackbar_include.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_layout_snackbar_include.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_calendar_vertical.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_calendar_vertical.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/payment_main_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/payment_main_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/sdp_example.xml",
+        "source": "com.fantafeat.fflibrary-sdp-android-1.1.0-33:/layout/sdp_example.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_cascading_menu_item_layout.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_cascading_menu_item_layout.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_action_bar_up_container.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_item_nb_app.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_item_nb_app.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fall_bat_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fall_bat_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/abc_list_menu_item_icon.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_action_bar_up_container.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_action_bar_up_container.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/maintance_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/maintance_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/pausable_progress.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/pausable_progress.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/design_layout_snackbar.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/item_tradeboard.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/item_tradeboard.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/match_title_item.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/match_title_item.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_contest_header_filter.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_contest_header_filter.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_live_league.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_live_league.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/trading_contest_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/trading_contest_item.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_picker_text_input_date.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_picker_text_input_date.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_header_toggle.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_header_toggle.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_match_my_teams.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_match_my_teams.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_home_activity.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_home_activity.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/activity_cricket_select_player.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/activity_cricket_select_player.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/progress_bar.xml",
-        "source": "com.fantafeat.fflibrary-IntentSDK-2.4.2-13:/layout/progress_bar.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/fragment_completed_league.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/layout/fragment_completed_league.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_home.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_home.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_full_image.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_full_image.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/match_title_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/match_title_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/confirm_trade_after_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/confirm_trade_after_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_list_menu_item_layout.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_player_stats.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_player_stats.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_affilation_match_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_affilation_match_list.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_cf_core_modal.xml",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/layout/activity_cf_core_modal.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_action_bar_title_item.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/faq_list_sheet.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/faq_list_sheet.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_alert_select_dialog_multichoice.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_alert_select_dialog_multichoice.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_payment_mode_card_emi.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_payment_mode_card_emi.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_terms_condition.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_terms_condition.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_promote_app.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_promote_app.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/selected_player_group.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/selected_player_group.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_payment_mode_card.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_payment_mode_card.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/team_show_filter_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/team_show_filter_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_search_view.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_search_view.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/item_completed.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/item_completed.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_withdraw.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_withdraw.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/user_leaderboard_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/user_leaderboard_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_alert_select_dialog_singlechoice.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_alert_select_dialog_singlechoice.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/winning_transfer_offer_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/winning_transfer_offer_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/game_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/game_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/network_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/network_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/deposit_offer_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/deposit_offer_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_poll_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_poll_details.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/m3_alert_dialog_title.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/m3_alert_dialog_title.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_upcoming_event_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_upcoming_event_details.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/full_screen_image_video.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/full_screen_image_video.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/sp_example.xml",
-        "source": "com.fantafeat.fflibrary-ssp-android-1.0.6-4:/layout/sp_example.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/clear_player_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/clear_player_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/select_dialog_singlechoice_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_leader_board.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_leader_board.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_team_join_card.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_team_join_card.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_template_big_media_custom.xml",
-        "source": "com.fantafeat.fflibrary-media-1.0.0-3:/layout/notification_template_big_media_custom.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_cf_core_native_verification.xml",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/layout/activity_cf_core_native_verification.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_layout_snackbar.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_layout_snackbar.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_after_match.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_after_match.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_header_fullscreen.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_header_fullscreen.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ucrop_fragment_photobox.xml",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/layout/ucrop_fragment_photobox.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fifer_contest_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fifer_contest_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_custom_more_contest_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_custom_more_contest_list.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/v3_debit_response_error.xml",
-        "source": "com.fantafeat.fflibrary-IntentSDK-2.4.2-13:/layout/v3_debit_response_error.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_after_join.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_after_join.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/story_view_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/story_view_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/radio_selector.xml",
-        "source": "com.fantafeat.fflibrary-easypay-8.7.3-appinvoke-4-31:/layout/radio_selector.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_compare_player.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_compare_player.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_navigation_menu_item.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_paytm_verify.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_paytm_verify.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_vollyball_home.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_vollyball_home.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_navigation_item.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_navigation_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_layout_button.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_layout_button.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_match_player_stats.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_match_player_stats.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_day.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_day.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_affiliation_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_affiliation_details.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_add_deposit.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_add_deposit.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/games_contest_confirm_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/games_contest_confirm_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/chip_layout.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/chip_layout.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_w_kplayer.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_w_kplayer.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_basic_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_basic_details.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_notification.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_notification.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_template_big_media_narrow.xml",
-        "source": "com.fantafeat.fflibrary-media-1.0.0-3:/layout/notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_timepicker_textinput_display.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_timepicker_textinput_display.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_scorecard.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_scorecard.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/team_breakup_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/team_breakup_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/lineup_xi_header_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/lineup_xi_header_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_alert_dialog_actions.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_alert_dialog_actions.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_navigation_item_header.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_navigation_item_header.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/game_slider_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/game_slider_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_nb_option.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_nb_option.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ime_secondary_split_test_activity.xml",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/layout/ime_secondary_split_test_activity.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_football_home.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_football_home.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/singles_contest_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/singles_contest_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/opinion_confirm_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/opinion_confirm_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_my_team.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_my_team.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/my_chat_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/my_chat_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/commentary_header_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/commentary_header_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/payment_option_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/payment_option_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_template_big_media_narrow_custom.xml",
-        "source": "com.fantafeat.fflibrary-media-1.0.0-3:/layout/notification_template_big_media_narrow_custom.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_select_player.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_select_player.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/select_dialog_multichoice_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/opinio_filter_chip_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/opinio_filter_chip_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/winning_transfer_sheet.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/winning_transfer_sheet.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/team_breakup.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/team_breakup.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/promotors_leaderboard_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/promotors_leaderboard_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_mock.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/layout/activity_mock.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_live_league.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_live_league.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_cricket_home.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_cricket_home.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_timepicker.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_timepicker.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_completed_league.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_completed_league.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/item_active.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/item_active.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/lineup_notxi_header_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/lineup_notxi_header_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/team2_announce.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/team2_announce.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/select_player_main_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/select_player_main_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_team_preview.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_team_preview.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/group_list_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/group_list_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/app_update_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/app_update_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/popup_wallet.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/popup_wallet.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_events.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_events.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_request_statement.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_request_statement.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/group_player_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/group_player_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_cf_ui_modal.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/activity_cf_ui_modal.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_promotor_leaderboard.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_promotor_leaderboard.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_wallet.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_wallet.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/team1_announce.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/team1_announce.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_list_menu_item_checkbox.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/lineup_team1_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/lineup_team1_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_day_of_week.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_day_of_week.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_webview_result.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_webview_result.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_payment.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_payment.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ucrop_layout_scale_wheel.xml",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/layout/ucrop_layout_scale_wheel.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_prize_pool.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_prize_pool.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_quick_checkout.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_quick_checkout.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/upi_apps_dialog_unit_item.xml",
-        "source": "com.fantafeat.fflibrary-IntentSDK-2.4.2-13:/layout/upi_apps_dialog_unit_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_calendar_month.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_calendar_month.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_fullscreen.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_fullscreen.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_layout_tab_text.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_layout_tab_text.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_my_matches.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_my_matches.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/question_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/question_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/tournamment_detail_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/tournamment_detail_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_my_referrals.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_my_referrals.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_group_contest_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_group_contest_list.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_clock_period_toggle.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_clock_period_toggle.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_alert_dialog_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_template_media_custom.xml",
-        "source": "com.fantafeat.fflibrary-media-1.0.0-3:/layout/notification_template_media_custom.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/payment_status_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/payment_status_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_tooltip.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_tooltip.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/contest_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/contest_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_item_pv.xml",
-        "source": "com.fantafeat.fflibrary-core-2.0.4-49:/layout/cf_dialog_item_pv.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_text_input_start_icon.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_text_input_start_icon.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_promote_app_form.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_promote_app_form.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_commong_soon.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_commong_soon.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_splash.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_splash.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_cricket_select_player.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_cricket_select_player.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_closed_event.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_closed_event.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/tournament_match_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/tournament_match_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_popup_banner.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_popup_banner.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_feed.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_feed.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_home_offer.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_home_offer.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_horse_racing_home.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_horse_racing_home.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_match_leaderboard.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_match_leaderboard.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_session_out.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_session_out.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/alerter_alert_default_layout.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/layout/alerter_alert_default_layout.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_sign_up.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_sign_up.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_player_state.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_player_state.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/m3_alert_dialog.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/m3_alert_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_clockface_textview.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_clockface_textview.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/commentry_bowl_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/commentry_bowl_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_user_detail.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_user_detail.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_alert_select_dialog_item.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_alert_select_dialog_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_time_chip.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_time_chip.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_select_c_v_c.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_select_c_v_c.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/poll_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/poll_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/my_tickets_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/my_tickets_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_template_big_media.xml",
-        "source": "com.fantafeat.fflibrary-media-1.0.0-3:/layout/notification_template_big_media.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_search_bar.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_search_bar.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/lineup_sub_header_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/lineup_sub_header_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/batter_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/batter_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_analytics_manager_info_display.xml",
-        "source": "com.fantafeat.fflibrary-easypay-8.7.3-appinvoke-4-31:/layout/activity_analytics_manager_info_display.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/promotors_prise_pool_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/promotors_prise_pool_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_contest.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_contest.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_all_tickets.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_all_tickets.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_a_rplayer.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_a_rplayer.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_lineups_selection.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_lineups_selection.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_upi.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_upi.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_template_part_time.xml",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/select_dialog_item_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_player_stock_detail.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_player_stock_detail.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_team_select_join.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_team_select_join.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/upi_apps_dialog_layout.xml",
-        "source": "com.fantafeat.fflibrary-IntentSDK-2.4.2-13:/layout/upi_apps_dialog_layout.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_web_view_game.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_web_view_game.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_user_leaderboard.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_user_leaderboard.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_bank_account_details.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_bank_account_details.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_textinput_timepicker.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_textinput_timepicker.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/opinion_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/opinion_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_transfer.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_transfer.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_screen_simple.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/progress_dialog.xml",
-        "source": "com.fantafeat.fflibrary-easypay-8.7.3-appinvoke-4-31:/layout/progress_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_update_k_y_c.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_update_k_y_c.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/other_chat_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/other_chat_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_rummy_contest.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_rummy_contest.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_confirm_joining.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_confirm_joining.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_bottom_sheet_dialog.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_actions.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_actions.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_select_dialog_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/easypay_browser_frag_revamp.xml",
-        "source": "com.fantafeat.fflibrary-easypay-8.7.3-appinvoke-4-31:/layout/easypay_browser_frag_revamp.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/m3_alert_dialog_actions.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/m3_alert_dialog_actions.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/story_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/story_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/recyclerview_tradeboard_event_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/recyclerview_tradeboard_event_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/nav_header.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/nav_header.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_image_picker.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_image_picker.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_menu.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_menu.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_navigation_item_separator.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_basketball_home.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_basketball_home.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_search_view.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/dialog_match_rank.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/dialog_match_rank.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/avatar_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/avatar_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/custom_dialog.xml",
-        "source": "com.fantafeat.fflibrary-core-1.13.0-36:/layout/custom_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/event_slider_1.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/event_slider_1.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/view_all_contest_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/view_all_contest_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_after_match_player_states.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_after_match_player_states.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/avatar_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/avatar_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/scorecard_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/scorecard_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_after_match.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_after_match.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ucrop_layout_rotate_wheel.xml",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/layout/ucrop_layout_rotate_wheel.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_cashfree_native_checkout.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/activity_cashfree_native_checkout.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/sdp_example.xml",
-        "source": "com.fantafeat.fflibrary-sdp-android-1.1.0-53:/layout/sdp_example.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_payment_mode_paylater.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_payment_mode_paylater.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_bat_player.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_bat_player.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/discard_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/discard_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/spinner_text.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/spinner_text.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_emi.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_emi.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_item_upi_app.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_item_upi_app.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/toolbar_contest_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/toolbar_contest_list.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_layout_tab_icon.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_layout_snackbar.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_expanded_menu_layout.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/abc_alert_dialog_title_material.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_bank_withdraw.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_bank_withdraw.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/contest_quantity_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/contest_quantity_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/material_time_input.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/material_time_input.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_callback_select_query.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_callback_select_query.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_profile.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_profile.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/design_text_input_end_icon.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/design_text_input_end_icon.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_web_view.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_web_view.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/contest_filter_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/contest_filter_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/row_transaction.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/row_transaction.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_auto_complete_simple_item.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_auto_complete_simple_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_header_title_text.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_header_title_text.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/event_detail_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/event_detail_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_item_payment_mode_nb.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_item_payment_mode_nb.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/mtrl_picker_text_input_date.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout/mtrl_picker_text_input_date.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/ludo_tnc_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/ludo_tnc_dialog.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/activity_leader_board.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/activity_leader_board.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/cf_dialog_nb.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout/cf_dialog_nb.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_media_cancel_action.xml",
-        "source": "com.fantafeat.fflibrary-media-1.0.0-3:/layout/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/recyclerview_tradeboard_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/recyclerview_tradeboard_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/notification_template_lines_media.xml",
-        "source": "com.fantafeat.fflibrary-media-1.0.0-3:/layout/notification_template_lines_media.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/poll_entry_item.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/poll_entry_item.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout/fragment_contest_list.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/layout/fragment_contest_list.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout/mtrl_navigation_rail_item.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout/mtrl_navigation_rail_item.xml"
     }
 ]

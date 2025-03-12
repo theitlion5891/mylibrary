@@ -27,7 +27,7 @@ public class ConstantUtil {
     public static int CENTER_CROP = 10000;
     public static int FIT_CENTER = 10000;
     public static int CENTER_INSIDE = 10000;
-    public static String COMPANY_ID="2";
+    public static String COMPANY_ID="101";
     public static boolean IS_POPUP_BANNER_SHOW = false;
     public static String FULL_IMAGE_PATH = "full_screen_image";
     public static String TRANS_ID = "trans_id";

@@ -1,18 +1,6 @@
 [
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
-        "source": "com.fantafeat.fflibrary-play-services-auth-20.4.1-42:/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
-        "source": "com.fantafeat.fflibrary-play-services-auth-20.4.1-42:/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-watch-v20/abc_dialog_material_background.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/drawable-watch-v20/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
-        "source": "com.fantafeat.fflibrary-play-services-auth-20.4.1-42:/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/drawable-watch-v20/abc_dialog_material_background.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/drawable-watch-v20/abc_dialog_material_background.xml"
     }
 ]

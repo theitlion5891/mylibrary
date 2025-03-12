@@ -41,6 +41,7 @@ public class UpcomingLeagueFragment extends BaseFragment {
     ImageView imgPlace;
     TextView txtPlace;
     String sportId="";
+    private boolean isDataLoaded=false;
 
     public UpcomingLeagueFragment() {
        // this.sportId = sportId;
@@ -68,7 +69,7 @@ public class UpcomingLeagueFragment extends BaseFragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_upcoming_league, container, false);
         initFragment(view);
-        getData();
+        //getData();
         return view;
     }
 
@@ -79,6 +80,15 @@ public class UpcomingLeagueFragment extends BaseFragment {
         layNoData = view.findViewById(R.id.layNoData);
         imgPlace = view.findViewById(R.id.imgPlace);
         txtPlace = view.findViewById(R.id.txtPlace);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (isVisible() && !isDataLoaded) {
+            isDataLoaded=true;
+            getData();
+        }
     }
 
     @Override

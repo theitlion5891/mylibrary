@@ -83,6 +83,7 @@
     <color name="appBackGround">#F5F5F5</color>
     <color name="appBackground">#F5F5F5</color>
     <color name="appBackground_secondary">#F8F8F8</color>
+    <color name="black">#000000</color>
     <color name="blackPrimary">#000000</color>
     <color name="blackSecondary">#1D1D1D</color>
     <color name="blackTabFont">#373737</color>
@@ -90,11 +91,11 @@
     <color name="blue">#2A41CF</color>
     <color name="blue1">#01579B</color>
     <color name="btnGrey">#9F9F9F</color>
-    <color name="colorAccent">#D32C2E</color>
+    <color name="colorAccent">?attr/colorAccent</color>
     <color name="colorBlack">#000000</color>
     <color name="colorGray">#F7F7F7</color>
-    <color name="colorPrimary">#B20017</color>
-    <color name="colorPrimaryDark">#B20017</color>
+    <color name="colorPrimary">?attr/colorPrimary</color>
+    <color name="colorPrimaryDark">?attr/colorPrimaryDark</color>
     <color name="colorPrimaryTransparent">#8001579B</color>
     <color name="colorPrimaryTransparentRegular">#d4e3fc</color>
     <color name="colorWhite">#FFFFFF</color>
@@ -149,6 +150,7 @@
     <color name="trans_blue">#1901579C</color>
     <color name="transparent">#00000000</color>
     <color name="waiting_bg">#451215</color>
+    <color name="white">#ffffff</color>
     <color name="white_font">#EAEAEA</color>
     <color name="white_pure">#FFFFFF</color>
     <color name="white_trans">#7AF1EDED</color>
@@ -191,6 +193,7 @@
     <string name="next">Next</string>
     <string name="no">No</string>
     <string name="no_record_found">No record found</string>
+    <string name="not_enough_balance">Not enough balance</string>
     <string name="open_drawer">Open</string>
     <string name="otp">OTP</string>
     <string name="please_enter_otp">Please enter 6-digit OTP</string>

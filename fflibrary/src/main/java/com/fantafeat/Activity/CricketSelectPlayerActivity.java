@@ -24,7 +24,6 @@ import com.fantafeat.Session.MyApp;
 import com.fantafeat.util.ConstantUtil;
 import com.fantafeat.util.FragmentUtil;
 import com.fantafeat.util.PrefConstant;
-import com.github.nkzawa.socketio.client.Socket;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import org.json.JSONException;

@@ -1,286 +1,274 @@
 [
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_tooltip_enter.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_tooltip_enter.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/alerter_slide_out_to_right.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/anim/alerter_slide_out_to_right.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/alerter_pulse.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/anim/alerter_pulse.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/slide_down.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/slide_down.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/design_snackbar_in.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/anim/design_snackbar_in.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/m3_motion_fade_exit.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/anim/m3_motion_fade_exit.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_checkbox_to_unchecked_icon_null_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_checkbox_to_unchecked_icon_null_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/linear_indeterminate_line1_tail_interpolator.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/anim/linear_indeterminate_line1_tail_interpolator.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/bottom_to_original.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/bottom_to_original.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_tooltip_exit.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_tooltip_exit.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/linear_indeterminate_line2_tail_interpolator.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/anim/linear_indeterminate_line2_tail_interpolator.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/bottom_down.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/bottom_down.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_fade_out.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_fade_out.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/exit_left.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/exit_left.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/alerter_slide_out_to_right.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/anim/alerter_slide_out_to_right.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/mtrl_card_lowers_interpolator.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/anim/mtrl_card_lowers_interpolator.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/alerter_slide_in_from_left.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/anim/alerter_slide_in_from_left.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/alerter_slide_in_from_left.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/anim/alerter_slide_in_from_left.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/enter_right.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/enter_right.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/slide_up.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/slide_up.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_fade_in.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_fade_in.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/mtrl_card_lowers_interpolator.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/anim/mtrl_card_lowers_interpolator.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/design_snackbar_out.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/fade_in_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/fade_in_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/m3_motion_fade_enter.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/anim/m3_motion_fade_enter.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/m3_motion_fade_enter.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/anim/m3_motion_fade_enter.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/enter_top.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/enter_top.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/shake.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/shake.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/exit_flip_right.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/exit_flip_right.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_fade_out.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_fade_out.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_popup_exit.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_popup_exit.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/exit_top.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/exit_top.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/exit_right.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/exit_right.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_slide_out_bottom.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/enter_left.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/enter_left.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/design_snackbar_in.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/anim/design_snackbar_in.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/rotate.xml",
-        "source": "com.fantafeat.fflibrary-appinvokesdk-1.5.4-34:/anim/rotate.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/exit_bottom.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/exit_bottom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/top_to_bottom.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/top_to_bottom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/linear_indeterminate_line1_tail_interpolator.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/anim/linear_indeterminate_line1_tail_interpolator.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/bottom_down.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/bottom_down.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/bottom_to_original.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/bottom_to_original.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/interpolator_slight_anticipate.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/anim/interpolator_slight_anticipate.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/enter_right.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/enter_right.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/m3_motion_fade_exit.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/anim/m3_motion_fade_exit.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/alerter_slide_out_to_bottom.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/anim/alerter_slide_out_to_bottom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/enter_flip_right.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/enter_flip_right.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/anim_right.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/anim_right.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_slide_out_bottom.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_slide_out_bottom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_checkbox_to_checked_icon_null_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_checkbox_to_checked_icon_null_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/alerter_slide_in_from_bottom.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/anim/alerter_slide_in_from_bottom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_popup_enter.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_popup_enter.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/slide_down_wallet.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/slide_down_wallet.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_radio_to_off_mtrl_dot_group_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_radio_to_off_mtrl_dot_group_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/exit_bottom.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/exit_bottom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_slide_in_top.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/anim_right.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/anim_right.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_checkbox_to_checked_icon_null_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_checkbox_to_checked_icon_null_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/anim_left.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/anim_left.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/design_snackbar_out.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/anim/design_snackbar_out.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/slide_up.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/slide_up.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/alerter_slide_in_from_bottom.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/anim/alerter_slide_in_from_bottom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/alerter_slide_out_to_bottom.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/anim/alerter_slide_out_to_bottom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/exit_flip_right.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/exit_flip_right.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/alerter_slide_in_from_top.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/anim/alerter_slide_in_from_top.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_popup_exit.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/interpolator_slight_overshoot.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/anim/interpolator_slight_overshoot.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/alerter_slide_in_from_top.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/anim/alerter_slide_in_from_top.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/custom.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/custom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_radio_to_off_mtrl_dot_group_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_radio_to_off_mtrl_dot_group_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_slide_in_bottom.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/enter_flip_left.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/enter_flip_left.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/interpolator_slight_overshoot.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/anim/interpolator_slight_overshoot.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/ucrop_loader_circle_path.xml",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/anim/ucrop_loader_circle_path.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/interpolator_slight_anticipate.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/anim/interpolator_slight_anticipate.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/linear_indeterminate_line2_tail_interpolator.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/anim/linear_indeterminate_line2_tail_interpolator.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/fade_out_dialog.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/fade_out_dialog.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_radio_to_on_mtrl_dot_group_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_radio_to_on_mtrl_dot_group_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_slide_in_top.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_slide_in_top.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/custom.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/custom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/linear_indeterminate_line1_head_interpolator.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/anim/linear_indeterminate_line1_head_interpolator.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/top_to_bottom.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/top_to_bottom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/slide_down.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/slide_down.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/enter_flip_right.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/enter_flip_right.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/bottom_up.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/bottom_up.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_radio_to_on_mtrl_dot_group_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_radio_to_on_mtrl_dot_group_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_slide_out_top.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_slide_out_top.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_tooltip_exit.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_tooltip_exit.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_slide_in_bottom.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_slide_in_bottom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/linear_indeterminate_line2_head_interpolator.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/anim/linear_indeterminate_line2_head_interpolator.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/exit_flip_left.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/exit_flip_left.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_tooltip_enter.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_tooltip_enter.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/alerter_slide_out_to_top.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/anim/alerter_slide_out_to_top.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_popup_enter.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/alerter_slide_out_to_top.xml",
-        "source": "com.fantafeat.fflibrary-alerter-7.2.4-29:/anim/alerter_slide_out_to_top.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/alerter_pulse.xml",
+        "source": "com.fantafeat.fflibrary-alerter-7.2.4-17:/anim/alerter_pulse.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/enter_bottom.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/enter_bottom.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/enter_top.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/enter_top.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/slide_down_wallet.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/slide_down_wallet.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/slide_from_right.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/slide_from_right.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/linear_indeterminate_line2_head_interpolator.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/anim/linear_indeterminate_line2_head_interpolator.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/bottom_up.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/bottom_up.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/ucrop_loader_circle_scale.xml",
-        "source": "com.fantafeat.fflibrary-ucrop-2.2.7-38:/anim/ucrop_loader_circle_scale.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/exit_right.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/exit_right.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/exit_top.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/exit_top.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/enter_left.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/enter_left.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/fade_in_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/fade_in_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/anim_left.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/anim_left.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_checkbox_to_unchecked_icon_null_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_checkbox_to_unchecked_icon_null_animation.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/enter_bottom.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/enter_bottom.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/shake.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/shake.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/abc_slide_out_top.xml",
+        "source": "com.fantafeat.fflibrary-appcompat-1.6.1-31:/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/fade_out_dialog.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/fade_out_dialog.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/enter_flip_left.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/enter_flip_left.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/exit_left.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/exit_left.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/exit_flip_left.xml",
+        "source": "com.fantafeat.fflibrary-main-38:/anim/exit_flip_left.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/abc_fade_in.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml",
-        "source": "com.fantafeat.fflibrary-appcompat-1.7.0-27:/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/anim/slide_from_right.xml",
-        "source": "com.fantafeat.fflibrary-main-58:/anim/slide_from_right.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/anim/linear_indeterminate_line1_head_interpolator.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/anim/linear_indeterminate_line1_head_interpolator.xml"
     }
 ]

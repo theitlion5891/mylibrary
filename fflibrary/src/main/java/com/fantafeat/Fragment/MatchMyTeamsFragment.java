@@ -38,6 +38,7 @@ public class  MatchMyTeamsFragment extends BaseFragment {
     LinearLayout layNoData;
     SwipeRefreshLayout refresh_my_team;
     private long lastUpdateTime=0;
+    private boolean isDataLoaded=false;
    // AfterMatchActivity afterMatchActivity;
 
     public MatchMyTeamsFragment() {
@@ -62,7 +63,7 @@ public class  MatchMyTeamsFragment extends BaseFragment {
         myTeamList = view.findViewById(R.id.my_team_list_match);
         refresh_my_team = view.findViewById(R.id.refresh_my_team);
         layNoData = view.findViewById(R.id.layNoData);
-        getTempTeamData();
+        //getTempTeamData();
     }
 
     @Override
@@ -78,6 +79,15 @@ public class  MatchMyTeamsFragment extends BaseFragment {
                 }
             }
         });
+    }
+
+    @Override
+    public void onResume() {
+        if (isVisible() && !isDataLoaded) {
+            isDataLoaded=true;
+            getTempTeamData();
+        }
+        super.onResume();
     }
 
     public void getTempTeamData() {

@@ -1,22 +1,10 @@
 [
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout-sw600dp-v13/cf_item_payment_mode_upi.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout-sw600dp-v13/cf_item_payment_mode_upi.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
     },
     {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout-sw600dp-v13/activity_cashfree_native_checkout.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout-sw600dp-v13/activity_cashfree_native_checkout.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout-sw600dp-v13/cf_dialog_exit.xml",
-        "source": "com.fantafeat.fflibrary-ui-2.0.4-18:/layout-sw600dp-v13/cf_dialog_exit.xml"
-    },
-    {
-        "merged": "com.fantafeat.fflibrary-merged_res-57:/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "com.fantafeat.fflibrary-material-1.12.0-15:/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "com.fantafeat.fflibrary-merged_res-37:/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "com.fantafeat.fflibrary-material-1.12.0-10:/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

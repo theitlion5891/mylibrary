@@ -5,6 +5,7 @@
     android:textColor="@color/black"
     android:text="Upcoming Matches"
     android:paddingHorizontal="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_8ssp"
     android:textSize="@dimen/_12ssp"
     android:textStyle="bold"
     android:fontFamily="@font/roboto_bold"

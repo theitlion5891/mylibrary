@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#B20017</color>
-    <color name="colorPrimaryDark">#B20017</color><!--A31F22-->
-    <color name="colorAccent">#D32C2E</color>
+    <color name="colorPrimary">?attr/colorPrimary</color>
+    <color name="colorPrimaryDark">?attr/colorPrimaryDark</color>
+    <color name="colorAccent">?attr/colorAccent</color>
     <color name="white_font">#EAEAEA</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
     <color name="transparent">#00000000</color>
     <color name="font_color">#2C2C2C</color>
     <color name="tab_unselected">#8A8A91</color>

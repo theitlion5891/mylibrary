@@ -7,11 +7,6 @@
     tools:context="com.fantafeat.Fragment.MyLeagueFragment"
     android:orientation="vertical">
 
-    <!--<include android:id="@+id/league_toolbar"
-        layout="@layout/toolbar_home_fragment">
-
-    </include>-->
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -48,43 +43,24 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
+        <com.google.android.material.tabs.TabLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <com.google.android.material.tabs.TabLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                android:id="@+id/my_league_tabs"
-                android:layout_weight="1"
-                app:tabGravity="fill"
-                app:tabMode="fixed"
-                android:background="@color/pureWhite"
-                app:tabTextAppearance="@style/MyCustomTabWithIcon"
-                app:tabIndicatorColor="@color/colorPrimary"
-                app:tabIndicatorHeight="@dimen/_3sdp"
-                app:tabPaddingBottom="@dimen/_5sdp"
-                app:tabPaddingTop="@dimen/_5sdp"
-                app:tabSelectedTextColor="@color/colorPrimary">
-            </com.google.android.material.tabs.TabLayout>
-
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="40dp"
-                android:src="@drawable/ic_trade_x"
-                android:background="@color/white"
-                android:id="@+id/imgTrade"/>
-
-        </LinearLayout>
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/my_league_tabs"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            android:background="@color/pureWhite"
+            app:tabTextAppearance="@style/MyCustomTabWithIcon"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabIndicatorHeight="@dimen/_3sdp"
+            app:tabPaddingBottom="@dimen/_5sdp"
+            app:tabPaddingTop="@dimen/_5sdp"
+            app:tabSelectedTextColor="@color/colorPrimary"/>
 
          <androidx.viewpager2.widget.ViewPager2
              android:id="@+id/my_league_viewpager"
              android:layout_width="match_parent"
-             android:layout_height="match_parent">
-         </androidx.viewpager2.widget.ViewPager2>
+             android:layout_height="match_parent"/>
 
     </LinearLayout>
 </LinearLayout>

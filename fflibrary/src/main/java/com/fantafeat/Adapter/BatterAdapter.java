@@ -12,8 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.fantafeat.Model.ScoreModel;
 import com.fantafeat.R;
-import com.fantafeat.util.LogUtil;
-import com.itextpdf.text.pdf.parser.Line;
 
 import java.util.List;
 

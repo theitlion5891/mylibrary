@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.fantafeat.fflibrary-mergeReleaseResources-55:/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "com.fantafeat.fflibrary-mergeReleaseResources-35:/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.10.2/transforms/127d9b9ea628ab9f68508762a519865a/transformed/ssp-android-1.0.6/res/values-sw720dp-v13/values-sw720dp-v13.xml",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "outputFile": "com.fantafeat.fflibrary-merged_res-57:/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "com.fantafeat.fflibrary-merged_res-37:/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.10.2/transforms/127d9b9ea628ab9f68508762a519865a/transformed/ssp-android-1.0.6/res/values-sw720dp-v13/values-sw720dp-v13.xml",

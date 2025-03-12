@@ -1,9 +1,7 @@
 package com.fantafeat.Adapter;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -22,7 +20,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.fantafeat.Activity.AfterMatchActivity;
 import com.fantafeat.Activity.LeaderBoardActivity;
-import com.fantafeat.Activity.UserLeaderboardActivity;
 import com.fantafeat.Model.ContestModel;
 import com.fantafeat.R;
 import com.fantafeat.Session.MyApp;
@@ -275,8 +272,8 @@ public class JoinLeagueAdapter extends RecyclerView.Adapter<JoinLeagueAdapter.Ho
 
         holder.txtLeaderboard.setOnClickListener(v->{
             if (MyApp.getClickStatus()) {
-                mContext.startActivity(new Intent(mContext, UserLeaderboardActivity.class)
-                        .putExtra("leaderboard_id",list.getLb_id()));
+               /* mContext.startActivity(new Intent(mContext, UserLeaderboardActivity.class)
+                        .putExtra("leaderboard_id",list.getLb_id()));*/
             }
         });
 

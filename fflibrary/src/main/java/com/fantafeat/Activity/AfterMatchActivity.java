@@ -39,7 +39,6 @@ import com.fantafeat.util.GetApiResult;
 import com.fantafeat.util.HttpRestClient;
 import com.fantafeat.util.LogUtil;
 import com.fantafeat.util.OnFragmentInteractionListener;
-import com.github.nkzawa.socketio.client.Socket;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 import com.google.gson.JsonSyntaxException;
@@ -248,19 +247,18 @@ public class AfterMatchActivity extends BaseActivity implements OnFragmentIntera
         }
         if (preferences.getMatchModel().getSportId().equals("1") &&
                 preferences.getMatchModel().getShowScorecard().equalsIgnoreCase("yes")){
-            viewPager.setOffscreenPageLimit(5);
+           // viewPager.setOffscreenPageLimit(5);
             joined_team_tab.setTabMode(TabLayout.MODE_SCROLLABLE);
         }else {
             joined_team_tab.setTabMode(TabLayout.MODE_FIXED);
-            viewPager.setOffscreenPageLimit(3);
+           // viewPager.setOffscreenPageLimit(3);
         }
 
         viewPager.setAdapter(createAdapter());
+        viewPager.setOffscreenPageLimit(3);
         new TabLayoutMediator(joined_team_tab, viewPager,
                 (tab, position) -> tab.setText(mFragmentTitleList.get(position))).attach();
         viewPager.setUserInputEnabled(false);
-
-
 
         initClick();
 
@@ -294,11 +292,14 @@ public class AfterMatchActivity extends BaseActivity implements OnFragmentIntera
 
         if(preferences.getMatchModel().getMatchStatus().equalsIgnoreCase("live")) {
             match_status.setCompoundDrawablesRelativeWithIntrinsicBounds(mContext.getResources().getDrawable(R.drawable.ic_red_dot),null,null,null);
-        }else if(preferences.getMatchModel().getMatchStatus().equalsIgnoreCase("in review")){
+        }
+        else if(preferences.getMatchModel().getMatchStatus().equalsIgnoreCase("in review")){
             match_status.setCompoundDrawablesRelativeWithIntrinsicBounds(mContext.getResources().getDrawable(R.drawable.ic_orange_dot),null,null,null);
-        }else if(preferences.getMatchModel().getMatchStatus().equalsIgnoreCase("completed")){
+        }
+        else if(preferences.getMatchModel().getMatchStatus().equalsIgnoreCase("completed")){
             match_status.setCompoundDrawablesRelativeWithIntrinsicBounds(mContext.getResources().getDrawable(R.drawable.ic_green_dot),null,null,null);
-        }else if(preferences.getMatchModel().getMatchStatus().equalsIgnoreCase("Cancelled")) {
+        }
+        else if(preferences.getMatchModel().getMatchStatus().equalsIgnoreCase("Cancelled")) {
             match_status.setCompoundDrawablesRelativeWithIntrinsicBounds(mContext.getResources().getDrawable(R.drawable.ic_red_dot),null,null,null);
         }
         team1_full_name.setText(preferences.getMatchModel().getTeam1Name());

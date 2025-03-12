@@ -458,6 +458,7 @@ public class MyTeamListAdapter extends RecyclerView.Adapter<MyTeamListAdapter.My
             imgEdit = (ImageView) itemView.findViewById(R.id.imgEdit);
             imgCopy = (ImageView) itemView.findViewById(R.id.imgCopy);
             imgShare = (ImageView) itemView.findViewById(R.id.imgShare);
+            imgShare.setVisibility(View.GONE);
             cardLinear = (LinearLayout) itemView.findViewById(R.id.card_linear);
             layCr = (LinearLayout) itemView.findViewById(R.id.layCr);
             flag_0 = (LinearLayout) itemView.findViewById(R.id.flag_0);

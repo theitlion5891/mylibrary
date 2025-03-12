@@ -283,17 +283,17 @@ public class BottomSheetTeam extends BottomSheetDialogFragment {
         prv_team_name.setSelected(true);
 
         dialog_team_share = view.findViewById(R.id.dialog_team_share);
-        dialog_team_share.setVisibility(View.VISIBLE);
+        dialog_team_share.setVisibility(View.GONE);
         if (matchModel.getMatchStatus().equalsIgnoreCase("Pending") && showShare) {
-            dialog_team_share.setVisibility(View.VISIBLE);
+           // dialog_team_share.setVisibility(View.VISIBLE);
             team_preview_edit.setVisibility(View.VISIBLE);
         }
         else if (matchModel.getMatchStatus().equalsIgnoreCase("Completed") && showShare) {
-            dialog_team_share.setVisibility(View.VISIBLE);
+            //dialog_team_share.setVisibility(View.VISIBLE);
             team_preview_edit.setVisibility(View.GONE);
         }
         else {
-            dialog_team_share.setVisibility(View.GONE);
+           // dialog_team_share.setVisibility(View.GONE);
             team_preview_edit.setVisibility(View.GONE);
         }
 

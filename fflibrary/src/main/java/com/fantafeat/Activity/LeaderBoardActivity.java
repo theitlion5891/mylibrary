@@ -72,8 +72,6 @@ import com.fantafeat.util.HttpRestClient;
 import com.fantafeat.util.LogUtil;
 import com.fantafeat.util.OfferListSheet;
 import com.fantafeat.util.PrefConstant;
-import com.fantafeat.util.WinningTreeSheet;
-import com.github.nkzawa.socketio.client.Socket;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
@@ -633,60 +631,6 @@ public class LeaderBoardActivity extends BaseActivity {
             }
         });
 
-       /* excel_download.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                downloadExcel(list.getId());
-            }
-        });*/
-
-       /* if (CustomUtil.convertInt(list.getMyJoinedTeam()) < CustomUtil.convertInt(list.getMaxTeamBonusUse())) {
-            if (CustomUtil.convertInt(list.getUseBonus()) > 0) {
-                // bonus_linear.setBackground(mContext.getResources().getDrawable(R.drawable.contest_type_border_red));
-                contest_bonus.setTextColor(mContext.getResources().getColor(R.color.white_font));
-                contest_bonus.setBackground(mContext.getResources().getDrawable(R.drawable.red_fill_curve));
-            } else {
-                //   bonus_linear.setBackground(mContext.getResources().getDrawable(R.drawable.contest_type_border_red));
-                contest_bonus.setTextColor(mContext.getResources().getColor(R.color.font_color));
-                contest_bonus.setBackground(mContext.getResources().getDrawable(R.drawable.light_grey_fill_curve));
-            }
-            contest_bonus.setText(list.getUseBonus() + "%");
-        } else {
-            if (CustomUtil.convertInt(list.getDefaultBonus()) > 0) {
-                //   bonus_linear.setBackground(mContext.getResources().getDrawable(R.drawable.contest_type_border_red));
-                contest_bonus.setTextColor(mContext.getResources().getColor(R.color.white_font));
-                contest_bonus.setBackground(mContext.getResources().getDrawable(R.drawable.red_fill_curve));
-            } else {
-                //   bonus_linear.setBackground(mContext.getResources().getDrawable(R.drawable.contest_type_border_red));
-                contest_bonus.setTextColor(mContext.getResources().getColor(R.color.font_color));
-                contest_bonus.setBackground(mContext.getResources().getDrawable(R.drawable.light_grey_fill_curve));
-            }
-            contest_bonus.setText(list.getDefaultBonus() + "%");
-        }*/
-
-         /* if (CustomUtil.convertInt(list.getMyJoinedTeam()) < CustomUtil.convertInt(list.getMaxTeamBonusUse())) {
-          if (CustomUtil.convertInt(list.getUseBonus()) >= 50) {
-                bonus_linear.setBackground(mContext.getResources().getDrawable(R.drawable.contest_type_border_red));
-                contest_bonus.setTextColor(mContext.getResources().getColor(R.color.white_font));
-                contest_bonus.setBackground(mContext.getResources().getDrawable(R.drawable.red_fill_curve));
-            } else {
-                bonus_linear.setBackground(mContext.getResources().getDrawable(R.drawable.contest_type_border));
-                contest_bonus.setTextColor(mContext.getResources().getColor(R.color.font_color));
-                contest_bonus.setBackground(mContext.getResources().getDrawable(R.drawable.white_fill_curve));
-            }
-            contest_bonus.setText(list.getUseBonus() + "%");
-        } else {
-           if (CustomUtil.convertInt(list.getDefaultBonus()) >= 50) {
-                bonus_linear.setBackground(mContext.getResources().getDrawable(R.drawable.contest_type_border_red));
-                contest_bonus.setTextColor(mContext.getResources().getColor(R.color.white_font));
-                contest_bonus.setBackground(mContext.getResources().getDrawable(R.drawable.red_fill_curve));
-            } else {
-                bonus_linear.setBackground(mContext.getResources().getDrawable(R.drawable.contest_type_border));
-                contest_bonus.setTextColor(mContext.getResources().getColor(R.color.font_color));
-                contest_bonus.setBackground(mContext.getResources().getDrawable(R.drawable.white_fill_curve));
-            }
-            contest_bonus.setText(list.getDefaultBonus() + "%");
-        }*/
 
         join_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -828,66 +772,7 @@ public class LeaderBoardActivity extends BaseActivity {
     }
 
     public void followUnFollowAction(ContestModel.ContestDatum object) {
-        /*List<ContestModel.ContestDatum> list = preferences.getFavList();
-        if (list!=null && list.size()>0){
-            if (object.getContestFavorite()){
-                int pos=-1;
-                for (int i=0;i<list.size();i++) {
-                    ContestModel.ContestDatum contest=list.get(i);
-                    if (
-                            object.getConDisplayType().equals(contest.getConDisplayType())&&
-                                    object.getConTplId().equals(contest.getConTplId())&&
-                                    object.getConTypeId().equals(contest.getConTypeId())&&
-                                    object.getConTypeName().equals(contest.getConTypeName())&&
-                                    object.getDistributeAmount().equals(contest.getDistributeAmount())&&
-                                    object.getEntryFee().equals(contest.getEntryFee())
-                    ){
-                        pos=i;
-                    }
-                }
-                if (pos!=-1){
-                    list.remove(pos);
-                    preferences.setFavList(list);
-                }
-                this.list.setContestFavorite(false);
-                CustomUtil.showTopSneakSuccess(mContext,"Contest Unfavorite successfully");
-                toolbar_fav.setImageResource(R.drawable.star_white_outline);
-            }
-            else {
-                boolean isFavAdd=false;
-                for (int i=0;i<list.size();i++){
-                    ContestModel.ContestDatum contest=list.get(i);
-                    if (object.getConDisplayType().equals(contest.getConDisplayType())&&
-                            object.getConTplId().equals(contest.getConTplId())&&
-                            object.getConTypeId().equals(contest.getConTypeId())&&
-                            object.getConTypeName().equals(contest.getConTypeName())&&
-                            object.getDistributeAmount().equals(contest.getDistributeAmount())&&
-                            object.getEntryFee().equals(contest.getEntryFee())
-                    ){
-                        isFavAdd=true;
-                    }
-                }
-                if (!isFavAdd){
-                    list.add(object);
-                    preferences.setFavList(list);
-                    this.list.setContestFavorite(true);
-                    CustomUtil.showTopSneakSuccess(mContext,"Contest favorite successfully");
-                    toolbar_fav.setImageResource(R.drawable.star_fille_yellow);
-                }else {
-                    CustomUtil.showTopSneakSuccess(mContext,"Contest is already favorite");
-                    toolbar_fav.setImageResource(R.drawable.star_fille_yellow);
-                }
 
-            }
-
-        }else {
-            List<ContestModel.ContestDatum> list1 = new ArrayList<>();
-            list1.add(object);
-            preferences.setFavList(list1);
-            this.list.setContestFavorite(true);
-            CustomUtil.showTopSneakSuccess(mContext,"Contest favorite successfully");
-            toolbar_fav.setImageResource(R.drawable.star_fille_yellow);
-        }*/
 
         ArrayList<String> favArr = new ArrayList<>(Arrays.asList(preferences.getUserModel().getFavoriteLeague().split(",")));
 
@@ -971,79 +856,10 @@ public class LeaderBoardActivity extends BaseActivity {
         super.onResume();
         ConstantUtil.isTimeOverShow = false;
 
-        /*mSocket = MyApp.getInstance().getSocketInstance();
-        if (mSocket != null) {
-            if (!mSocket.connected())
-                mSocket.connect();
-            try {
-                JSONObject obj = new JSONObject();
-                if (preferences.getUserModel() != null) {
-                    obj.put("user_id", preferences.getUserModel().getId());
-                }
-                obj.put("title", "contestdetail");
-                mSocket.emit("connect_user", obj);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }*/
     }
 
     public void confirmTeam(ContestModel.ContestDatum contestData) {
 
-        if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())) {
-            showBasicDetailDialog(contestData);
-            return;
-        }
-
-        /*use_deposit = use_transfer = use_winning = use_donation_deposit = useBonus = 0;
-
-        final float[] Contest_fee = {CustomUtil.convertFloat(contestData.getEntryFee())};
-        float orgContestEntry = CustomUtil.convertFloat(contestData.getEntryFee());
-        final float deposit = CustomUtil.convertFloat(preferences.getUserModel().getDepositBal());
-        float bonus = CustomUtil.convertFloat(preferences.getUserModel().getBonusBal());
-        final float winning = CustomUtil.convertFloat(preferences.getUserModel().getWinBal());
-        //final float transfer_bal = CustomUtil.convertFloat(preferences.getUserModel().getTransferBal());
-        float usableBonus = 0;
-
-        if (contestData.getNewOfferRemovedList().size()>0){
-            NewOfferModal modal=contestData.getNewOfferRemovedList().get(0);
-            if (modal.getDiscount_entry_fee().equalsIgnoreCase("")){
-                Contest_fee[0] =CustomUtil.convertFloat(contestData.getEntryFee());
-                orgContestEntry =CustomUtil.convertFloat(contestData.getEntryFee());
-            }else {
-                Contest_fee[0] =CustomUtil.convertFloat(modal.getDiscount_entry_fee());
-                orgContestEntry =CustomUtil.convertFloat(modal.getDiscount_entry_fee());
-            }
-            usableBonus=CustomUtil.convertFloat(modal.getUsed_bonus());
-            // teamno=modal.getTeam_no();
-        }
-        else {
-            usableBonus=CustomUtil.convertFloat(contestData.getDefaultBonus());
-            Contest_fee[0] =CustomUtil.convertFloat(contestData.getEntryFee());
-            orgContestEntry =CustomUtil.convertFloat(contestData.getEntryFee());
-        }
-
-        useBonus = ((Contest_fee[0] * usableBonus) / 100);
-
-        if (useBonus > bonus) {
-            useBonus = bonus;
-        }
-
-        if (Contest_fee[0] - useBonus >= 0) {// (Contest_fee[0] - useBonus >= 0)
-            Contest_fee[0] = Contest_fee[0] - useBonus;
-        }
-
-        if ((Contest_fee[0] - deposit) < 0) {
-            use_deposit = Contest_fee[0];
-        }
-        else {
-            use_deposit = deposit;
-            //use_transfer = transfer_bal;
-            use_winning = Contest_fee[0] - deposit;
-        }
-
-        LogUtil.e(TAG, "onClick: deposit: " + deposit +"\n useBonus:" + useBonus + "\n Winning:" + winning);
-        LogUtil.e(TAG, "onClick: Total: " + (deposit + useBonus + winning)+"\n Contest_fee[0]:" + Contest_fee[0]);*/
 
         if (!isValidForJoin(contestData, 1)) {//((deposit +  winning) - Contest_fee[0]) < 0
 
@@ -1056,11 +872,12 @@ public class LeaderBoardActivity extends BaseActivity {
 
             String patableAmt = CustomUtil.getFormater("0.00").format(amt);
             MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS, false);
-            Intent intent = new Intent(mContext, AddDepositActivity.class);
+            CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+            /*Intent intent = new Intent(mContext, AddDepositActivity.class);
             intent.putExtra("isJoin", true);
             intent.putExtra("depositAmt", patableAmt);
             intent.putExtra("contestData", gson.toJson(contestData));
-            startActivity(intent);
+            startActivity(intent);*/
         } else {
             TextView join_contest_fee, join_use_deposit, join_use_borrowed, join_use_rewards,
                     join_use_winning, join_user_pay;
@@ -1267,7 +1084,7 @@ public class LeaderBoardActivity extends BaseActivity {
 
                         if (!isValidForJoin(contestData, qty)) {//((deposit +  winning) - (CustomUtil.convertFloat(contestData.getEntryFee()) * qty)) < 0
                             bottomSheetDialog.dismiss();
-                            CustomUtil.showToast(mContext, "Insufficient Balance");
+                          //  CustomUtil.showToast(mContext, "Insufficient Balance");
                             //float amt= (CustomUtil.convertFloat(contestData.getEntryFee()) * qty) - (deposit + winning);
                             double amt = Math.ceil(amtToAdd);
                             if (amt < 1) {
@@ -1276,11 +1093,12 @@ public class LeaderBoardActivity extends BaseActivity {
                             contestData.setJoin_con_qty(edtConQty.getText().toString().trim());
                             String patableAmt = CustomUtil.getFormater("0.00").format(amt);
                             MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS, false);
-                            Intent intent = new Intent(mContext, AddDepositActivity.class);
+                            CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+                        /*    Intent intent = new Intent(mContext, AddDepositActivity.class);
                             intent.putExtra("isJoin", true);
                             intent.putExtra("depositAmt", patableAmt);
                             intent.putExtra("contestData", gson.toJson(contestData));
-                            startActivity(intent);
+                            startActivity(intent);*/
                             return;
                         }
 

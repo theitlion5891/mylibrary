@@ -4,221 +4,30 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
     <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:name="com.fantafeat.Session.MyApp">
-
-        <activity
-            android:name="com.fantafeat.Activity.BrowseAllTopicActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.AllTicketsActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.ChatActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.HelpDeskActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
         <activity
             android:name="com.fantafeat.Activity.CustomMoreContestListActivity"
              android:exported="true"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.InstantKycActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.LudoTournamentActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.GameLeaderboardActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.InvesterDetailsActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.InvestmentLeaderboardActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.LeaderboardListActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.EventDetailsActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.PollDetailsActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.OpinionDetailsActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.UpcomingEventDetailsActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.TOPActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.WithdrawListActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name="com.fantafeat.Activity.MoreContestListActivity"
              android:exported="true"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.RummyContestActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.PaymentWebActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.WebViewGameActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.PromotorLeaderboardActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.FiferContestActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.SinglesContestActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.GameListActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.LudoContestListActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.ImagePickerActivity"
-             android:exported="true"
-            android:label="@string/title_activity_image_picker"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.AffilationMatchList"
-             android:exported="true"
-            android:label="@string/title_activity_affilation_match_list"
-            android:screenOrientation="portrait"/>
-       <!-- <activity
-            android:name="com.yalantis.ucrop.UCropActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />-->
-        <activity
-            android:name="com.fantafeat.Activity.CommongSoonActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.UserDetailActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.UserLeaderboardActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.InstantWithdrawActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.AffiliationDetailsActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.AffiliationActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.InviteFriendListActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.CallbackSelectQueryActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name="com.fantafeat.Activity.CompareTeamActivity"
              android:exported="true"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.ProfileActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.PaytmVerifyActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.FullImageActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.UpdateKYCActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.CallbackActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.WebViewActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.TransactionListActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.WithdrawActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.RequestStatementActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.WelcomeActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.PromoteAppFormActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.PromoteAppActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name="com.fantafeat.Activity.PlayerStatsActivity"
              android:exported="true"
@@ -235,26 +44,7 @@
             android:name="com.fantafeat.Activity.TeamSelectJoinActivity"
              android:exported="true"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.AddDepositActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.PaymentActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.NewPasswordActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.ForgotPasswordActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.SignUpActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name="com.fantafeat.Activity.LeaderBoardActivity"
              android:exported="true"
@@ -275,16 +65,7 @@
             android:name="com.fantafeat.Activity.ContestListActivity"
              android:exported="true"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.LoginActivity"
-             android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.fantafeat.Activity.SplashActivity"
-            android:exported="true"
-            android:screenOrientation="portrait">
 
-        </activity>
         <activity
             android:name="com.fantafeat.Activity.HomeActivity"
             android:exported="true"

@@ -21,8 +21,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.os.Handler;
-import android.os.Looper;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -45,7 +43,6 @@ import android.widget.Toast;
 
 
 import com.fantafeat.Adapter.ContestQuantityAdapter;
-import com.fantafeat.Adapter.GroupListAdapter;
 import com.fantafeat.BuildConfig;
 import com.fantafeat.Fragment.ContestListInnerFragment;
 import com.fantafeat.Fragment.MyMatchesFragment;
@@ -57,7 +54,6 @@ import com.fantafeat.Model.MatchModel;
 import com.fantafeat.Model.NewOfferModal;
 import com.fantafeat.Model.PassModel;
 import com.fantafeat.Model.PlayerListModel;
-import com.fantafeat.Model.PlayerModel;
 import com.fantafeat.Model.StateModal;
 import com.fantafeat.Model.UserModel;
 import com.fantafeat.R;
@@ -70,20 +66,16 @@ import com.fantafeat.util.GetApiResult;
 import com.fantafeat.util.HttpRestClient;
 import com.fantafeat.util.LogUtil;
 import com.fantafeat.util.PrefConstant;
-import com.github.nkzawa.emitter.Emitter;
-import com.github.nkzawa.socketio.client.Socket;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.itextpdf.text.pdf.parser.Line;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.Type;
 import java.text.DecimalFormat;
 import java.text.ParseException;
@@ -92,16 +84,15 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 
 public class ContestListActivity extends BaseActivity {
 
     public TabLayout tabLayout;
-    public TextView txtAnounce, btnClassic,/*btnDuo,*/
-            btnQuinto;
-    public LinearLayout layXi, layClassic, layDuo, layQuinto;
+    public TextView txtAnounce;
+
+    public LinearLayout layXi, layClassic;
     private Toolbar toolbar;
-    public ImageView mToolBarBack, toolbar_wallet, imgInfo;
+    public ImageView mToolBarBack, toolbar_wallet;
     private static ViewPager2 viewPager;
     private final List<String> mFragmentTitleList = new ArrayList<>();
     private TextView match_title, timer;
@@ -127,12 +118,6 @@ public class ContestListActivity extends BaseActivity {
     ContestModel.ContestDatum contestData;
     int mainPosition = -1;
 
-    private ArrayList<GroupModel> duoList;
-    private RecyclerView recyclerDuo;
-    private LinearLayout layNoDataDuo;
-    private LinearLayout ll_tabs;
-    private RelativeLayout layTabs;
-    private SwipeRefreshLayout swipeDuo;
     private String selectedTag = "1", selectedContestId = "";
    // private Socket mSocket = null;
     private String selectedState = "";
@@ -163,32 +148,18 @@ public class ContestListActivity extends BaseActivity {
         timer = findViewById(R.id.timer);
         mToolBarBack = findViewById(R.id.toolbar_back);
         toolbar_wallet = findViewById(R.id.toolbar_wallet);
-        recyclerDuo = findViewById(R.id.recyclerDuo);
-        layNoDataDuo = findViewById(R.id.layNoDataDuo);
-        swipeDuo = findViewById(R.id.swipeDuo);
-        layTabs = findViewById(R.id.layTabs);
+        toolbar_wallet.setVisibility(View.INVISIBLE);
         layXi = findViewById(R.id.layXi);
-        imgInfo = findViewById(R.id.imgInfo);
         txtAnounce = findViewById(R.id.txtAnounce);
         txtAnounce.setSelected(true);
 
         tabLayout = findViewById(R.id.tabs);
         viewPager = findViewById(R.id.viewpager);
-        btnClassic = findViewById(R.id.btnClassic);
-        //btnDuo = findViewById(R.id.btnDuo);
-        btnQuinto = findViewById(R.id.btnQuinto);
 
         layClassic = findViewById(R.id.layClassic);
-        layDuo = findViewById(R.id.layDuo);
-        ll_tabs = findViewById(R.id.ll_tabs);
-        layQuinto = findViewById(R.id.layQuinto);
 
         initClick();
-        if (BuildConfig.APPLICATION_ID.equalsIgnoreCase(ConstantUtil.PLAY_STORE)){
-            ll_tabs.setVisibility(View.GONE);
-        }else{
-            ll_tabs.setVisibility(View.VISIBLE);
-        }
+
 
         if (preferences.getMatchModel() != null) {
             selected_match = preferences.getMatchModel();
@@ -196,13 +167,6 @@ public class ContestListActivity extends BaseActivity {
 
         if (selected_match.getMatchTitle() != null) {
             match_title.setText(selected_match.getTeam1Sname() + " vs " + selected_match.getTeam2Sname());
-        }
-
-        if (selected_match.getIs_fifer().equalsIgnoreCase("yes")/* ||
-                selected_match.getIs_single().equalsIgnoreCase("yes")*/) {
-            layTabs.setVisibility(View.VISIBLE);
-        } else {
-            layTabs.setVisibility(View.GONE);
         }
 
         setTimer();
@@ -263,7 +227,8 @@ public class ContestListActivity extends BaseActivity {
         if (TextUtils.isEmpty(preferences.getMatchModel().getTime_change_msg())) {
             layXi.setVisibility(View.GONE);
             //txtAnounce.setText("The 'Starting XI' is a tool to help you choose your squad, but we encourage that you conduct your own research before forming teams.");
-        } else {
+        }
+        else {
             layXi.setVisibility(View.VISIBLE);
             txtAnounce.setText(preferences.getMatchModel().getTime_change_msg());
         }
@@ -278,28 +243,6 @@ public class ContestListActivity extends BaseActivity {
        /* Handler handler = new Handler(Looper.getMainLooper());
         handler.postDelayed(() ->   getTempTeamData(), 400);*/
 
-
-        if (selectedTag.equalsIgnoreCase("2")) {
-            getDuoGroup();
-        }
-        if (selectedTag.equalsIgnoreCase("3")) {
-            getDuoGroup();
-        }
-
-        /*if (mSocket != null) {
-            if (!mSocket.connected())
-                mSocket.connect();
-            try {
-                JSONObject obj = new JSONObject();
-                if (preferences.getUserModel() != null) {
-                    obj.put("user_id", preferences.getUserModel().getId());
-                    obj.put("title", "contestlist");
-                }
-                mSocket.emit("connect_user", obj);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }*/
     }
 
     @Override
@@ -307,257 +250,19 @@ public class ContestListActivity extends BaseActivity {
 
         mToolBarBack.setOnClickListener(view -> onBackPressed());
 
-        toolbar_wallet.setOnClickListener(view -> {
-            Intent intent = new Intent(mContext, AddDepositActivity.class);
-            intent.putExtra("isJoin", true);
-            intent.putExtra("depositAmt", "");
-            startActivity(intent);
-        });
 
-        btnClassic.setOnClickListener(view -> {
-            selectedTag = "1";
-            btnClassic.setBackgroundResource(R.drawable.primary_fill_border);
-            btnClassic.setTextColor(getResources().getColor(R.color.white_pure));
-           /* btnDuo.setBackgroundResource(R.drawable.transparent_view);
-            btnDuo.setTextColor(getResources().getColor(R.color.black));*/
-            btnQuinto.setBackgroundResource(R.drawable.transparent_view);
-            btnQuinto.setTextColor(getResources().getColor(R.color.black_pure));
-
-            layClassic.setVisibility(View.VISIBLE);
-            layDuo.setVisibility(View.GONE);
-            layQuinto.setVisibility(View.GONE);
-            imgInfo.setVisibility(View.GONE);
-
-        });
-
-        /*btnDuo.setOnClickListener(view -> {
-            selectedTag="2";
-            btnClassic.setBackgroundResource(R.drawable.transparent_view);
-            btnClassic.setTextColor(getResources().getColor(R.color.black));
-
-            btnDuo.setBackgroundResource(R.drawable.primary_fill_border);
-            btnDuo.setTextColor(getResources().getColor(R.color.white));
-            btnQuinto.setBackgroundResource(R.drawable.transparent_view);
-            btnQuinto.setTextColor(getResources().getColor(R.color.black));
-
-            layClassic.setVisibility(View.GONE);
-            layDuo.setVisibility(View.VISIBLE);
-            imgInfo.setVisibility(View.VISIBLE);
-            layQuinto.setVisibility(View.GONE);
-
-            getDuoGroup();
-
-        });*/
-
-        btnQuinto.setOnClickListener(view -> {
-            selectedTag = "3";
-
-            btnClassic.setBackgroundResource(R.drawable.transparent_view);
-            btnClassic.setTextColor(getResources().getColor(R.color.black_pure));
-
-           /* btnDuo.setBackgroundResource(R.drawable.transparent_view);
-            btnDuo.setTextColor(getResources().getColor(R.color.black));*/
-            btnQuinto.setBackgroundResource(R.drawable.primary_fill_border);
-            btnQuinto.setTextColor(getResources().getColor(R.color.white_pure));
-
-            layClassic.setVisibility(View.GONE);
-            layDuo.setVisibility(View.VISIBLE);
-            imgInfo.setVisibility(View.VISIBLE);
-            layQuinto.setVisibility(View.GONE);
-
-            getDuoGroup();
-
-        });
-
-        swipeDuo.setOnRefreshListener(this::getDuoGroup);
-
-        imgInfo.setOnClickListener(view -> {
-            if (MyApp.getClickStatus()) {
-                showInfoDialog();
-            }
-        });
-
-    }
-
-    private void showInfoDialog() {
-
-        View view = LayoutInflater.from(mContext).inflate(R.layout.ludo_tnc_dialog, null);
-        BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(mContext);
-        bottomSheetDialog.setContentView(view);
-        bottomSheetDialog.setCancelable(true);
-        ((View) view.getParent()).setBackgroundResource(android.R.color.white);
-
-        TextView txtTitle = view.findViewById(R.id.txtTitle);
-        TextView txtTnc = view.findViewById(R.id.txtTnc);
-        ImageView imgClose = view.findViewById(R.id.imgClose);
-
-        if (selectedTag.equalsIgnoreCase("2")) {
-            txtTitle.setText("Rules for Singles");
-            txtTnc.setText("\n" +
-                    "- Single Entry per Contest (1 Player Selection out of 5 Players)\n\n" +
-                    "- Join Unlimited Contests with different Entry Fee\n\n" +
-                    "- Refund of Entry Fee if your selected player is not in lineups\n");
-
-        } else if (selectedTag.equalsIgnoreCase("3")) {
-            txtTitle.setText("Rules for Fifer");
-            txtTnc.setText("\n" +
-                    "- Join with Different Players with Multiple Entries in a Contest\n\n" +
-                    "- Unlimited Joining with Endless Prize Pool\n\n" +
-                    "- Confirmed Contest\n\n" +
-                    "- Refund of Entry Fee if your selected player is not in lineups\n");
-        }
-
-        imgClose.setOnClickListener(vi -> {
-            bottomSheetDialog.dismiss();
-        });
-
-        bottomSheetDialog.show();
-
-    }
-
-    private void getDuoGroup() {
-        duoList = new ArrayList<>();
-        final JSONObject jsonObject = new JSONObject();
-
-        try {
-            jsonObject.put("match_id", preferences.getMatchModel().getId());//ConstantUtil.testMatchId
-            jsonObject.put("display_type", selectedTag);
-            jsonObject.put("user_id", preferences.getUserModel().getId());
-
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        LogUtil.d("getDuoGroup", jsonObject.toString());
-
-        boolean isProgress = true;
-        if (swipeDuo.isRefreshing()) {
-            isProgress = false;
-        }
-
-        HttpRestClient.postJSON(mContext, isProgress, ApiManager.MATCH_WISE_GROUP_LIST, jsonObject, new GetApiResult() {
-            @Override
-            public void onSuccessResult(JSONObject responseBody, int code) {
-                LogUtil.e(TAG, "getDuoGroup: " + responseBody.toString());
-                if (swipeDuo.isRefreshing()) {
-                    swipeDuo.setRefreshing(false);
-                }
-                if (responseBody.optBoolean("status")) {
-
-                    JSONArray data = responseBody.optJSONArray("data");
-                    if (data != null && data.length() > 0) {
-                        duoList.clear();
-                        for (int i = 0; i < data.length(); i++) {
-                            JSONObject obj = data.optJSONObject(i);
-                            GroupModel groupModel = gson.fromJson(obj.toString(), GroupModel.class);
-                            groupModel.setType(selectedTag);
-                            duoList.add(groupModel);
-                        }
-                        GroupListAdapter adapter = new GroupListAdapter(mContext, duoList, preferences.getMatchModel(), model -> {
-                            if (selectedTag.equalsIgnoreCase("2")) {
-                                startActivity(new Intent(mContext, SinglesContestActivity.class)
-                                        .putExtra("group_model", model)
-                                        .putExtra("is_match_after", false)
-                                );
-                            } else if (selectedTag.equalsIgnoreCase("3")) {
-                                startActivity(new Intent(mContext, FiferContestActivity.class)
-                                        .putExtra("group_model", model)
-                                        .putExtra("is_match_after", false)
-                                );
-                            }
-                        });
-                        recyclerDuo.setLayoutManager(new LinearLayoutManager(mContext, LinearLayoutManager.VERTICAL, false));
-                        recyclerDuo.setAdapter(adapter);
-                    }
-                } else {
-                    CustomUtil.showTopSneakError(mContext, responseBody.optString("msg"));
-                    LogUtil.e(TAG, "MATCH_WISE__GROUP_LIST:" + responseBody.optString("msg"));
-                }
-
-                checkDuoData();
-            }
-
-            @Override
-            public void onFailureResult(String responseBody, int code) {
-                if (swipeDuo.isRefreshing()) {
-                    swipeDuo.setRefreshing(false);
-                }
-            }
-        });
-    }
-
-    private void checkDuoData() {
-        if (duoList.size() > 0) {
-            recyclerDuo.setVisibility(View.VISIBLE);
-            layNoDataDuo.setVisibility(View.GONE);
-        } else {
-            recyclerDuo.setVisibility(View.GONE);
-            layNoDataDuo.setVisibility(View.VISIBLE);
-        }
     }
 
     public void confirmTeam(ContestModel.ContestDatum contestData, int mainPosition) {
 
         if (playerListModels != null && playerListModels.size() > 0) {
-            if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())) {
+          /*  if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())) {
                 showBasicDetailDialog(contestData, mainPosition);
                 return;
-            }
+            }*/
 
             this.contestData = null;
             this.mainPosition = -1;
-
-        /*use_deposit = use_transfer = use_winning = use_donation_deposit = useBonus = 0;
-
-        final float[] Contest_fee = {CustomUtil.convertFloat(contestData.getEntryFee())};
-        float orgContestEntry = CustomUtil.convertFloat(contestData.getEntryFee());
-        final float deposit = CustomUtil.convertFloat(preferences.getUserModel().getDepositBal());
-        float bonus = CustomUtil.convertFloat(preferences.getUserModel().getBonusBal());
-
-        final float winning = CustomUtil.convertFloat(preferences.getUserModel().getWinBal());
-        //final float transfer_bal = CustomUtil.convertFloat(preferences.getUserModel().getTransferBal());
-        float usableBonus = 0;
-       // String teamno="";
-
-
-        if (contestData.getNewOfferRemovedList().size()>0){
-            NewOfferModal modal=contestData.getNewOfferRemovedList().get(0);
-            if (modal.getDiscount_entry_fee().equalsIgnoreCase("")){
-                Contest_fee[0] =CustomUtil.convertFloat(contestData.getEntryFee());
-                orgContestEntry =CustomUtil.convertFloat(contestData.getEntryFee());
-            }else {
-                Contest_fee[0] =CustomUtil.convertFloat(modal.getDiscount_entry_fee());
-                orgContestEntry =CustomUtil.convertFloat(modal.getDiscount_entry_fee());
-            }
-            usableBonus=CustomUtil.convertFloat(modal.getUsed_bonus());
-           // teamno=modal.getTeam_no();
-        }
-        else {
-            usableBonus=CustomUtil.convertFloat(contestData.getDefaultBonus());
-            Contest_fee[0] =CustomUtil.convertFloat(contestData.getEntryFee());
-            orgContestEntry =CustomUtil.convertFloat(contestData.getEntryFee());
-        }
-
-        useBonus = ((Contest_fee[0] * usableBonus) / 100);
-
-        if (useBonus > bonus) {
-            useBonus = bonus;
-        }
-
-        if (Contest_fee[0] - useBonus >= 0) {// (Contest_fee - useBonus >= 0)
-            Contest_fee[0] = Contest_fee[0] - useBonus;
-        }
-
-        if ((Contest_fee[0] - deposit) < 0) {
-            use_deposit = Contest_fee[0];
-        }
-        else {
-            use_deposit = deposit;
-            //use_transfer = transfer_bal;
-            use_winning = Contest_fee[0] - deposit;
-        }
-
-        LogUtil.e(TAG, "onClick: deposit: " + deposit +"\n useBonus:" + useBonus + "\n Winning:" + winning);
-        LogUtil.e(TAG, "onClick: Total: " + (deposit + useBonus + winning)+"\n Contest_fee:" + Contest_fee[0]);*/
 
             if (!isValidForJoin(contestData, 1)) {//((deposit +  winning ) - Contest_fee[0]) < 0
 
@@ -573,11 +278,7 @@ public class ContestListActivity extends BaseActivity {
 
                 String patableAmt = CustomUtil.getFormater("0.00").format(amt);
                 MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS, false);
-                Intent intent = new Intent(mContext, AddDepositActivity.class);
-                intent.putExtra("isJoin", true);
-                intent.putExtra("depositAmt", patableAmt);
-                intent.putExtra("contestData", gson.toJson(contestData));
-                startActivity(intent);
+                CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
             } else {
                 TextView join_contest_fee, join_use_deposit, join_use_borrowed, join_use_rewards,
                         join_use_winning, join_user_pay;
@@ -805,7 +506,7 @@ public class ContestListActivity extends BaseActivity {
 
                             if (!isValidForJoin(contestData, qty)) {//((deposit +  winning  ) - Contest_fee[0]) < 0
                                 bottomSheetDialog.dismiss();
-                                CustomUtil.showToast(mContext, "Insufficient Balance");
+                                //CustomUtil.showToast(mContext, "Insufficient Balance");
                                 //float amt= Contest_fee[0] - (deposit + winning);
                                 double amt = Math.ceil(amtToAdd);
 
@@ -815,11 +516,12 @@ public class ContestListActivity extends BaseActivity {
                                 contestData.setJoin_con_qty(edtConQty.getText().toString().trim());
                                 String patableAmt = CustomUtil.getFormater("0.00").format(amt);
                                 MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS, false);
-                                Intent intent = new Intent(mContext, AddDepositActivity.class);
+                                CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+                               /* Intent intent = new Intent(mContext, AddDepositActivity.class);
                                 intent.putExtra("isJoin", true);
                                 intent.putExtra("depositAmt", patableAmt);
                                 intent.putExtra("contestData", gson.toJson(contestData));
-                                startActivity(intent);
+                                startActivity(intent);*/
                                 return;
                             }
 
@@ -1069,19 +771,25 @@ public class ContestListActivity extends BaseActivity {
 
             if (TextUtils.isEmpty(strName)) {
                 CustomUtil.showToast(mContext, "Please Enter Name as on Aadhar Card.");
-            } else if (TextUtils.isEmpty(strTeam)) {
+            }
+            else if (TextUtils.isEmpty(strTeam)) {
                 CustomUtil.showToast(mContext, "Please Enter Team Name.");
-            } else if (strTeam.length() > 11) {
+            }
+            else if (strTeam.length() > 11) {
                 CustomUtil.showToast(mContext, "Team name should be less than or equals to 11 characters.");
-            } else if (TextUtils.isEmpty(strEmail)) {
+            }
+            else if (TextUtils.isEmpty(strEmail)) {
                 CustomUtil.showToast(mContext, "Please Enter Email.");
             } else if (!isValidEmail(strEmail)) {
                 CustomUtil.showToast(mContext, "Please Enter Valid Email.");
-            } else if (selectedState.equalsIgnoreCase("0")) {
+            }
+            else if (selectedState.equalsIgnoreCase("0")) {
                 CustomUtil.showToast(mContext, "Please Select State.");
-            } else if (TextUtils.isEmpty(db)) {
+            }
+            else if (TextUtils.isEmpty(db)) {
                 CustomUtil.showToast(mContext, "Please Enter Date of Birth.");
-            } else {
+            }
+            else {
                 callFirstApi(strName, strEmail, strTeam, db, bottomSheetDialog, contestData, mainPosition);
             }
 
@@ -1116,7 +824,7 @@ public class ContestListActivity extends BaseActivity {
         final JSONObject jsonObject = new JSONObject();
         try {
             jsonObject.put("user_id", preferences.getUserModel().getId());
-            jsonObject.put("email_id", email);
+            //jsonObject.put("email_id", email);
             jsonObject.put("display_name", name);
             jsonObject.put("state_id", selectedState);
             jsonObject.put("gender", selectedGender);
@@ -1147,7 +855,7 @@ public class ContestListActivity extends BaseActivity {
                     confirmTeam(contestData, mainPosition);
 
                 } else {
-                    CustomUtil.showTopSneakError(mContext, responseBody.optString("msg"));
+                    CustomUtil.showToast(mContext, responseBody.optString("msg"));
                     LogUtil.e(TAG, "AUTHV3UpdateUserDetails contest join");
                 }
             }

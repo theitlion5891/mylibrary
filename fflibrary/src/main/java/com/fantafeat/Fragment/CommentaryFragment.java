@@ -47,6 +47,7 @@ public class CommentaryFragment extends BaseFragment {
     private LinearLayout layNoData;
 
     private OnFragmentInteractionListener mListener;
+    private boolean isDataLoaded=false;
 
     @Override
     public void onAttach(Context context) {
@@ -86,7 +87,10 @@ public class CommentaryFragment extends BaseFragment {
     @Override
     public void onResume() {
         super.onResume();
-        setComData();
+        if (isVisible() && !isDataLoaded) {
+            isDataLoaded = true;
+            setComData();
+        }
     }
 
     @Override

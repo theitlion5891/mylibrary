@@ -13,15 +13,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.LinearSnapHelper;
 import androidx.recyclerview.widget.PagerSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.SnapHelper;
 
 import com.fantafeat.Activity.CustomMoreContestListActivity;
 import com.fantafeat.Activity.MoreContestListActivity;
-import com.fantafeat.Activity.TOPActivity;
-import com.fantafeat.Fragment.ContestListInnerFragment;
 import com.fantafeat.Model.ContestModel;
 import com.fantafeat.R;
 import com.fantafeat.util.ApiManager;
@@ -78,8 +75,6 @@ public class ContestHeaderAdapter extends RecyclerView.Adapter<RecyclerView.View
             else {
                 if (List.getImage().equalsIgnoreCase("fav")){
                     holder.imgHeader.setImageResource(R.drawable.ic_favorite_contest);
-                }else if (List.getImage().equalsIgnoreCase("top")){
-                    holder.imgHeader.setImageResource(R.drawable.ic_trade_x);
                 }else {
                     CustomUtil.loadImageWithGlide(mContext,holder.imgHeader,ApiManager.DOCUMENTS,List.getImage(),R.drawable.ic_team1_placeholder);
                 }
@@ -87,13 +82,14 @@ public class ContestHeaderAdapter extends RecyclerView.Adapter<RecyclerView.View
 
             if (!TextUtils.isEmpty(List.getIs_view_all()) && List.getIs_view_all().equalsIgnoreCase("yes")){
                 holder.txtViewAll.setVisibility(View.VISIBLE);
-            }else {
+            }
+            else {
                 holder.txtViewAll.setVisibility(View.GONE);
             }
 
             holder.txtViewAll.setOnClickListener(view -> {
                 if (List.getImage().equalsIgnoreCase("top")){
-                    mContext.startActivity(new Intent(mContext, TOPActivity.class));
+                   // mContext.startActivity(new Intent(mContext, TOPActivity.class));
                 }else {
                     if (ConstantUtil.isCustomMore){
                         mContext.startActivity(new Intent(mContext, CustomMoreContestListActivity.class)
@@ -104,34 +100,17 @@ public class ContestHeaderAdapter extends RecyclerView.Adapter<RecyclerView.View
                 }
             });
 
-            if (List.getImage().equalsIgnoreCase("top")){
-                if (List.getListTop().size()<=0){
-                    holder.layHeader.setVisibility(View.GONE);
-                    holder.contest_sub_list.setVisibility(View.GONE);
-                }else {
-                    holder.layHeader.setVisibility(View.VISIBLE);
-                    TradingContestAdapter tradingContestAdapter=new TradingContestAdapter(mContext, List.getListTop(), "Trading", item -> {
-                        //listener.onTopClick(item);
-                        ((ContestListInnerFragment)fragment).getOpinionCnt(item);
-                    });
-                    holder.contest_sub_list.setLayoutManager(new LinearLayoutManager(mContext,LinearLayoutManager.HORIZONTAL,false));
-                    holder.contest_sub_list.setAdapter(tradingContestAdapter);
-                }
-
-            }else {
-
-                if(List.getTitle().equalsIgnoreCase("Grand Leagues") ||
-                        List.getTitle().equalsIgnoreCase("Bonus League")){
-                    Collections.sort(List.getContestData(), new prizePoolUp());
-                }else{
-                    Collections.sort(List.getContestData(), new EntryFeeDown());
-                }
-
-                contestListAdapter = new ContestListAdapter(mContext,List.getContestData(), gson,position,false);
-                holder.contest_sub_list.setLayoutManager(new LinearLayoutManager(mContext));
-                //holder.contest_sub_list.setItemAnimator(null);
-                holder.contest_sub_list.setAdapter(contestListAdapter);
+            if(List.getTitle().equalsIgnoreCase("Grand Leagues") ||
+                    List.getTitle().equalsIgnoreCase("Bonus League")){
+                Collections.sort(List.getContestData(), new prizePoolUp());
+            }else{
+                Collections.sort(List.getContestData(), new EntryFeeDown());
             }
+
+            contestListAdapter = new ContestListAdapter(mContext,List.getContestData(), gson,position,false);
+            holder.contest_sub_list.setLayoutManager(new LinearLayoutManager(mContext));
+            //holder.contest_sub_list.setItemAnimator(null);
+            holder.contest_sub_list.setAdapter(contestListAdapter);
         }
         else {
             ViewAllHolder holder= (ViewAllHolder) holder1;

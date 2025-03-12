@@ -421,7 +421,7 @@ public class JSONParser {
     }
 
     public static JSONObject doPostData(JSONObject data, String url) {
-        LogUtil.e("URL", url);
+       // LogUtil.e("URL", url);
         try {
             //MediaType JSON = MediaType.parse("application/json; charset=utf-8");
             //RequestBody body = RequestBody.create(JSON, data);
@@ -517,7 +517,7 @@ public class JSONParser {
                                             String url,
                                             File image,
                                             String fileParamName) {
-        LogUtil.e("URL", url);
+       // LogUtil.e("URL", url);
         try {
             final MediaType MEDIA_TYPE_PNG = MediaType.parse("image/jpg");
 

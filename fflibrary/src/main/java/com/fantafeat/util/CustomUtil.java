@@ -17,7 +17,6 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.fantafeat.Model.AvatarModal;
 import com.fantafeat.Model.MatchModel;
 import com.fantafeat.R;
 import com.fantafeat.Session.BaseActivity;
@@ -112,100 +111,6 @@ public class CustomUtil extends BaseActivity {
             return sAmount;
     }
 
-    public static void setAvatar(String id, ImageView imageView){
-        if (id.equalsIgnoreCase("avatar1")){
-            imageView.setImageResource(R.drawable.avatar1);
-        }else if (id.equalsIgnoreCase("avatar2")){
-            imageView.setImageResource(R.drawable.avatar2);
-        }
-        else if (id.equalsIgnoreCase("avatar3")){
-            imageView.setImageResource(R.drawable.avatar3);
-        }else if (id.equalsIgnoreCase("avatar4")){
-            imageView.setImageResource(R.drawable.avatar4);
-        }
-        else if (id.equalsIgnoreCase("avatar5")){
-            imageView.setImageResource(R.drawable.avatar5);
-        }else if (id.equalsIgnoreCase("avatar6")){
-            imageView.setImageResource(R.drawable.avatar6);
-        }
-        else if (id.equalsIgnoreCase("avatar7")){
-            imageView.setImageResource(R.drawable.avatar7);
-        }else if (id.equalsIgnoreCase("avatar8")){
-            imageView.setImageResource(R.drawable.avatar8);
-        }
-        else if (id.equalsIgnoreCase("avatar9")){
-            imageView.setImageResource(R.drawable.avatar9);
-        }else if (id.equalsIgnoreCase("avatar10")){
-            imageView.setImageResource(R.drawable.avatar10);
-        }
-        else if (id.equalsIgnoreCase("avatar11")){
-            imageView.setImageResource(R.drawable.avatar11);
-        }else if (id.equalsIgnoreCase("avatar12")){
-            imageView.setImageResource(R.drawable.avatar12);
-        }
-        else if (id.equalsIgnoreCase("avatar13")){
-            imageView.setImageResource(R.drawable.avatar13);
-        }else if (id.equalsIgnoreCase("avatar14")){
-            imageView.setImageResource(R.drawable.avatar14);
-        }
-        else if (id.equalsIgnoreCase("avatar15")){
-            imageView.setImageResource(R.drawable.avatar15);
-        }else if (id.equalsIgnoreCase("avatar16")){
-            imageView.setImageResource(R.drawable.avatar16);
-        }
-        else if (id.equalsIgnoreCase("avatar17")){
-            imageView.setImageResource(R.drawable.avatar17);
-        }else if (id.equalsIgnoreCase("avatar18")){
-            imageView.setImageResource(R.drawable.avatar18);
-        }
-        else if (id.equalsIgnoreCase("avatar19")){
-            imageView.setImageResource(R.drawable.avatar19);
-        }else if (id.equalsIgnoreCase("avatar20")){
-            imageView.setImageResource(R.drawable.avatar20);
-        }
-        else if (id.equalsIgnoreCase("avatar21")){
-            imageView.setImageResource(R.drawable.avatar21);
-        }else if (id.equalsIgnoreCase("avatar22")){
-            imageView.setImageResource(R.drawable.avatar22);
-        }
-        else if (id.equalsIgnoreCase("avatar23")){
-            imageView.setImageResource(R.drawable.avatar23);
-        }else if (id.equalsIgnoreCase("avatar24")){
-            imageView.setImageResource(R.drawable.avatar24);
-        }
-        else {
-            imageView.setImageResource(R.drawable.avatar1);
-        }
-    }
-
-    public static ArrayList<AvatarModal> getAvatarList(){
-        ArrayList<AvatarModal> listAvatar  = new ArrayList<AvatarModal>();
-        listAvatar.add(new AvatarModal(R.drawable.avatar1, "avatar1"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar2, "avatar2"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar3, "avatar3"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar4, "avatar4"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar5, "avatar5"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar6, "avatar6"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar7, "avatar7"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar8, "avatar8"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar9, "avatar9"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar10, "avatar10"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar11, "avatar11"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar12, "avatar12"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar13, "avatar13"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar14, "avatar14"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar15, "avatar15"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar16, "avatar16"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar17, "avatar17"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar18, "avatar18"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar19, "avatar19"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar20, "avatar20"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar21, "avatar21"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar22, "avatar22"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar23, "avatar23"));
-        listAvatar.add(new AvatarModal(R.drawable.avatar24, "avatar24"));
-        return listAvatar;
-    }
     public static String getAppDirectory(Context context){
         return context.getFilesDir().getAbsolutePath()+"/";
         /*PackageManager m = context.getPackageManager();
@@ -357,8 +262,7 @@ public class CustomUtil extends BaseActivity {
     }
 
     public static void showTopSneakError(Context mContext, String message) {
-        Vibrator myVib = (Vibrator) mContext.getSystemService(VIBRATOR_SERVICE);
-        myVib.vibrate(50);
+
         Alerter.create(((Activity) mContext))
                 .setText(message)
                 .setBackgroundColorRes(R.color.red)
@@ -370,8 +274,7 @@ public class CustomUtil extends BaseActivity {
     }
 
     public static void showTopSneakWarning(Context mContext, String message) {
-        Vibrator myVib = (Vibrator) mContext.getSystemService(VIBRATOR_SERVICE);
-        myVib.vibrate(50);
+
 
         Alerter.create(((Activity) mContext))
                 //.setTitle(title)
@@ -424,7 +327,7 @@ public class CustomUtil extends BaseActivity {
         try {
             if (imageName != null && !imageName.isEmpty() && !imageName.equals("null")){
                 if (URLUtil.isValidUrl(imageName.trim())){//Patterns.WEB_URL.matcher(imageName).matches()
-                    LogUtil.e("loadedimage",imageName);
+                    //LogUtil.e("loadedimage",imageName);
                     Glide.with(context)
                             .load(imageName.trim())
                             .placeholder(placeholder)
@@ -434,7 +337,7 @@ public class CustomUtil extends BaseActivity {
                 }
                 else {
                     if (URLUtil.isValidUrl((imageBase+imageName).trim())){
-                        LogUtil.e("loadedimage",imageBase+""+imageName);
+                        //LogUtil.e("loadedimage",imageBase+""+imageName);
                         Glide.with(context)
                                 .load((imageBase+imageName).trim())
                                 .placeholder(placeholder)
@@ -496,7 +399,7 @@ public class CustomUtil extends BaseActivity {
             if (imageName != null && !imageName.isEmpty() && !imageName.equals("null")){
               //  LogUtil.e("loadedimage",imageBase+""+imageName+" if");
                 if (URLUtil.isValidUrl(imageName.trim())){//Patterns.WEB_URL.matcher(imageName).matches()
-                    LogUtil.e("loadedimage",imageName);
+                    //LogUtil.e("loadedimage",imageName);
                     Glide.with(context)
                             .load(imageName.trim())
                             .placeholder(placeholder)
@@ -506,7 +409,7 @@ public class CustomUtil extends BaseActivity {
                 }
                 else {
                     if (URLUtil.isValidUrl((imageBase+imageName).trim())){
-                        LogUtil.e("loadedimage",imageBase+""+imageName);
+                        //LogUtil.e("loadedimage",imageBase+""+imageName);
                         Glide.with(context)
                                 .load((imageBase+imageName).trim())
                                 .placeholder(placeholder)
@@ -532,59 +435,7 @@ public class CustomUtil extends BaseActivity {
         return joiner.join(splitter.split(string));
     }
 
-    private static class DownloadImages extends AsyncTask<String,Void,byte[]>{
 
-        private CircleImageView view=null;
-        private ImageView imageView=null;
-        private String url="";
-        private Context context;
-
-        public DownloadImages(CircleImageView view,String url, Context context){
-            this.view=view;
-            this.url=url;
-            this.context=context;
-        }
-
-        public DownloadImages(ImageView view,String url, Context context){
-            this.imageView=view;
-            this.url=url;
-            this.context=context;
-        }
-
-        @Override
-        protected void onPreExecute() {
-
-        }
-
-        @Override
-        protected void onPostExecute(byte[] imageFile) {
-            try {
-                if (imageFile!=null){
-                    DBHelper dbHelper=new DBHelper(context);
-                    dbHelper.insertContact(url,imageFile);
-                    Bitmap bmp = BitmapFactory.decodeByteArray(imageFile, 0, imageFile.length);
-                    if (view!=null){
-                        view.setImageBitmap(bmp);
-                    }else if (imageView !=null){
-                        imageView.setImageBitmap(bmp);
-                    }
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        @Override
-        protected byte[] doInBackground(String... strings) {
-            int currentCnt= MyApp.getMyPreferences().getPrefInt("loadImageCnt");
-            if (currentCnt==-1){
-                MyApp.getMyPreferences().setPref("loadImageCnt",1);
-            }else {
-                MyApp.getMyPreferences().setPref("loadImageCnt",currentCnt+1);
-            }
-            return getByteImageFromURL(strings[0]);
-        }
-    }
 
     public static byte[] getByteImageFromURL(String url) {
         LogUtil.e("nikhil_image_check",url);

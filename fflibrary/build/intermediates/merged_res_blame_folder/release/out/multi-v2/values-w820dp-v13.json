@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.fantafeat.fflibrary-merged_res-57:/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "com.fantafeat.fflibrary-mergeReleaseResources-35:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.10.2/transforms/7f30061e281dc84637b419206c8880f1/transformed/alerter-7.2.4/res/values-w820dp-v13/values-w820dp-v13.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "com.fantafeat.fflibrary-mergeReleaseResources-55:/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "com.fantafeat.fflibrary-merged_res-37:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.10.2/transforms/7f30061e281dc84637b419206c8880f1/transformed/alerter-7.2.4/res/values-w820dp-v13/values-w820dp-v13.xml",

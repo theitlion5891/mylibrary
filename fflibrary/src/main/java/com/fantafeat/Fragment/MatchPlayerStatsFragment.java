@@ -50,6 +50,7 @@ public class MatchPlayerStatsFragment extends BaseFragment {
     private TextView txtPlace,txtSelBy;
     private String selectedTeam="";
     private long lastUpdateTime=0;
+    private boolean isDataLoaded=false;
 
     public MatchPlayerStatsFragment() {
         //this.afterMatchActivity = afterMatchActivity;
@@ -85,7 +86,16 @@ public class MatchPlayerStatsFragment extends BaseFragment {
         player_stats_list.setLayoutManager(new LinearLayoutManager(mContext));
         player_stats_list.setAdapter(adapter);
         //getData();
-        getTeamData();
+        //getTeamData();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (isVisible() && !isDataLoaded) {
+            isDataLoaded = true;
+            getTeamData();
+        }
     }
 
     @Override

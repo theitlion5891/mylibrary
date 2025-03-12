@@ -953,10 +953,10 @@ public class CustomMoreContestListActivity extends BaseActivity {
 
     public void confirmTeam(ContestModel.ContestDatum contestData) {
 
-        if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())) {
+       /* if (TextUtils.isEmpty(preferences.getUserModel().getEmailId())) {
             showBasicDetailDialog(contestData);
             return;
-        }
+        }*/
 
         this.contestData = null;
         //this.mainPosition=-1;
@@ -1027,11 +1027,12 @@ public class CustomMoreContestListActivity extends BaseActivity {
 
             String patableAmt = CustomUtil.getFormater("0.00").format(amt);
             MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS, false);
-            Intent intent = new Intent(mContext, AddDepositActivity.class);
+            CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+          /*  Intent intent = new Intent(mContext, AddDepositActivity.class);
             intent.putExtra("isJoin", true);
             intent.putExtra("depositAmt", patableAmt);
             intent.putExtra("contestData", gson.toJson(contestData));
-            startActivity(intent);
+            startActivity(intent);*/
         } else {
             TextView join_contest_fee, join_use_deposit, join_use_borrowed, join_use_rewards,
                     join_use_winning, join_user_pay;
@@ -1220,7 +1221,7 @@ public class CustomMoreContestListActivity extends BaseActivity {
 
                         if (!isValidForJoin(contestData, qty)) {//((deposit +  winning  ) - Contest_fee[0]) < 0
                             bottomSheetDialog.dismiss();
-                            CustomUtil.showToast(mContext, "Insufficient Balance");
+                            //CustomUtil.showToast(mContext, "Insufficient Balance");
                             //float amt= Contest_fee[0] - (deposit + winning);
                             double amt = Math.ceil(amtToAdd);
 
@@ -1230,11 +1231,12 @@ public class CustomMoreContestListActivity extends BaseActivity {
                             contestData.setJoin_con_qty(edtConQty.getText().toString().trim());
                             String patableAmt = CustomUtil.getFormater("0.00").format(amt);
                             MyApp.getMyPreferences().setPref(PrefConstant.PAYMENT_SUCCESS, false);
-                            Intent intent = new Intent(mContext, AddDepositActivity.class);
+                            CustomUtil.showTopSneakError(mContext,mContext.getResources().getString(R.string.not_enough_balance));
+                          /*  Intent intent = new Intent(mContext, AddDepositActivity.class);
                             intent.putExtra("isJoin", true);
                             intent.putExtra("depositAmt", patableAmt);
                             intent.putExtra("contestData", gson.toJson(contestData));
-                            startActivity(intent);
+                            startActivity(intent);*/
                             return;
                         }
 
@@ -1548,7 +1550,7 @@ public class CustomMoreContestListActivity extends BaseActivity {
                     confirmTeam(contestData);
 
                 } else {
-                    CustomUtil.showTopSneakError(mContext, responseBody.optString("msg"));
+                    CustomUtil.showToast(mContext, responseBody.optString("msg"));
                     LogUtil.e(TAG, "joinSucess");
                 }
             }

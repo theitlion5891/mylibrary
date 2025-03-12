@@ -1,0 +1,53 @@
+/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/lint-baseline.xml: Information: 3779 errors/warnings were listed in the baseline file (lint-baseline.xml) but not found in the project; perhaps they have been fixed? Another possible explanation is that lint recently stopped analyzing (and including results from) dependent projects by default. You can turn this back on with android.lintOptions.checkDependencies=true. Unmatched issue types: ButtonOrder, ButtonStyle (8), ClickableViewAccessibility (8), ContentDescription (336), CutPasteId (4), DefaultLocale (88), DisableBaselineAlignment (50), DiscouragedApi (67), ExifInterface (3), GifUsage, GradleDependency (11), HardcodedText (1132), IconDuplicates (2), IconLocation (94), InefficientWeight (186), InflateParams (49), IntentReset (2), KeyboardInaccessibleWidget (43), LabelFor (8), MergeRootFrame, MissingInflatedId (2), MissingSuperCall (2), NestedWeights (72), NotifyDataSetChanged (88), ObsoleteLayoutParam (52), ObsoleteSdkInt (12), Orientation (2), Overdraw (30), PlaySdkIndexNonCompliant, Range, RtlHardcoded (106), RtlSymmetry (63), ScopedStorage, ScrollViewSize (14), SetJavaScriptEnabled (3), SetTextI18n (985), SimpleDateFormat (4), SmallSp (14), StaticFieldLeak (17), TextFields (17), TextViewEdits, TooManyViews (3), TrustAllX509TrustManager (4), UnusedAttribute (7), UseCompatLoadingForDrawables (54), UseCompatTextViewDrawableXml (19), UseCompoundDrawables (80), UseTomlInstead (17), UselessParent (22), WrongConstant (2), WrongViewCast [LintBaseline]
+/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/lint-baseline.xml: Information: 9 errors and 2187 warnings were filtered out because they are listed in the baseline file, lint-baseline.xml
+ [LintBaseline]
+/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/build.gradle.kts:148: Warning: A newer version of com.squareup.okhttp3:okhttp than 4.8.0 is available: 4.11.0 [GradleDependency]
+    implementation ("com.squareup.okhttp3:okhttp:4.8.0")
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/build.gradle.kts:161: Warning: A newer version of com.google.code.gson:gson than 2.8.6 is available: 2.12.1 [GradleDependency]
+    implementation("com.google.code.gson:gson:2.8.6")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/res/layout/toolbar_home_fragment.xml:29: Warning: Invalid layout param in a LinearLayout: layout_centerHorizontal [ObsoleteLayoutParam]
+            android:layout_centerHorizontal="true"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteLayoutParam":
+   The given layout_param is not defined for the given layout, meaning it has
+   no effect. This usually happens when you change the parent layout or move
+   view code around without updating the layout params. This will cause
+   useless attribute processing at runtime, and is misleading for others
+   reading the layout so the parameter should be removed.
+
+/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/res/layout/activity_home.xml:10: Warning: This RelativeLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+    <RelativeLayout
+     ~~~~~~~~~~~~~~
+/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/res/layout/fragment_home_activity.xml:11: Warning: This LinearLayout layout or its RelativeLayout parent is unnecessary [UselessParent]
+    <LinearLayout
+     ~~~~~~~~~~~~
+
+   Explanation for issues of type "UselessParent":
+   A layout with children that has no siblings, is not a scrollview or a root
+   layout, and does not have a background, can be removed and have its
+   children moved directly into the parent for a flatter and more efficient
+   layout hierarchy.
+
+/Volumes/Android/Projects/Others/MyApplicationModule/fflibrary/src/main/res/drawable/cf_ic_round_info.png: Warning: Found bitmap drawable res/drawable/cf_ic_round_info.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+0 errors, 6 warnings (9 errors, 2187 warnings filtered by baseline lint-baseline.xml)
